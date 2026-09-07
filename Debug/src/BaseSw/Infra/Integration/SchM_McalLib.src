@@ -1,0 +1,970 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\BaseSw\\Infra\\Integration\\.SchM_McalLib.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\BaseSw\\Infra\\Integration\\SchM_McalLib.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\BaseSw\\Infra\\Integration\\SchM_McalLib.src ..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.SchM_McalLib.SchM_Enter_McalLib_PeripheralEndInit',code,cluster('SchM_Enter_McalLib_PeripheralEndInit')
+	.sect	'.text.SchM_McalLib.SchM_Enter_McalLib_PeripheralEndInit'
+	.align	2
+	
+	.global	SchM_Enter_McalLib_PeripheralEndInit
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	     1  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	     2  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	     3  ** Copyright (C) Infineon Technologies (2018)                                 **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	     4  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	     5  ** All rights reserved.                                                       **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	     6  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	     7  ** This document contains proprietary information belonging to Infineon       **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	     8  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	     9  ** of its contents is not permitted without prior written authorization.      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    10  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    11  ********************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    12  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    13  **  FILENAME     : SchM_McalLib.c                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    14  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    15  **  VERSION      : 2.0.0                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    16  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    17  **  DATE         : 2018-10-15                                                 **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    18  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    19  **  VARIANT      : Variant PC                                                 **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    20  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    21  **  PLATFORM     : Infineon AURIX2G                                           **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    22  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    23  **  AUTHOR       : DL-AUTOSAR-Engineering                                     **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    24  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    25  **  VENDOR       : Infineon Technologies                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    26  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    27  **  DESCRIPTION  : SchM file for McalLib                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    28  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    29  **  SPECIFICATION(S) : NA                                                     **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    30  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    31  **  MAY BE CHANGED BY USER : yes                                              **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    32  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    33  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    34  
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    35  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    36  **                      Includes                                              **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    37  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    38  #include "IFX_Os.h"
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    39  #include "SchM_McalLib.h"
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    40  #ifdef LATENCY_CALC_MCALLIB
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    41  #if(LATENCY_CALC_MCALLIB==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    42  #include "Test_Latency.h"
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    43  #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    44  #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    45  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    46  ** Traceability     :                                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    47  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    48  ** Syntax           : void SchM_Enter_McalLib_PeripheralEndInit(void)         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    49  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    50  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    51  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    52  ** Service ID       : NA                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    53  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    54  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    55  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    56  ** Reentrancy       : Not Reentrant                                           **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    57  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    58  ** Parameters(in)   : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    59  ** Parameters (out) : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    60  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    61  ** Return value     : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    62  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    63  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    64  void SchM_Enter_McalLib_PeripheralEndInit(void)
+; Function SchM_Enter_McalLib_PeripheralEndInit
+.L3:
+SchM_Enter_McalLib_PeripheralEndInit:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    65  {
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    66    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L62:
+	
+__SchM_Enter_McalLib_PeripheralEndInit_function_end:
+	.size	SchM_Enter_McalLib_PeripheralEndInit,__SchM_Enter_McalLib_PeripheralEndInit_function_end-SchM_Enter_McalLib_PeripheralEndInit
+.L26:
+	; End of function
+	
+	.sdecl	'.text.SchM_McalLib.SchM_Exit_McalLib_PeripheralEndInit',code,cluster('SchM_Exit_McalLib_PeripheralEndInit')
+	.sect	'.text.SchM_McalLib.SchM_Exit_McalLib_PeripheralEndInit'
+	.align	2
+	
+	.global	SchM_Exit_McalLib_PeripheralEndInit
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    67    #ifdef LATENCY_CALC_MCALLIB
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    68    #if(LATENCY_CALC_MCALLIB==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    69    Measure_Start_Value(0);
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    70    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    71    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    72  }
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    73  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    74  ** Traceability     :                                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    75  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    76  ** Syntax           : void SchM_Exit_McalLib_PeripheralEndInit(void)          **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    77  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    78  ** Description      : Exit Module exclusive area                              **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    79  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    80  ** Service ID       : NA                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    81  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    82  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    83  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    84  ** Reentrancy       : Not Reentrant                                           **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    85  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    86  ** Parameters(in)   : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    87  ** Parameters (out) : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    88  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    89  ** Return value     : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    90  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    91  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    92  void SchM_Exit_McalLib_PeripheralEndInit(void)
+; Function SchM_Exit_McalLib_PeripheralEndInit
+.L5:
+SchM_Exit_McalLib_PeripheralEndInit:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    93  {
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    94    #ifdef LATENCY_CALC_MCALLIB
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    95    #if(LATENCY_CALC_MCALLIB==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    96    Measure_End_Value(0);
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    97    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    98    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	    99    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L63:
+	
+__SchM_Exit_McalLib_PeripheralEndInit_function_end:
+	.size	SchM_Exit_McalLib_PeripheralEndInit,__SchM_Exit_McalLib_PeripheralEndInit_function_end-SchM_Exit_McalLib_PeripheralEndInit
+.L31:
+	; End of function
+	
+	.sdecl	'.text.SchM_McalLib.SchM_Enter_McalLib_SafetyEndInit',code,cluster('SchM_Enter_McalLib_SafetyEndInit')
+	.sect	'.text.SchM_McalLib.SchM_Enter_McalLib_SafetyEndInit'
+	.align	2
+	
+	.global	SchM_Enter_McalLib_SafetyEndInit
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   100  }
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   101  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   102  ** Traceability     :                                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   103  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   104  ** Syntax           : void SchM_Enter_McalLib_SafetyEndInit(void)             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   105  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   106  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   107  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   108  ** Service ID       : NA                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   109  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   110  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   111  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   112  ** Reentrancy       : Not Reentrant                                           **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   113  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   114  ** Parameters(in)   : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   115  ** Parameters (out) : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   116  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   117  ** Return value     : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   118  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   119  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   120  void SchM_Enter_McalLib_SafetyEndInit(void)
+; Function SchM_Enter_McalLib_SafetyEndInit
+.L7:
+SchM_Enter_McalLib_SafetyEndInit:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   121  {
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   122    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L64:
+	
+__SchM_Enter_McalLib_SafetyEndInit_function_end:
+	.size	SchM_Enter_McalLib_SafetyEndInit,__SchM_Enter_McalLib_SafetyEndInit_function_end-SchM_Enter_McalLib_SafetyEndInit
+.L36:
+	; End of function
+	
+	.sdecl	'.text.SchM_McalLib.SchM_Exit_McalLib_SafetyEndInit',code,cluster('SchM_Exit_McalLib_SafetyEndInit')
+	.sect	'.text.SchM_McalLib.SchM_Exit_McalLib_SafetyEndInit'
+	.align	2
+	
+	.global	SchM_Exit_McalLib_SafetyEndInit
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   123    #ifdef LATENCY_CALC_MCALLIB
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   124    #if(LATENCY_CALC_MCALLIB==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   125    Measure_Start_Value(1);
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   126    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   127    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   128  }
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   129  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   130  ** Traceability     :                                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   131  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   132  ** Syntax           : void SchM_Exit_McalLib_SafetyEndInit(void)              **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   133  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   134  ** Description      : Exit Module exclusive area                              **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   135  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   136  ** Service ID       : NA                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   137  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   138  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   139  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   140  ** Reentrancy       : Not Reentrant                                           **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   141  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   142  ** Parameters(in)   : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   143  ** Parameters (out) : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   144  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   145  ** Return value     : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   146  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   147  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   148  void SchM_Exit_McalLib_SafetyEndInit(void)
+; Function SchM_Exit_McalLib_SafetyEndInit
+.L9:
+SchM_Exit_McalLib_SafetyEndInit:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   149  {
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   150    #ifdef LATENCY_CALC_MCALLIB
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   151    #if(LATENCY_CALC_MCALLIB==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   152    Measure_End_Value(1);
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   153    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   154    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   155    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L65:
+	
+__SchM_Exit_McalLib_SafetyEndInit_function_end:
+	.size	SchM_Exit_McalLib_SafetyEndInit,__SchM_Exit_McalLib_SafetyEndInit_function_end-SchM_Exit_McalLib_SafetyEndInit
+.L41:
+	; End of function
+	
+	.sdecl	'.text.SchM_McalLib.SchM_Enter_McalLib_CpuEndInit',code,cluster('SchM_Enter_McalLib_CpuEndInit')
+	.sect	'.text.SchM_McalLib.SchM_Enter_McalLib_CpuEndInit'
+	.align	2
+	
+	.global	SchM_Enter_McalLib_CpuEndInit
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   156  }
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   157  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   158  ** Traceability     :                                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   159  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   160  ** Syntax           : void SchM_Enter_McalLib_CpuEndInit(void)                **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   161  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   162  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   163  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   164  ** Service ID       : NA                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   165  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   166  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   167  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   168  ** Reentrancy       : Not Reentrant on same CPU, Reentrant on other CPUs      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   169  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   170  ** Parameters(in)   : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   171  ** Parameters (out) : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   172  ** Return value     : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   173  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   174  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   175  void SchM_Enter_McalLib_CpuEndInit(void)
+; Function SchM_Enter_McalLib_CpuEndInit
+.L11:
+SchM_Enter_McalLib_CpuEndInit:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   176  {
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   177    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L66:
+	
+__SchM_Enter_McalLib_CpuEndInit_function_end:
+	.size	SchM_Enter_McalLib_CpuEndInit,__SchM_Enter_McalLib_CpuEndInit_function_end-SchM_Enter_McalLib_CpuEndInit
+.L46:
+	; End of function
+	
+	.sdecl	'.text.SchM_McalLib.SchM_Exit_McalLib_CpuEndInit',code,cluster('SchM_Exit_McalLib_CpuEndInit')
+	.sect	'.text.SchM_McalLib.SchM_Exit_McalLib_CpuEndInit'
+	.align	2
+	
+	.global	SchM_Exit_McalLib_CpuEndInit
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   178    #ifdef LATENCY_CALC_MCALLIB
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   179    #if(LATENCY_CALC_MCALLIB==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   180    Measure_Start_Value(2);
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   181    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   182    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   183  }
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   184  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   185  ** Traceability     :                                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   186  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   187  ** Syntax           : void SchM_Exit_McalLib_CpuEndInit(void)                 **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   188  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   189  ** Description      : Exit Module exclusive area                              **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   190  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   191  ** Service ID       : NA                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   192  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   193  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   194  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   195  ** Reentrancy       : Not Reentrant on same CPU, Reentrant on other CPUs      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   196  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   197  ** Parameters(in)   : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   198  ** Parameters (out) : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   199  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   200  ** Return value     : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   201  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   202  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   203  void SchM_Exit_McalLib_CpuEndInit(void)
+; Function SchM_Exit_McalLib_CpuEndInit
+.L13:
+SchM_Exit_McalLib_CpuEndInit:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   204  {
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   205    #ifdef LATENCY_CALC_MCALLIB
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   206    #if(LATENCY_CALC_MCALLIB==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   207    Measure_End_Value(2);
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   208    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   209    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   210    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L67:
+	
+__SchM_Exit_McalLib_CpuEndInit_function_end:
+	.size	SchM_Exit_McalLib_CpuEndInit,__SchM_Exit_McalLib_CpuEndInit_function_end-SchM_Exit_McalLib_CpuEndInit
+.L51:
+	; End of function
+	
+	.sdecl	'.text.SchM_McalLib.SchM_Enter_McalLib_StmTimerResolution',code,cluster('SchM_Enter_McalLib_StmTimerResolution')
+	.sect	'.text.SchM_McalLib.SchM_Enter_McalLib_StmTimerResolution'
+	.align	2
+	
+	.global	SchM_Enter_McalLib_StmTimerResolution
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   211  }
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   212  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   213  ** Traceability     :                                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   214  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   215  ** Syntax           : void SchM_Enter_McalLib_StmTimerResolution(void)        **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   216  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   217  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   218  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   219  ** Service ID       : NA                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   220  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   221  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   222  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   223  ** Reentrancy       : Not Reentrant                                           **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   224  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   225  ** Parameters(in)   : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   226  ** Parameters (out) : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   227  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   228  ** Return value     : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   229  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   230  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   231  void SchM_Enter_McalLib_StmTimerResolution(void)
+; Function SchM_Enter_McalLib_StmTimerResolution
+.L15:
+SchM_Enter_McalLib_StmTimerResolution:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   232  {
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   233    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L68:
+	
+__SchM_Enter_McalLib_StmTimerResolution_function_end:
+	.size	SchM_Enter_McalLib_StmTimerResolution,__SchM_Enter_McalLib_StmTimerResolution_function_end-SchM_Enter_McalLib_StmTimerResolution
+.L56:
+	; End of function
+	
+	.sdecl	'.text.SchM_McalLib.SchM_Exit_McalLib_StmTimerResolution',code,cluster('SchM_Exit_McalLib_StmTimerResolution')
+	.sect	'.text.SchM_McalLib.SchM_Exit_McalLib_StmTimerResolution'
+	.align	2
+	
+	.global	SchM_Exit_McalLib_StmTimerResolution
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   234    #ifdef LATENCY_CALC_MCALLIB
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   235    #if(LATENCY_CALC_MCALLIB==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   236    Measure_Start_Value(3);
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   237    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   238    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   239  }
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   240  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   241  ** Traceability     :                                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   242  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   243  ** Syntax           : void SchM_Exit_McalLib_StmTimerResolution(void)         **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   244  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   245  ** Description      : Exit Module exclusive area                              **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   246  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   247  ** Service ID       : NA                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   248  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   249  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   250  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   251  ** Reentrancy       : Not Reentrant                                           **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   252  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   253  ** Parameters(in)   : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   254  ** Parameters (out) : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   255  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   256  ** Return value     : None                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   257  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   258  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   259  void SchM_Exit_McalLib_StmTimerResolution(void)
+; Function SchM_Exit_McalLib_StmTimerResolution
+.L17:
+SchM_Exit_McalLib_StmTimerResolution:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   260  {
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   261    #ifdef LATENCY_CALC_MCALLIB
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   262    #if(LATENCY_CALC_MCALLIB==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   263    Measure_End_Value(3);
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   264    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   265    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   266    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L69:
+	
+__SchM_Exit_McalLib_StmTimerResolution_function_end:
+	.size	SchM_Exit_McalLib_StmTimerResolution,__SchM_Exit_McalLib_StmTimerResolution_function_end-SchM_Exit_McalLib_StmTimerResolution
+.L61:
+	; End of function
+	
+	.calls	'SchM_Enter_McalLib_PeripheralEndInit','SuspendAllInterrupts'
+	.calls	'SchM_Exit_McalLib_PeripheralEndInit','ResumeAllInterrupts'
+	.calls	'SchM_Enter_McalLib_SafetyEndInit','SuspendAllInterrupts'
+	.calls	'SchM_Exit_McalLib_SafetyEndInit','ResumeAllInterrupts'
+	.calls	'SchM_Enter_McalLib_CpuEndInit','SuspendAllInterrupts'
+	.calls	'SchM_Exit_McalLib_CpuEndInit','ResumeAllInterrupts'
+	.calls	'SchM_Enter_McalLib_StmTimerResolution','SuspendAllInterrupts'
+	.calls	'SchM_Exit_McalLib_StmTimerResolution','ResumeAllInterrupts'
+	.calls	'SchM_Enter_McalLib_PeripheralEndInit','',0
+	.calls	'SchM_Exit_McalLib_PeripheralEndInit','',0
+	.calls	'SchM_Enter_McalLib_SafetyEndInit','',0
+	.calls	'SchM_Exit_McalLib_SafetyEndInit','',0
+	.calls	'SchM_Enter_McalLib_CpuEndInit','',0
+	.calls	'SchM_Exit_McalLib_CpuEndInit','',0
+	.calls	'SchM_Enter_McalLib_StmTimerResolution','',0
+	.extern	SuspendAllInterrupts
+	.extern	ResumeAllInterrupts
+	.calls	'SchM_Exit_McalLib_StmTimerResolution','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L19:
+	.word	421
+	.half	3
+	.word	.L20
+	.byte	4
+.L18:
+	.byte	1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L21
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	147
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	154
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	196
+	.byte	7
+	.word	196
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	212
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	217
+	.byte	9
+	.byte	'value',0
+	.word	196
+	.byte	9
+	.byte	'compare',0
+	.word	196
+	.byte	0,10
+	.byte	'SuspendAllInterrupts',0,1,49,6,1,1,1,1,10
+	.byte	'ResumeAllInterrupts',0,1,50,6,1,1,1,1,11,1,7
+	.word	331
+	.byte	12
+	.byte	'__codeptr',0,2,1,1
+	.word	333
+	.byte	2
+	.byte	'unsigned char',0,1,8,12
+	.byte	'uint8',0,3,105,29
+	.word	356
+	.byte	2
+	.byte	'unsigned short int',0,2,7,12
+	.byte	'uint16',0,3,109,29
+	.word	387
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,11,21,0
+	.byte	54,15,0,0,12,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L21:
+	.word	.L71-.L70
+.L70:
+	.half	3
+	.word	.L73-.L72
+.L72:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\IFX_Os.h',0,0,0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0,0
+.L73:
+.L71:
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_McalLib_PeripheralEndInit')
+	.sect	'.debug_info'
+.L22:
+	.word	219
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L25,.L24
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'SchM_Enter_McalLib_PeripheralEndInit',0,1,64,6,1,1,1
+	.word	.L3,.L62,.L2
+	.byte	4
+	.word	.L3,.L62
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_McalLib_PeripheralEndInit')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_McalLib_PeripheralEndInit')
+	.sect	'.debug_line'
+.L24:
+	.word	.L75-.L74
+.L74:
+	.half	3
+	.word	.L77-.L76
+.L76:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0,0,0,0,0
+.L77:
+	.byte	5,23,7,0,5,2
+	.word	.L3
+	.byte	3,193,0,1,5,1,7,9
+	.half	.L26-.L3
+	.byte	3,6,0,1,1
+.L75:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_McalLib_PeripheralEndInit')
+	.sect	'.debug_ranges'
+.L25:
+	.word	-1,.L3,0,.L26-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_McalLib_PeripheralEndInit')
+	.sect	'.debug_info'
+.L27:
+	.word	218
+	.half	3
+	.word	.L28
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L30,.L29
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'SchM_Exit_McalLib_PeripheralEndInit',0,1,92,6,1,1,1
+	.word	.L5,.L63,.L4
+	.byte	4
+	.word	.L5,.L63
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_McalLib_PeripheralEndInit')
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_McalLib_PeripheralEndInit')
+	.sect	'.debug_line'
+.L29:
+	.word	.L79-.L78
+.L78:
+	.half	3
+	.word	.L81-.L80
+.L80:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0,0,0,0,0
+.L81:
+	.byte	5,22,7,0,5,2
+	.word	.L5
+	.byte	3,226,0,1,5,1,7,9
+	.half	.L31-.L5
+	.byte	3,1,0,1,1
+.L79:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_McalLib_PeripheralEndInit')
+	.sect	'.debug_ranges'
+.L30:
+	.word	-1,.L5,0,.L31-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_McalLib_SafetyEndInit')
+	.sect	'.debug_info'
+.L32:
+	.word	215
+	.half	3
+	.word	.L33
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L35,.L34
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'SchM_Enter_McalLib_SafetyEndInit',0,1,120,6,1,1,1
+	.word	.L7,.L64,.L6
+	.byte	4
+	.word	.L7,.L64
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_McalLib_SafetyEndInit')
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_McalLib_SafetyEndInit')
+	.sect	'.debug_line'
+.L34:
+	.word	.L83-.L82
+.L82:
+	.half	3
+	.word	.L85-.L84
+.L84:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0,0,0,0,0
+.L85:
+	.byte	5,23,7,0,5,2
+	.word	.L7
+	.byte	3,249,0,1,5,1,7,9
+	.half	.L36-.L7
+	.byte	3,6,0,1,1
+.L83:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_McalLib_SafetyEndInit')
+	.sect	'.debug_ranges'
+.L35:
+	.word	-1,.L7,0,.L36-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_McalLib_SafetyEndInit')
+	.sect	'.debug_info'
+.L37:
+	.word	215
+	.half	3
+	.word	.L38
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L40,.L39
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'SchM_Exit_McalLib_SafetyEndInit',0,1,148,1,6,1,1,1
+	.word	.L9,.L65,.L8
+	.byte	4
+	.word	.L9,.L65
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_McalLib_SafetyEndInit')
+	.sect	'.debug_abbrev'
+.L38:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_McalLib_SafetyEndInit')
+	.sect	'.debug_line'
+.L39:
+	.word	.L87-.L86
+.L86:
+	.half	3
+	.word	.L89-.L88
+.L88:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0,0,0,0,0
+.L89:
+	.byte	5,22,7,0,5,2
+	.word	.L9
+	.byte	3,154,1,1,5,1,7,9
+	.half	.L41-.L9
+	.byte	3,1,0,1,1
+.L87:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_McalLib_SafetyEndInit')
+	.sect	'.debug_ranges'
+.L40:
+	.word	-1,.L9,0,.L41-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_McalLib_CpuEndInit')
+	.sect	'.debug_info'
+.L42:
+	.word	213
+	.half	3
+	.word	.L43
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L45,.L44
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'SchM_Enter_McalLib_CpuEndInit',0,1,175,1,6,1,1,1
+	.word	.L11,.L66,.L10
+	.byte	4
+	.word	.L11,.L66
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_McalLib_CpuEndInit')
+	.sect	'.debug_abbrev'
+.L43:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_McalLib_CpuEndInit')
+	.sect	'.debug_line'
+.L44:
+	.word	.L91-.L90
+.L90:
+	.half	3
+	.word	.L93-.L92
+.L92:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0,0,0,0,0
+.L93:
+	.byte	5,23,7,0,5,2
+	.word	.L11
+	.byte	3,176,1,1,5,1,7,9
+	.half	.L46-.L11
+	.byte	3,6,0,1,1
+.L91:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_McalLib_CpuEndInit')
+	.sect	'.debug_ranges'
+.L45:
+	.word	-1,.L11,0,.L46-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_McalLib_CpuEndInit')
+	.sect	'.debug_info'
+.L47:
+	.word	212
+	.half	3
+	.word	.L48
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L50,.L49
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'SchM_Exit_McalLib_CpuEndInit',0,1,203,1,6,1,1,1
+	.word	.L13,.L67,.L12
+	.byte	4
+	.word	.L13,.L67
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_McalLib_CpuEndInit')
+	.sect	'.debug_abbrev'
+.L48:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_McalLib_CpuEndInit')
+	.sect	'.debug_line'
+.L49:
+	.word	.L95-.L94
+.L94:
+	.half	3
+	.word	.L97-.L96
+.L96:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0,0,0,0,0
+.L97:
+	.byte	5,22,7,0,5,2
+	.word	.L13
+	.byte	3,209,1,1,5,1,7,9
+	.half	.L51-.L13
+	.byte	3,1,0,1,1
+.L95:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_McalLib_CpuEndInit')
+	.sect	'.debug_ranges'
+.L50:
+	.word	-1,.L13,0,.L51-.L13,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_McalLib_StmTimerResolution')
+	.sect	'.debug_info'
+.L52:
+	.word	221
+	.half	3
+	.word	.L53
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L55,.L54
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'SchM_Enter_McalLib_StmTimerResolution',0,1,231,1,6,1,1,1
+	.word	.L15,.L68,.L14
+	.byte	4
+	.word	.L15,.L68
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_McalLib_StmTimerResolution')
+	.sect	'.debug_abbrev'
+.L53:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_McalLib_StmTimerResolution')
+	.sect	'.debug_line'
+.L54:
+	.word	.L99-.L98
+.L98:
+	.half	3
+	.word	.L101-.L100
+.L100:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0,0,0,0,0
+.L101:
+	.byte	5,23,7,0,5,2
+	.word	.L15
+	.byte	3,232,1,1,5,1,7,9
+	.half	.L56-.L15
+	.byte	3,6,0,1,1
+.L99:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_McalLib_StmTimerResolution')
+	.sect	'.debug_ranges'
+.L55:
+	.word	-1,.L15,0,.L56-.L15,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_McalLib_StmTimerResolution')
+	.sect	'.debug_info'
+.L57:
+	.word	220
+	.half	3
+	.word	.L58
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L60,.L59
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'SchM_Exit_McalLib_StmTimerResolution',0,1,131,2,6,1,1,1
+	.word	.L17,.L69,.L16
+	.byte	4
+	.word	.L17,.L69
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_McalLib_StmTimerResolution')
+	.sect	'.debug_abbrev'
+.L58:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_McalLib_StmTimerResolution')
+	.sect	'.debug_line'
+.L59:
+	.word	.L103-.L102
+.L102:
+	.half	3
+	.word	.L105-.L104
+.L104:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_McalLib.c',0,0,0,0,0
+.L105:
+	.byte	5,22,7,0,5,2
+	.word	.L17
+	.byte	3,137,2,1,5,1,7,9
+	.half	.L61-.L17
+	.byte	3,1,0,1,1
+.L103:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_McalLib_StmTimerResolution')
+	.sect	'.debug_ranges'
+.L60:
+	.word	-1,.L17,0,.L61-.L17,0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_McalLib_CpuEndInit')
+	.sect	'.debug_loc'
+.L10:
+	.word	-1,.L11,0,.L66-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_McalLib_PeripheralEndInit')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L62-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_McalLib_SafetyEndInit')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L64-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_McalLib_StmTimerResolution')
+	.sect	'.debug_loc'
+.L14:
+	.word	-1,.L15,0,.L68-.L15
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_McalLib_CpuEndInit')
+	.sect	'.debug_loc'
+.L12:
+	.word	-1,.L13,0,.L67-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_McalLib_PeripheralEndInit')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L63-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_McalLib_SafetyEndInit')
+	.sect	'.debug_loc'
+.L8:
+	.word	-1,.L9,0,.L65-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_McalLib_StmTimerResolution')
+	.sect	'.debug_loc'
+.L16:
+	.word	-1,.L17,0,.L69-.L17
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L106:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_McalLib_PeripheralEndInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L3,.L62-.L3
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_McalLib_PeripheralEndInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L5,.L63-.L5
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_McalLib_SafetyEndInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L7,.L64-.L7
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_McalLib_SafetyEndInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L9,.L65-.L9
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_McalLib_CpuEndInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L11,.L66-.L11
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_McalLib_CpuEndInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L13,.L67-.L13
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_McalLib_StmTimerResolution')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L15,.L68-.L15
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_McalLib_StmTimerResolution')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L17,.L69-.L17
+
+; ..\src\BaseSw\Infra\Integration\SchM_McalLib.c	   267  }
+
+	; Module end

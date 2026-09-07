@@ -1,0 +1,1356 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\BaseSw\\EB_Cfg\\src\\.Mcu_PBcfg.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.src ..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c'
+
+	
+$TC162
+	
+	.sdecl	'.rodata.Mcu_kPllDistributionConfiguration_Config_0.Config.Cpu0.Unspecified',data,rom,cluster('Mcu_kPllDistributionConfiguration_Config_0')
+	.sect	'.rodata.Mcu_kPllDistributionConfiguration_Config_0.Config.Cpu0.Unspecified'
+	.align	4
+Mcu_kPllDistributionConfiguration_Config_0:	.type	object
+	.size	Mcu_kPllDistributionConfiguration_Config_0,28
+	.word	388170035,553648788,117446658,50
+	.space	12
+	.sdecl	'.rodata.Mcu_kClockConfiguration_Config.Config.Cpu0.Unspecified',data,rom,cluster('Mcu_kClockConfiguration_Config')
+	.sect	'.rodata.Mcu_kClockConfiguration_Config.Config.Cpu0.Unspecified'
+	.align	4
+Mcu_kClockConfiguration_Config:	.type	object
+	.size	Mcu_kClockConfiguration_Config,44
+	.byte	161,19
+	.space	2
+	.byte	31,44
+	.space	2
+	.word	10,10,10,10
+	.word	10,10,Mcu_kPllDistributionConfiguration_Config_0
+	.space	4
+	.half	853
+	.space	2
+	.sdecl	'.rodata.Mcu_kLowPowerModeConfiguration_Config.Config.Cpu0.Unspecified',data,rom,cluster('Mcu_kLowPowerModeConfiguration_Config')
+	.sect	'.rodata.Mcu_kLowPowerModeConfiguration_Config.Config.Cpu0.Unspecified'
+	.align	4
+Mcu_kLowPowerModeConfiguration_Config:	.type	object
+	.size	Mcu_kLowPowerModeConfiguration_Config,28
+	.byte	1
+	.space	27
+	.sdecl	'.rodata.Mcu_kGtmClockConfigPtr_Config.Config.Cpu0.Unspecified',data,rom,cluster('Mcu_kGtmClockConfigPtr_Config')
+	.sect	'.rodata.Mcu_kGtmClockConfigPtr_Config.Config.Cpu0.Unspecified'
+	.align	4
+Mcu_kGtmClockConfigPtr_Config:	.type	object
+	.size	Mcu_kGtmClockConfigPtr_Config,80
+	.word	8432298,1,1
+	.space	36
+	.word	2730,1,1,1
+	.word	1,1,1
+	.space	4
+	.sdecl	'.rodata.Mcu_kGtmClusterConfigPtr_Config.Config.Cpu0.Unspecified',data,rom,cluster('Mcu_kGtmClusterConfigPtr_Config')
+	.sect	'.rodata.Mcu_kGtmClusterConfigPtr_Config.Config.Cpu0.Unspecified'
+	.align	4
+Mcu_kGtmClusterConfigPtr_Config:	.type	object
+	.size	Mcu_kGtmClusterConfigPtr_Config,72
+	.word	4
+	.space	8
+	.word	4
+	.space	56
+	.sdecl	'.rodata.Mcu_kGtmConfiguration_Config.Config.Cpu0.Unspecified',data,rom,cluster('Mcu_kGtmConfiguration_Config')
+	.sect	'.rodata.Mcu_kGtmConfiguration_Config.Config.Cpu0.Unspecified'
+	.align	4
+Mcu_kGtmConfiguration_Config:	.type	object
+	.size	Mcu_kGtmConfiguration_Config,364
+	.word	Mcu_kGtmClockConfigPtr_Config,Mcu_kGtmClusterConfigPtr_Config,1431655765,1
+	.word	1431655765,1,1431655765,1
+	.word	1431655765,1,1431655765,1
+	.word	1431655765,1,1431655765,1
+	.word	1431655765,1,1431655765,1
+	.word	1431655765,1,1431655765,1
+	.word	1431655765,1,8
+	.space	68
+	.word	-1879048192,572661769,34,4194304
+	.space	4
+	.word	3145728
+	.space	32
+	.word	12255240
+	.space	16
+	.word	-268435456,-4081,255,15728640
+	.space	4
+	.word	15728640
+	.space	32
+	.word	16711695
+	.space	40
+	.word	2
+	.space	2
+	.half	3
+	.space	4
+	.sdecl	'.rodata.Mcu_Config.Config.Cpu0.Unspecified',data,rom,cluster('Mcu_Config')
+	.sect	'.rodata.Mcu_Config.Config.Cpu0.Unspecified'
+	.global	Mcu_Config
+	.align	4
+Mcu_Config:	.type	object
+	.size	Mcu_Config,40
+	.word	Mcu_kClockConfiguration_Config
+	.space	4
+	.word	Mcu_kGtmConfiguration_Config,Mcu_kLowPowerModeConfiguration_Config,512
+	.space	4
+	.word	-1
+	.space	4
+	.word	1
+	.space	4
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	3668
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	137
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	144
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	186
+	.byte	7
+	.word	186
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	202
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	207
+	.byte	9
+	.byte	'value',0
+	.word	186
+	.byte	9
+	.byte	'compare',0
+	.word	186
+	.byte	0,10,1,7
+	.word	264
+	.byte	11
+	.byte	'__codeptr',0,1,1,1
+	.word	266
+	.byte	2
+	.byte	'unsigned char',0,1,8,11
+	.byte	'boolean',0,2,101,29
+	.word	289
+	.byte	11
+	.byte	'uint8',0,2,105,29
+	.word	289
+	.byte	2
+	.byte	'unsigned short int',0,2,7,11
+	.byte	'uint16',0,2,109,29
+	.word	336
+	.byte	2
+	.byte	'unsigned long int',0,4,7,11
+	.byte	'uint32',0,2,113,29
+	.word	373
+	.byte	2
+	.byte	'unsigned long long int',0,8,7,11
+	.byte	'uint64',0,2,118,29
+	.word	409
+	.byte	11
+	.byte	'unsigned_int',0,3,79,22
+	.word	186
+	.byte	11
+	.byte	'Mcu_ExternalClockConfigType',0,4,223,1,18
+	.word	373
+	.byte	11
+	.byte	'Mcu_ClockType',0,4,228,1,18
+	.word	373
+	.byte	11
+	.byte	'Mcu_RamSectionType',0,4,233,1,18
+	.word	373
+	.byte	12
+	.byte	'void',0,7
+	.word	559
+	.byte	11
+	.byte	'Mcu_RamBaseAdrType',0,4,244,1,18
+	.word	565
+	.byte	11
+	.byte	'Mcu_RamSizeType',0,4,248,1,18
+	.word	373
+	.byte	11
+	.byte	'Mcu_RamWriteSizeType',0,4,252,1,18
+	.word	373
+	.byte	11
+	.byte	'Mcu_RamPrstDatType',0,4,128,2,19
+	.word	409
+	.byte	13,4,237,2,9,4,14
+	.byte	'Insel',0,1
+	.word	289
+	.byte	2,6,2,35,0,14
+	.byte	'SysPllPDiv',0,1
+	.word	289
+	.byte	3,3,2,35,0,14
+	.byte	'SysPllNDiv',0,2
+	.word	336
+	.byte	7,4,2,35,0,14
+	.byte	'SysPllK2Div',0,1
+	.word	289
+	.byte	3,1,2,35,1,14
+	.byte	'FmPllEn',0,1
+	.word	289
+	.byte	1,0,2,35,1,14
+	.byte	'ModulationAmplitude',0,2
+	.word	336
+	.byte	16,0,2,35,2,0,11
+	.byte	'Mcu_SystemPllConfigType',0,4,246,2,3
+	.word	681
+	.byte	13,4,254,2,9,4,14
+	.byte	'PerPllNDiv',0,1
+	.word	289
+	.byte	7,1,2,35,0,14
+	.byte	'PerPllPDiv',0,2
+	.word	336
+	.byte	3,6,2,35,0,14
+	.byte	'PerPllK2Div',0,1
+	.word	289
+	.byte	3,3,2,35,1,14
+	.byte	'PerPllK3Div',0,1
+	.word	289
+	.byte	3,0,2,35,1,14
+	.byte	'K3DivByPass',0,1
+	.word	289
+	.byte	1,7,2,35,2,14
+	.byte	'Reserved',0,2
+	.word	336
+	.byte	15,0,2,35,2,0,11
+	.byte	'Mcu_PeripheralPllConfigType',0,4,134,3,3
+	.word	855
+	.byte	15,12
+	.word	373
+	.byte	16,2,0,13,4,142,3,9,28,17
+	.byte	'Ccucon0',0
+	.word	373
+	.byte	4,2,35,0,17
+	.byte	'Ccucon1',0
+	.word	373
+	.byte	4,2,35,4,17
+	.byte	'Ccucon2',0
+	.word	373
+	.byte	4,2,35,8,17
+	.byte	'Ccucon5',0
+	.word	373
+	.byte	4,2,35,12,17
+	.byte	'CcuconCpu',0
+	.word	1032
+	.byte	12,2,35,16,0,11
+	.byte	'Mcu_PllDistributionConfigType',0,4,154,3,3
+	.word	1041
+	.byte	3
+	.word	1041
+	.byte	7
+	.word	1174
+	.byte	13,4,162,3,9,44,17
+	.byte	'SystemPllCfg',0
+	.word	681
+	.byte	4,2,35,0,17
+	.byte	'PeripheralPllCfg',0
+	.word	855
+	.byte	4,2,35,4,17
+	.byte	'SysPllK2DivStepUpChangeDelay',0
+	.word	373
+	.byte	4,2,35,8,17
+	.byte	'SysPllK2DivStepDownChangeDelay',0
+	.word	373
+	.byte	4,2,35,12,17
+	.byte	'PeripheralPllK2StepUpChangeDelay',0
+	.word	373
+	.byte	4,2,35,16,17
+	.byte	'PeripheralPllK2StepDownChangeDelay',0
+	.word	373
+	.byte	4,2,35,20,17
+	.byte	'PeripheralPllK3StepUpChangeDelay',0
+	.word	373
+	.byte	4,2,35,24,17
+	.byte	'PeripheralPllK3StepDownChangeDelay',0
+	.word	373
+	.byte	4,2,35,28,17
+	.byte	'PllDistributionCfgPtr',0
+	.word	1179
+	.byte	4,2,35,32,17
+	.byte	'ExternalClockCfg',0
+	.word	373
+	.byte	4,2,35,36,17
+	.byte	'BackupFreqKDiv',0
+	.word	336
+	.byte	2,2,35,40,17
+	.byte	'ConvCtrlBlockConf',0
+	.word	289
+	.byte	1,2,35,42,0,11
+	.byte	'Mcu_ClockConfigType',0,4,188,3,3
+	.word	1184
+	.byte	13,4,195,3,9,28,17
+	.byte	'RamBaseAdrPtr',0
+	.word	570
+	.byte	4,2,35,0,17
+	.byte	'RamSize',0
+	.word	373
+	.byte	4,2,35,4,17
+	.byte	'RamPrstData',0
+	.word	409
+	.byte	8,2,35,8,17
+	.byte	'RamData',0
+	.word	409
+	.byte	8,2,35,16,17
+	.byte	'RamWriteSize',0
+	.word	373
+	.byte	4,2,35,24,0,11
+	.byte	'Mcu_RamConfigType',0,4,204,3,3
+	.word	1626
+	.byte	7
+	.word	559
+	.byte	13,4,212,3,9,4,14
+	.byte	'McuMode',0,1
+	.word	289
+	.byte	3,5,2,35,0,14
+	.byte	'EvrcLowPowerMode',0,1
+	.word	289
+	.byte	1,4,2,35,0,14
+	.byte	'Reserved',0,4
+	.word	186
+	.byte	28,0,2,35,0,0,11
+	.byte	'Mcu_ModeEvrcCtrlType',0,4,217,3,3
+	.word	1765
+	.byte	13,4,234,3,9,28,17
+	.byte	'MaxModeEvrcCtrl',0
+	.word	1765
+	.byte	4,2,35,0,17
+	.byte	'Pmswcr0',0
+	.word	373
+	.byte	4,2,35,4,17
+	.byte	'Pmswcr3',0
+	.word	373
+	.byte	4,2,35,8,17
+	.byte	'Pmswcr4',0
+	.word	373
+	.byte	4,2,35,12,17
+	.byte	'Pmswcr5',0
+	.word	373
+	.byte	4,2,35,16,17
+	.byte	'Evruvmon',0
+	.word	373
+	.byte	4,2,35,20,17
+	.byte	'EvrmonCtrl',0
+	.word	373
+	.byte	4,2,35,24,0,11
+	.byte	'Mcu_LowPowerModeType',0,4,253,3,3
+	.word	1869
+	.byte	13,4,133,4,9,8,17
+	.byte	'GtmCmuExtClockNum',0
+	.word	373
+	.byte	4,2,35,0,17
+	.byte	'GtmCmuExtClockDen',0
+	.word	373
+	.byte	4,2,35,4,0,11
+	.byte	'Mcu_GtmExtClkType',0,4,139,4,3
+	.word	2037
+	.byte	15,32
+	.word	373
+	.byte	16,7,0,15,24
+	.word	2037
+	.byte	16,2,0,13,4,146,4,9,80,17
+	.byte	'GtmCmuClockEnable',0
+	.word	373
+	.byte	4,2,35,0,17
+	.byte	'GtmCmuGlobalNumerator',0
+	.word	373
+	.byte	4,2,35,4,17
+	.byte	'GtmCmuGlobalDenominator',0
+	.word	373
+	.byte	4,2,35,8,17
+	.byte	'GtmCmuConfClkCtrl',0
+	.word	2125
+	.byte	32,2,35,12,17
+	.byte	'GtmCmuFixedClkCtrl',0
+	.word	373
+	.byte	4,2,35,44,17
+	.byte	'GtmCmuClsInDiv',0
+	.word	373
+	.byte	4,2,35,48,17
+	.byte	'GtmEclkCtrl',0
+	.word	2134
+	.byte	24,2,35,52,17
+	.byte	'GtmCmuClkCtrl',0
+	.word	373
+	.byte	4,2,35,76,0,11
+	.byte	'Mcu_GtmClockSettingType',0,4,164,4,3
+	.word	2143
+	.byte	13,4,171,4,9,12,17
+	.byte	'GtmCcmCfg',0
+	.word	373
+	.byte	4,2,35,0,17
+	.byte	'GtmCcmConfClockCfg',0
+	.word	373
+	.byte	4,2,35,4,17
+	.byte	'GtmCcmFixedClockCfg',0
+	.word	373
+	.byte	4,2,35,8,0,11
+	.byte	'Mcu_GtmClusterConfigType',0,4,179,4,3
+	.word	2397
+	.byte	13,4,186,4,9,8,17
+	.byte	'TomTgcIntTrigRstCn0',0
+	.word	373
+	.byte	4,2,35,0,17
+	.byte	'TomTgcActTb',0
+	.word	373
+	.byte	4,2,35,4,0,11
+	.byte	'Mcu_GtmTomConfigType',0,4,201,4,3
+	.word	2514
+	.byte	13,4,208,4,9,8,17
+	.byte	'AtomAgcIntTrigRstCn0',0
+	.word	373
+	.byte	4,2,35,0,17
+	.byte	'AtomAgcActTb',0
+	.word	373
+	.byte	4,2,35,4,0,11
+	.byte	'Mcu_GtmAtomConfigType',0,4,223,4,3
+	.word	2601
+	.byte	13,4,230,4,9,8,17
+	.byte	'GtmAdcTrigOut0',0
+	.word	373
+	.byte	4,2,35,0,17
+	.byte	'GtmAdcTrigOut1',0
+	.word	373
+	.byte	4,2,35,4,0,11
+	.byte	'Mcu_GtmAdcTrigType',0,4,234,4,3
+	.word	2691
+	.byte	13,4,238,4,9,8,17
+	.byte	'GtmDsadcTrigOut0',0
+	.word	373
+	.byte	4,2,35,0,17
+	.byte	'GtmDsadcTrigOut1',0
+	.word	373
+	.byte	4,2,35,4,0,11
+	.byte	'Mcu_GtmDsadcTrigType',0,4,242,4,3
+	.word	2774
+	.byte	3
+	.word	2143
+	.byte	7
+	.word	2863
+	.byte	3
+	.word	2397
+	.byte	7
+	.word	2873
+	.byte	15,48
+	.word	2514
+	.byte	16,5,0,15,48
+	.word	2601
+	.byte	16,5,0,15,40
+	.word	2691
+	.byte	16,4,0,15,32
+	.word	2774
+	.byte	16,3,0,15,76
+	.word	373
+	.byte	16,18,0,15,24
+	.word	373
+	.byte	16,5,0,13,4,250,4,9,236,2,17
+	.byte	'GtmClockCfgPtr',0
+	.word	2868
+	.byte	4,2,35,0,17
+	.byte	'GtmClusterCfgPtr',0
+	.word	2878
+	.byte	4,2,35,4,17
+	.byte	'GtmTomCfg',0
+	.word	2883
+	.byte	48,2,35,8,17
+	.byte	'GtmAtomCfg',0
+	.word	2892
+	.byte	48,2,35,56,17
+	.byte	'GtmAdcTrigCfg',0
+	.word	2901
+	.byte	40,2,35,104,17
+	.byte	'GtmDsadcTrigCfg',0
+	.word	2910
+	.byte	32,3,35,144,1,17
+	.byte	'GtmToutSelCfg',0
+	.word	2919
+	.byte	76,3,35,176,1,17
+	.byte	'GtmToutSelCfgMsk',0
+	.word	2919
+	.byte	76,3,35,252,1,17
+	.byte	'GtmTimInSelCfg',0
+	.word	2928
+	.byte	24,3,35,200,2,17
+	.byte	'GtmTbuCfg',0
+	.word	373
+	.byte	4,3,35,224,2,17
+	.byte	'GtmTomModuleUsage',0
+	.word	336
+	.byte	2,3,35,228,2,17
+	.byte	'GtmAtomModuleUsage',0
+	.word	336
+	.byte	2,3,35,230,2,17
+	.byte	'IsGtmSleepModeEnabled',0
+	.word	289
+	.byte	1,3,35,232,2,0,11
+	.byte	'Mcu_GtmConfigType',0,4,150,5,3
+	.word	2937
+	.byte	3
+	.word	1184
+	.byte	7
+	.word	3295
+	.byte	3
+	.word	1626
+	.byte	7
+	.word	3305
+	.byte	3
+	.word	2937
+	.byte	7
+	.word	3315
+	.byte	3
+	.word	1869
+	.byte	7
+	.word	3325
+	.byte	13,4,160,5,9,40,17
+	.byte	'McuClockSettingPtr',0
+	.word	3300
+	.byte	4,2,35,0,17
+	.byte	'McuRamCfgPtr',0
+	.word	3310
+	.byte	4,2,35,4,17
+	.byte	'McuGtmConfigPtr',0
+	.word	3320
+	.byte	4,2,35,8,17
+	.byte	'McuLowPowerModeCfgPtr',0
+	.word	3330
+	.byte	4,2,35,12,17
+	.byte	'McuResetCfg',0
+	.word	373
+	.byte	4,2,35,16,17
+	.byte	'McuArstDisCfg',0
+	.word	373
+	.byte	4,2,35,20,17
+	.byte	'McuTrapSettingConf0',0
+	.word	373
+	.byte	4,2,35,24,17
+	.byte	'McuEruEiFiltCfg',0
+	.word	373
+	.byte	4,2,35,28,17
+	.byte	'McuNoOfClockCfg',0
+	.word	373
+	.byte	4,2,35,32,17
+	.byte	'McuNoOfRamCfg',0
+	.word	373
+	.byte	4,2,35,36,0,11
+	.byte	'Mcu_ConfigType',0,4,203,5,3
+	.word	3335
+.L20:
+	.byte	3
+	.word	3335
+.L21:
+	.byte	3
+	.word	1041
+	.byte	15,44
+	.word	1184
+	.byte	16,0,0
+.L22:
+	.byte	3
+	.word	3628
+.L23:
+	.byte	3
+	.word	1869
+.L24:
+	.byte	3
+	.word	2143
+	.byte	15,72
+	.word	2397
+	.byte	16,5,0
+.L25:
+	.byte	3
+	.word	3652
+.L26:
+	.byte	3
+	.word	2937
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,59,0
+	.byte	3,8,0,0,13,19,1,58,15,59,15,57,15,11,15,0,0,14,13,0,3,8,11,15,73,19,13,15,12,15,56,9,0,0,15,1,1,11,15
+	.byte	73,19,0,0,16,33,0,47,15,0,0,17,13,0,3,8,73,19,11,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L28-.L27
+.L27:
+	.half	3
+	.word	.L30-.L29
+.L29:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc',0,0
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Mcal_Compiler.h',0,2,0,0
+	.byte	'Mcu.h',0,3,0,0,0
+.L30:
+.L28:
+	.sdecl	'.debug_info',debug,cluster('Mcu_Config')
+	.sect	'.debug_info'
+.L6:
+	.word	162
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Mcu_Config',0,1,172,4,22
+	.word	.L20
+	.byte	1,5,3
+	.word	Mcu_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Mcu_Config')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Mcu_kPllDistributionConfiguration_Config_0')
+	.sect	'.debug_info'
+.L8:
+	.word	192
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Mcu_kPllDistributionConfiguration_Config_0',0,1,69,44
+	.word	.L21
+	.byte	5,3
+	.word	Mcu_kPllDistributionConfiguration_Config_0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Mcu_kPllDistributionConfiguration_Config_0')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Mcu_kClockConfiguration_Config')
+	.sect	'.debug_info'
+.L10:
+	.word	180
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Mcu_kClockConfiguration_Config',0,1,94,34
+	.word	.L22
+	.byte	5,3
+	.word	Mcu_kClockConfiguration_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Mcu_kClockConfiguration_Config')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Mcu_kLowPowerModeConfiguration_Config')
+	.sect	'.debug_info'
+.L12:
+	.word	188
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Mcu_kLowPowerModeConfiguration_Config',0,1,151,1,36
+	.word	.L23
+	.byte	5,3
+	.word	Mcu_kLowPowerModeConfiguration_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Mcu_kLowPowerModeConfiguration_Config')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Mcu_kGtmClockConfigPtr_Config')
+	.sect	'.debug_info'
+.L14:
+	.word	180
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Mcu_kGtmClockConfigPtr_Config',0,1,173,1,62
+	.word	.L24
+	.byte	5,3
+	.word	Mcu_kGtmClockConfigPtr_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Mcu_kGtmClockConfigPtr_Config')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Mcu_kGtmClusterConfigPtr_Config')
+	.sect	'.debug_info'
+.L16:
+	.word	182
+	.half	3
+	.word	.L17
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Mcu_kGtmClusterConfigPtr_Config',0,1,214,1,39
+	.word	.L25
+	.byte	5,3
+	.word	Mcu_kGtmClusterConfigPtr_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Mcu_kGtmClusterConfigPtr_Config')
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Mcu_kGtmConfiguration_Config')
+	.sect	'.debug_info'
+.L18:
+	.word	179
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Mcu_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Mcu_kGtmConfiguration_Config',0,1,150,2,32
+	.word	.L26
+	.byte	5,3
+	.word	Mcu_kGtmConfiguration_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Mcu_kGtmConfiguration_Config')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	     1  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	     2  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	     3  ** Copyright (C) Infineon Technologies (2024)                                 **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	     4  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	     5  ** All rights reserved.                                                       **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	     6  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	     7  ** This document contains proprietary information belonging to Infineon       **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	     8  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	     9  ** of its contents is not permitted without prior written authorization.      **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    10  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    11  ********************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    12  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    13  **  FILENAME  : Mcu_PBcfg.c                                                   **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    14  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    15  **  VERSION   : 35.0.0                                                        **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    16  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    17  **  DATE, TIME: 2022-09-04, 16:34:20       !!!IGNORE-LINE!!!                  **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    18  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    19  **  GENERATOR : Build b191017-0938           !!!IGNORE-LINE!!!                **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    20  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    21  **  BSW MODULE DECRIPTION : Mcu.bmd                                           **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    22  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    23  **  VARIANT   : Variant PB                                                    **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    24  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    25  **  PLATFORM  : Infineon AURIX2G                                              **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    26  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    27  **  AUTHOR    : DL-AUTOSAR-Engineering                                        **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    28  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    29  **  VENDOR    : Infineon Technologies                                         **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    30  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    31  **  DESCRIPTION  : Mcu configuration generated out of ECUC file               **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    32  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    33  **  SPECIFICATION(S) : Specification of Mcu Driver, AUTOSAR Release 4.2.2     **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    34  **                     and 4.4.0                                              **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    35  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    36  **  MAY BE CHANGED BY USER : no                                               **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    37  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    38  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    39  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    40  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    41  **                       Includes                                             **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    42  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    43  /* Include module header file */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    44  #include "Mcu.h"
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    45  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    46  **                      Private Macro Definitions                             **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    47  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    48  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    49  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    50  **                      Global Constant Definitions                           **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    51  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    52  #define MCU_START_SEC_CONFIG_DATA_ASIL_B_GLOBAL_UNSPECIFIED
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    53  /* MISRA2012_RULE_4_10_JUSTIFICATION: Memmap header is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    54     without safegaurd. It complies to Autosar guidelines. */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    55  #include "Mcu_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    56  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    57  /*
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    58    PLL Distribution configuration structure(s)
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    59    for each clock setting configurations
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    60  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    61  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers going beyond 32 chars.
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    62     in generated code due to Autosar Naming constraints.*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    63  /* MISRA2012_RULE_5_2_JUSTIFICATION: External identifiers going beyond 32 chars.
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    64     in generated code due to Autosar Naming constraints.*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    65  /* MISRA2012_RULE_5_4_JUSTIFICATION: External identifiers going beyond 32 chars.
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    66     in generated code due to Autosar Naming constraints.*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    67  /* MISRA2012_RULE_5_5_JUSTIFICATION: External identifiers going beyond 32 chars.
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    68     in generated code due to Autosar Naming constraints.*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    69  static const Mcu_PllDistributionConfigType Mcu_kPllDistributionConfiguration_Config_0 =
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    70  {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    71    /* CCUCON0 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    72    0x17230133U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    73    /* CCUCON1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    74    0x21000294U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    75    /* CCUCON2 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    76    0x07001802U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    77    /* CCUCON5 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    78    0x00000032U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    79    /* CCUCON6...CCUCON8 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    80    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    81      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    82      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    83      0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    84    }
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    85  };
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    86  /*
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    87     Configuration : Mcu_ConfigType
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    88     For Mcu_ConfigType: MCU specific configuration ID
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    89     This id corresponds to the container name of the McuConfiguration.
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    90     Use this as the parameter for API: Mcu_Init
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    91     Container: McuClockSettingConfig
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    92     Multilplicity : 1 - *
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    93  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    94  static const Mcu_ClockConfigType Mcu_kClockConfiguration_Config[1] =
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    95  {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    96    /*McuClockSettingConfig_0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    97    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    98      /* System PLL configuration value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	    99      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   100        1U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   101        0U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   102        29U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   103        1U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   104        0U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   105        0U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   106      },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   107      /* Peripheral PLL configuration value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   108      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   109        31U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   110        0U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   111        3U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   112        1U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   113        0U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   114        0U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   115      },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   116      /* System PLL K2 divider increment step change delay */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   117      10U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   118      /* System PLL K2 divider decrement step change delay */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   119      10U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   120      /* Peripheral PLL K2 divider step change increment */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   121      10U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   122      /* Peripheral PLL K2 divider step change decrement */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   123      10U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   124      /* Peripheral PLL K3 divider step change increment */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   125      10U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   126      /* Peripheral PLL K3 divider step change decrement */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   127      10U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   128      /* PLL clock divider configuration pointer */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   129      &Mcu_kPllDistributionConfiguration_Config_0,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   130      /* External Clock configuration */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   131      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   132      /* Backup frequency K Divider value for both PLLs */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   133      0x0355U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   134      /* Converter Control Phase Synchronization configuration */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   135      0x00U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   136    },/*McuClockReferencePointConfig*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   137  };
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   138  /*
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   139    Ptr to RAM Section in config structure
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   140    Container: McuRamSectorSettingConf
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   141    Multiplicity: 1 - *
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   142    Configuration: RAM Section Id
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   143    This id corresponds to the container name of the McuRAMSettingConfiguration.
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   144    Use this as the parameter for API: Mcu_InitRamSection
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   145  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   146  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   147  /*
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   148    Standby Mode config structure for Low Power (Standby) Mode Configuration:
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   149    
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   150  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   151  static const Mcu_LowPowerModeType  Mcu_kLowPowerModeConfiguration_Config =
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   152  {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   153    /*MaxModeEvrcCtrl value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   154    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   155      0x1U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   156      0x0U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   157      0U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   158    },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   159    /* PMSWCR0 Register value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   160    0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   161    /* PMSWCR3Value  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   162    0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   163    /* PMSWCR4Value  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   164    0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   165    /* PMSWCR5Value  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   166    0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   167    /* EVRUVMONValue  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   168    0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   169    /* EVRMONCTRLValue  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   170    0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   171  };
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   172  /*Generate configuration structure for GTM Clock config*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   173                          static const Mcu_GtmClockSettingType Mcu_kGtmClockConfigPtr_Config =
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   174  {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   175    /*CMU config clock, external and fixed clock enable - GtmCmuClockEnable*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   176    0x0080aaaaU,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   177    /*CMU global clock numerator - GtmCmuGlobalNumerator*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   178    0x00000001U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   179    /*CMU global clock denominator - GtmCmuGlobalDenominator*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   180    0x00000001U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   181  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   182    /*CMU config clock_0...7 Numerator and Denominator - GtmCmuConfClkCtrl*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   183    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   184      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   185      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   186      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   187      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   188      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   189      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   190      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   191      0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   192    },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   193  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   194    /*CMU fixed clock Divider selection - GtmCmuFixedClkCtrl*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   195      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   196  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   197    /*GTM cluster input clock divider configuration - GtmCmuClusterInputClockDividerEnable */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   198    0x00000aaaU,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   199  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   200    /* External clock settings - GtmEclkCtrl*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   201    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   202      /*External Clock_0 disabled - reset value of numerator and denominator*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   203      {1U, 1U},
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   204      /*External Clock_1 disabled - reset value of numerator and denominator*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   205      {1U, 1U},
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   206      /*External Clock_2 disabled - reset value of numerator and denominator*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   207      {1U, 1U}
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   208    },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   209    
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   210    /*GTM Clock source selection CMU_CLK_CTRL*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   211    0x0U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   212  };
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   213  /*Generate configuration structure for GTM cluster config*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   214  static const Mcu_GtmClusterConfigType Mcu_kGtmClusterConfigPtr_Config[6] =
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   215  {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   216              
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   217    /*GTM Cluster_0 configuration*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   218    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   219      /*GTM cluster TIM/TOM/ATOM enable settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   220      0x00000004U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   221      /*GTM cluster config clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   222      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   223      /*GTM cluster fixed clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   224      0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   225    },            
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   226    /*GTM Cluster_1 configuration*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   227    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   228      /*GTM cluster TIM/TOM/ATOM enable settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   229      0x00000004U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   230      /*GTM cluster config clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   231      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   232      /*GTM cluster fixed clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   233      0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   234    },            
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   235    /*GTM Cluster_2 configuration*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   236    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   237      /*GTM cluster TIM/TOM/ATOM enable settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   238      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   239      /*GTM cluster config clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   240      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   241      /*GTM cluster fixed clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   242      0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   243    },            
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   244    /*GTM Cluster_3 configuration*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   245    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   246      /*GTM cluster TIM/TOM/ATOM enable settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   247      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   248      /*GTM cluster config clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   249      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   250      /*GTM cluster fixed clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   251      0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   252    },            
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   253    /*GTM Cluster_4 configuration*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   254    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   255      /*GTM cluster TIM/TOM/ATOM enable settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   256      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   257      /*GTM cluster config clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   258      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   259      /*GTM cluster fixed clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   260      0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   261    },            
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   262    /*GTM Cluster_5 configuration*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   263    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   264      /*GTM cluster TIM/TOM/ATOM enable settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   265      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   266      /*GTM cluster config clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   267      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   268      /*GTM cluster fixed clock settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   269      0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   270    }
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   271  };
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   272  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   273  /*
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   274   Gtm Configuration structure for module
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   275    Container: Mcu_kGtmConfiguration
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   276    Multiplicity: 1 - *
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   277  */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   278  static const Mcu_GtmConfigType Mcu_kGtmConfiguration_Config =
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   279  {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   280    /* Ptr to GTM clock configuration -  GtmClockCfgPtr */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   281    &Mcu_kGtmClockConfigPtr_Config,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   282    /* Ptr to GTM cluster configuration -  GtmClusterCfgPtr */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   283    Mcu_kGtmClusterConfigPtr_Config,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   284    /*Configuration for TOM global settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   285    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   286      /*Configuration for Tom global settings -  GtmTomCfg*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   287          /*GtmTomGlobalConf_0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   288          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   289            /*TomTgcIntTrigRstCn0 value for group0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   290            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   291            /*TomTgcActTb value for group0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   292            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   293          },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   294          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   295            /*TomTgcIntTrigRstCn1 value for group1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   296            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   297            /*TomTgcActTb value for group1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   298            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   299          },        /*GtmTomGlobalConf_1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   300          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   301            /*TomTgcIntTrigRstCn0 value for group0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   302            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   303            /*TomTgcActTb value for group0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   304            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   305          },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   306          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   307            /*TomTgcIntTrigRstCn1 value for group1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   308            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   309            /*TomTgcActTb value for group1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   310            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   311          },        /*GtmTomGlobalConf_2*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   312          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   313            /*TomTgcIntTrigRstCn0 value for group0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   314            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   315            /*TomTgcActTb value for group0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   316            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   317          },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   318          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   319            /*TomTgcIntTrigRstCn1 value for group1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   320            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   321            /*TomTgcActTb value for group1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   322            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   323          }
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   324    },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   325    /*Configuration for ATOM global settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   326    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   327      /*Configuration for Atom global settings -  GtmAtomCfg*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   328  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   329          /*GtmAtomGlobalConf_0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   330          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   331            /*AtomTgcIntTrigRstCn0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   332            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   333            /*AtomTgcActTb value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   334            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   335          },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   336          /*GtmAtomGlobalConf_1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   337          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   338            /*AtomTgcIntTrigRstCn0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   339            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   340            /*AtomTgcActTb value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   341            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   342          },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   343          /*GtmAtomGlobalConf_2*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   344          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   345            /*AtomTgcIntTrigRstCn0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   346            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   347            /*AtomTgcActTb value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   348            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   349          },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   350          /*GtmAtomGlobalConf_3*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   351          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   352            /*AtomTgcIntTrigRstCn0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   353            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   354            /*AtomTgcActTb value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   355            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   356          },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   357          /*GtmAtomGlobalConf_4*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   358          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   359            /*AtomTgcIntTrigRstCn0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   360            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   361            /*AtomTgcActTb value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   362            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   363          },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   364          /*GtmAtomGlobalConf_5*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   365          {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   366            /*AtomTgcIntTrigRstCn0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   367            0x55555555U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   368            /*AtomTgcActTb value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   369            0x00000001U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   370          }
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   371    },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   372  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   373    /*Configuration for Gtm to Adc trigger settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   374    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   375      /*Configuration of Gtm Adc trigger 0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   376      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   377        /*GtmAdcOut0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   378        0x00000008U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   379        /*GtmAdcOut1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   380        0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   381      },    /*Configuration of Gtm Adc trigger 1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   382      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   383        /*GtmAdcOut0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   384        0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   385        /*GtmAdcOut1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   386        0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   387      },    /*Configuration of Gtm Adc trigger 2*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   388      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   389        /*GtmAdcOut0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   390        0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   391        /*GtmAdcOut1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   392        0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   393      },    /*Configuration of Gtm Adc trigger 3*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   394      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   395        /*GtmAdcOut0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   396        0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   397        /*GtmAdcOut1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   398        0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   399      },    /*Configuration of Gtm Adc trigger 4*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   400      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   401        /*GtmAdcOut0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   402        0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   403        /*GtmAdcOut1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   404        0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   405      }  },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   406    /*Configuration for Gtm to Dsadc trigger settings*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   407    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   408      /*Configuration of Gtm Dsadc trigger 0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   409      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   410        /*GtmDsadcOut0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   411        0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   412        /*GtmDsadcOut1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   413        0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   414      },    /*Configuration of Gtm Dsadc trigger 1*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   415      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   416        /*GtmDsadcOut0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   417        0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   418        /*GtmDsadcOut1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   419        0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   420      },    /*Configuration of Gtm Dsadc trigger 2*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   421      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   422        /*GtmDsadcOut0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   423        0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   424        /*GtmDsadcOut1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   425        0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   426      },    /*Configuration of Gtm Dsadc trigger 3*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   427      {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   428        /*GtmDsadcOut0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   429        0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   430        /*GtmDsadcOut1 value */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   431        0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   432      }
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   433    },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   434    /*Configuration for Timer to Port connections*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   435    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   436      /*Configuration of ToutSel*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   437      /*Toutsel 0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   438      0x90000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   439      /*Toutsel 1 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   440      0x22222009U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   441      /*Toutsel 2 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   442      0x00000022U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   443      /*Toutsel 3 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   444      0x00400000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   445      /*Toutsel 4 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   446      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   447      /*Toutsel 5 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   448      0x00300000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   449      /*Toutsel 6 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   450      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   451      /*Toutsel 7 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   452      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   453      /*Toutsel 8 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   454      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   455      /*Toutsel 9 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   456      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   457      /*Toutsel 10 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   458      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   459      /*Toutsel 11 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   460      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   461      /*Toutsel 12 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   462      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   463      /*Toutsel 13 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   464      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   465      /*Toutsel 14 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   466      0x00bb0008U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   467      /*Toutsel 15 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   468      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   469      /*Toutsel 16 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   470      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   471      /*Toutsel 17 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   472      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   473      /*Toutsel 18 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   474      0x00000000U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   475    },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   476    /*Mask for TOUTSEL configuration. SELx used will be generated as 0xF*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   477    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   478      /*Toutsel 0 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   479      0xf0000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   480      /*Toutsel 1 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   481      0xfffff00fU,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   482      /*Toutsel 2 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   483      0x000000ffU,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   484      /*Toutsel 3 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   485      0x00f00000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   486      /*Toutsel 4 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   487      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   488      /*Toutsel 5 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   489      0x00f00000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   490      /*Toutsel 6 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   491      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   492      /*Toutsel 7 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   493      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   494      /*Toutsel 8 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   495      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   496      /*Toutsel 9 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   497      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   498      /*Toutsel 10 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   499      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   500      /*Toutsel 11 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   501      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   502      /*Toutsel 12 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   503      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   504      /*Toutsel 13 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   505      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   506      /*Toutsel 14 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   507      0x00ff000fU,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   508      /*Toutsel 15 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   509      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   510      /*Toutsel 16 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   511      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   512      /*Toutsel 17 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   513      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   514      /*Toutsel 18 mask value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   515      0x00000000U    
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   516    },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   517    /*Configuration for Port to Timer Connections*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   518    {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   519      /*Configuration of TimInSel*/   
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   520      /*TimInsel 0 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   521      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   522      /*TimInsel 1 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   523      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   524      /*TimInsel 2 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   525      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   526      /*TimInsel 3 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   527      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   528      /*TimInsel 4 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   529      0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   530      /*TimInsel 5 value*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   531      0x00000000U    
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   532    },
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   533    /*Configuration for TBU channel - GtmTbuCfg (GtmTbuChannelConf)*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   534    0x00000002U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   535    /* TOM modules used configuration */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   536    0x0000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   537    /* ATOM modules used configuration */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   538    0x0003U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   539    /* Gtm sleep mode configuration */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   540    (boolean)FALSE
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   541  };
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   542  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   543  #if (MCU_GPT1_USED == STD_ON) || (MCU_GPT2_USED == STD_ON)
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   544  /* GPT12 Prescalar configuration structure */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   545  static const Mcu_Gpt12ConfigType Mcu_kGpt12PrescalerConfiguration_Config =
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   546  {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   547    /*GPT Block 1 Prescalar */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   548    0x00U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   549    /*GPT Block 2 Prescalar */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   550    0x00U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   551    /*Reserved field initialized to 0*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   552    0x0U
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   553  };
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   554  #endif
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   555  /* Main MCU Configuration Structure */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   556  const Mcu_ConfigType Mcu_Config =
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   557  {
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   558    /*McuModuleConfiguration*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   559    /* MCU clock Configuration Pointer*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   560    Mcu_kClockConfiguration_Config,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   561    /* Ram Section configuration Pointer*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   562    NULL_PTR,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   563    #if (MCU_GTM_USED == STD_ON)
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   564    /* GTM Global Configuration Pointer*/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   565    &Mcu_kGtmConfiguration_Config,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   566    #endif
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   567    /*Ptr to GPT12 Prescaler config structure */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   568    #if ((MCU_GPT1_USED == STD_ON) || (MCU_GPT2_USED == STD_ON))
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   569    &Mcu_kGpt12PrescalerConfiguration_Config,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   570    #endif
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   571    /* Ptr to Standby Mode in config structure */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   572    &Mcu_kLowPowerModeConfiguration_Config,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   573    /* Reset configuration */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   574    0x00000200U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   575    /* Application Reset Disable configuration */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   576    0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   577    /* Trap configuration */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   578    0xffffffffU,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   579    /*Eru global input filter configuration */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   580    0x00000000U,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   581    /* Total number of Clock settings */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   582    ((Mcu_ClockType)1U),
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   583    /* Total number of RAM Sectors */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   584    ((Mcu_RamSectionType)0U),
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   585    /*GPT12 sleep mode setting */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   586    #if ((MCU_GPT1_USED == STD_ON) || (MCU_GPT2_USED == STD_ON))
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   587    (boolean)FALSE,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   588    #endif
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   589    #if (MCU_CCU60_USED == STD_ON)
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   590    (boolean)FALSE,
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   591    #endif
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   592    #if (MCU_CCU61_USED == STD_ON)
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   593    (boolean)FALSE
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   594    #endif
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   595  };
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   596  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   597  **                      Global Inline Function Definitions                    **
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   598  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   599  
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   600  #define MCU_STOP_SEC_CONFIG_DATA_ASIL_B_GLOBAL_UNSPECIFIED
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   601  /* MISRA2012_RULE_4_10_JUSTIFICATION: Memmap header is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   602     without safegaurd. It complies to Autosar guidelines. */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   603  /* MISRA2012_RULE_20_1_JUSTIFICATION: Memmap header included as per Autosar
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   604     guidelines. */
+; ..\src\BaseSw\EB_Cfg\src\Mcu_PBcfg.c	   605  #include "Mcu_MemMap.h"
+
+	; Module end

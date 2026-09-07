@@ -1,0 +1,2027 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\BaseSw\\UserIf\\.w25qxx.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\BaseSw\\UserIf\\w25qxx.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\BaseSw\\UserIf\\w25qxx.src ..\\src\\BaseSw\\UserIf\\w25qxx.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\BaseSw\\UserIf\\w25qxx.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.w25qxx.MySpi_SyncTransmit',code,cluster('MySpi_SyncTransmit')
+	.sect	'.text.w25qxx.MySpi_SyncTransmit'
+	.align	2
+	
+	.global	MySpi_SyncTransmit
+
+; ..\src\BaseSw\UserIf\w25qxx.c	     1  #include "w25qxx.h"
+; ..\src\BaseSw\UserIf\w25qxx.c	     2  
+; ..\src\BaseSw\UserIf\w25qxx.c	     3  /* SPI Mode0 */
+; ..\src\BaseSw\UserIf\w25qxx.c	     4  void MySpi_SyncTransmit(void)
+; Function MySpi_SyncTransmit
+.L5:
+MySpi_SyncTransmit:	.type	func
+
+; ..\src\BaseSw\UserIf\w25qxx.c	     5  {
+; ..\src\BaseSw\UserIf\w25qxx.c	     6  	uint8 ret = E_NOT_OK;
+; ..\src\BaseSw\UserIf\w25qxx.c	     7  	uint32 T_Timeout = 50000;
+	mov.u	d8,#50000
+	sub.a	a10,#8
+.L51:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	     8  	volatile Spi_SeqResultType Spi_TransmitStatus = SPI_SEQ_FAILED;
+	mov	d4,#2
+	st.b	[a10],d4
+.L60:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	     9  
+; ..\src\BaseSw\UserIf\w25qxx.c	    10  	/* 同步传输接口，数据发送/接收完成函数返回，使程序进入阻塞状态 */
+; ..\src\BaseSw\UserIf\w25qxx.c	    11  	ret = Spi_SyncTransmit(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK);
+	call	Spi_SyncTransmit
+
+; ..\src\BaseSw\UserIf\w25qxx.c	    12  
+; ..\src\BaseSw\UserIf\w25qxx.c	    13  	do
+; ..\src\BaseSw\UserIf\w25qxx.c	    14  	{
+; ..\src\BaseSw\UserIf\w25qxx.c	    15  		Spi_TransmitStatus = Spi_GetSequenceResult(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK);
+; ..\src\BaseSw\UserIf\w25qxx.c	    16  
+; ..\src\BaseSw\UserIf\w25qxx.c	    17  	}while (SPI_SEQ_OK != Spi_TransmitStatus && 0 < T_Timeout--);
+.L2:
+	mov	d4,#2
+	call	Spi_GetSequenceResult
+.L61:
+	st.b	[a10],d2
+.L62:
+	ld.bu	d15,[a10]
+.L63:
+	jeq	d15,#0,.L3
+.L64:
+	mov	d15,d8
+	add	d8,#-1
+.L65:
+	jne	d15,#0,.L2
+.L3:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	    18  }
+	ret
+.L41:
+	
+__MySpi_SyncTransmit_function_end:
+	.size	MySpi_SyncTransmit,__MySpi_SyncTransmit_function_end-MySpi_SyncTransmit
+.L18:
+	; End of function
+	
+	.sdecl	'.text.w25qxx.Spi_DemoFunction_HW_CS',code,cluster('Spi_DemoFunction_HW_CS')
+	.sect	'.text.w25qxx.Spi_DemoFunction_HW_CS'
+	.align	2
+	
+	.global	Spi_DemoFunction_HW_CS
+
+; ..\src\BaseSw\UserIf\w25qxx.c	    19  
+; ..\src\BaseSw\UserIf\w25qxx.c	    20  #if 0
+; ..\src\BaseSw\UserIf\w25qxx.c	    21  uint8 MySPI_ReadWriteByte(uint8 ByteSend)
+; ..\src\BaseSw\UserIf\w25qxx.c	    22  {
+; ..\src\BaseSw\UserIf\w25qxx.c	    23  	uint8 pRxData[1];
+; ..\src\BaseSw\UserIf\w25qxx.c	    24  	uint8 pTxData[1];
+; ..\src\BaseSw\UserIf\w25qxx.c	    25  
+; ..\src\BaseSw\UserIf\w25qxx.c	    26  	pTxData[0]= ByteSend;
+; ..\src\BaseSw\UserIf\w25qxx.c	    27  
+; ..\src\BaseSw\UserIf\w25qxx.c	    28  	Spi_SetupEB(SpiConf_SpiChannel_SpiChannel_QSPI4_TLE9183QK, pTxData, pRxData, 0x01U);
+; ..\src\BaseSw\UserIf\w25qxx.c	    29  	MySpi_SyncTransmit();
+; ..\src\BaseSw\UserIf\w25qxx.c	    30  	return pRxData[0];
+; ..\src\BaseSw\UserIf\w25qxx.c	    31  }
+; ..\src\BaseSw\UserIf\w25qxx.c	    32  
+; ..\src\BaseSw\UserIf\w25qxx.c	    33  uint16 W25QXX_TYPE = W25Q128; // Default is W25Q128
+; ..\src\BaseSw\UserIf\w25qxx.c	    34  // 4KB per sector
+; ..\src\BaseSw\UserIf\w25qxx.c	    35  // 16 sectors per block
+; ..\src\BaseSw\UserIf\w25qxx.c	    36  // W25Q128
+; ..\src\BaseSw\UserIf\w25qxx.c	    37  // Capacity 16MB bytes, total 256 blocks, 4096 sectors
+; ..\src\BaseSw\UserIf\w25qxx.c	    38  
+; ..\src\BaseSw\UserIf\w25qxx.c	    39  // Function: SPI1 bus read/write one byte
+; ..\src\BaseSw\UserIf\w25qxx.c	    40  // Parameter: byte to write, return value: byte read
+; ..\src\BaseSw\UserIf\w25qxx.c	    41  uint8 SPI1_ReadWriteByte(uint8 TxData)
+; ..\src\BaseSw\UserIf\w25qxx.c	    42  {
+; ..\src\BaseSw\UserIf\w25qxx.c	    43      uint8 RxData; // Variable to receive data
+; ..\src\BaseSw\UserIf\w25qxx.c	    44      RxData = MySPI_ReadWriteByte(TxData);
+; ..\src\BaseSw\UserIf\w25qxx.c	    45      return RxData;
+; ..\src\BaseSw\UserIf\w25qxx.c	    46  }
+; ..\src\BaseSw\UserIf\w25qxx.c	    47  
+; ..\src\BaseSw\UserIf\w25qxx.c	    48  
+; ..\src\BaseSw\UserIf\w25qxx.c	    49  void W25QXX_CS(uint8 a) // Software chip select control function (0 for low level, other values for high level)
+; ..\src\BaseSw\UserIf\w25qxx.c	    50  {
+; ..\src\BaseSw\UserIf\w25qxx.c	    51  	if(a==0)
+; ..\src\BaseSw\UserIf\w25qxx.c	    52  	{
+; ..\src\BaseSw\UserIf\w25qxx.c	    53  		Dio_WriteChannel(DioConf_DioChannel_DioChannel_GD_ENA1_P00_0, STD_LOW);
+; ..\src\BaseSw\UserIf\w25qxx.c	    54  	}
+; ..\src\BaseSw\UserIf\w25qxx.c	    55  	else
+; ..\src\BaseSw\UserIf\w25qxx.c	    56  	{
+; ..\src\BaseSw\UserIf\w25qxx.c	    57  		Dio_WriteChannel(DioConf_DioChannel_DioChannel_GD_ENA1_P00_0, STD_HIGH);
+; ..\src\BaseSw\UserIf\w25qxx.c	    58  	}
+; ..\src\BaseSw\UserIf\w25qxx.c	    59  }
+; ..\src\BaseSw\UserIf\w25qxx.c	    60  
+; ..\src\BaseSw\UserIf\w25qxx.c	    61  
+; ..\src\BaseSw\UserIf\w25qxx.c	    62  // Initialize SPI FLASH I/O pins
+; ..\src\BaseSw\UserIf\w25qxx.c	    63  uint8 W25QXX_Init(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	    64  {
+; ..\src\BaseSw\UserIf\w25qxx.c	    65      uint8 temp;
+; ..\src\BaseSw\UserIf\w25qxx.c	    66      W25QXX_CS(1); // 0: chip select enable, 1: chip select disable
+; ..\src\BaseSw\UserIf\w25qxx.c	    67      W25QXX_TYPE = W25QXX_ReadID(); // Read FLASH ID
+; ..\src\BaseSw\UserIf\w25qxx.c	    68      if (W25QXX_TYPE == W25Q256) // Only set 4-byte address mode for W25Q256
+; ..\src\BaseSw\UserIf\w25qxx.c	    69      {
+; ..\src\BaseSw\UserIf\w25qxx.c	    70          temp = W25QXX_Read_SR(3); // Read status register 3, check address mode
+; ..\src\BaseSw\UserIf\w25qxx.c	    71          if ((temp & 0x01) == 0) // If it is in 3-byte address mode, switch to 4-byte address mode
+; ..\src\BaseSw\UserIf\w25qxx.c	    72          {
+; ..\src\BaseSw\UserIf\w25qxx.c	    73              W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	    74              SPI1_ReadWriteByte(W25X_Enable4ByteAddr); // Send command to enter 4-byte address mode
+; ..\src\BaseSw\UserIf\w25qxx.c	    75              W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	    76          }
+; ..\src\BaseSw\UserIf\w25qxx.c	    77      }
+; ..\src\BaseSw\UserIf\w25qxx.c	    78      if (W25QXX_TYPE == W25Q256 || W25QXX_TYPE == W25Q128 || W25QXX_TYPE == W25Q64
+; ..\src\BaseSw\UserIf\w25qxx.c	    79          || W25QXX_TYPE == W25Q32 || W25QXX_TYPE == W25Q16 || W25QXX_TYPE == W25Q80)
+; ..\src\BaseSw\UserIf\w25qxx.c	    80      {
+; ..\src\BaseSw\UserIf\w25qxx.c	    81          return 0; // If the read ID matches one in the existing model list, chip identification successful!
+; ..\src\BaseSw\UserIf\w25qxx.c	    82      }
+; ..\src\BaseSw\UserIf\w25qxx.c	    83      else
+; ..\src\BaseSw\UserIf\w25qxx.c	    84          return 1;
+; ..\src\BaseSw\UserIf\w25qxx.c	    85  }
+; ..\src\BaseSw\UserIf\w25qxx.c	    86  
+; ..\src\BaseSw\UserIf\w25qxx.c	    87  // Read the status register of W25QXX. W25QXX has three status registers in total.
+; ..\src\BaseSw\UserIf\w25qxx.c	    88  // Status Register 1:
+; ..\src\BaseSw\UserIf\w25qxx.c	    89  // BIT7  6   5   4   3   2   1   0
+; ..\src\BaseSw\UserIf\w25qxx.c	    90  // SPR   RV  TB BP2 BP1 BP0 WEL BUSY
+; ..\src\BaseSw\UserIf\w25qxx.c	    91  // SPR: default 0, status register protection bit, used with WP
+; ..\src\BaseSw\UserIf\w25qxx.c	    92  // TB, BP2, BP1, BP0: FLASH area write protection setting
+; ..\src\BaseSw\UserIf\w25qxx.c	    93  // WEL: write enable latch
+; ..\src\BaseSw\UserIf\w25qxx.c	    94  // BUSY: busy flag (1: busy, 0: idle)
+; ..\src\BaseSw\UserIf\w25qxx.c	    95  // Default: 0x00
+; ..\src\BaseSw\UserIf\w25qxx.c	    96  // Status Register 2:
+; ..\src\BaseSw\UserIf\w25qxx.c	    97  // BIT7  6   5   4   3   2   1   0
+; ..\src\BaseSw\UserIf\w25qxx.c	    98  // SUS   CMP LB3 LB2 LB1 (R) QE  SRP1
+; ..\src\BaseSw\UserIf\w25qxx.c	    99  // Status Register 3:
+; ..\src\BaseSw\UserIf\w25qxx.c	   100  // BIT7      6    5    4   3   2   1   0
+; ..\src\BaseSw\UserIf\w25qxx.c	   101  // HOLD/RST  DRV1 DRV0 (R) (R) WPS (R) (R)
+; ..\src\BaseSw\UserIf\w25qxx.c	   102  // regno: status register number, range: 1~3
+; ..\src\BaseSw\UserIf\w25qxx.c	   103  // Return value: status register value
+; ..\src\BaseSw\UserIf\w25qxx.c	   104  uint8 W25QXX_Read_SR(uint8 regno)
+; ..\src\BaseSw\UserIf\w25qxx.c	   105  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   106      uint8 byte = 0, command = 0;
+; ..\src\BaseSw\UserIf\w25qxx.c	   107      switch (regno)
+; ..\src\BaseSw\UserIf\w25qxx.c	   108      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   109      case 1:
+; ..\src\BaseSw\UserIf\w25qxx.c	   110          command = W25X_ReadStatusReg1; // Read status register 1 command
+; ..\src\BaseSw\UserIf\w25qxx.c	   111          break;
+; ..\src\BaseSw\UserIf\w25qxx.c	   112      case 2:
+; ..\src\BaseSw\UserIf\w25qxx.c	   113          command = W25X_ReadStatusReg2; // Read status register 2 command
+; ..\src\BaseSw\UserIf\w25qxx.c	   114          break;
+; ..\src\BaseSw\UserIf\w25qxx.c	   115      case 3:
+; ..\src\BaseSw\UserIf\w25qxx.c	   116          command = W25X_ReadStatusReg3; // Read status register 3 command
+; ..\src\BaseSw\UserIf\w25qxx.c	   117          break;
+; ..\src\BaseSw\UserIf\w25qxx.c	   118      default:
+; ..\src\BaseSw\UserIf\w25qxx.c	   119          command = W25X_ReadStatusReg1; // Default read status register 1 command
+; ..\src\BaseSw\UserIf\w25qxx.c	   120          break;
+; ..\src\BaseSw\UserIf\w25qxx.c	   121      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   122      W25QXX_CS(0); // 0: chip select enable, 1: chip select disable
+; ..\src\BaseSw\UserIf\w25qxx.c	   123      SPI1_ReadWriteByte(command); // Send read status register command, one byte
+; ..\src\BaseSw\UserIf\w25qxx.c	   124      byte = SPI1_ReadWriteByte(0xFF); // Read one byte
+; ..\src\BaseSw\UserIf\w25qxx.c	   125      W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   126      return byte;
+; ..\src\BaseSw\UserIf\w25qxx.c	   127  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   128  
+; ..\src\BaseSw\UserIf\w25qxx.c	   129  // Write W25QXX status register
+; ..\src\BaseSw\UserIf\w25qxx.c	   130  void W25QXX_Write_SR(uint8 regno, uint8 sr)
+; ..\src\BaseSw\UserIf\w25qxx.c	   131  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   132      uint8 command = 0;
+; ..\src\BaseSw\UserIf\w25qxx.c	   133      switch (regno)
+; ..\src\BaseSw\UserIf\w25qxx.c	   134      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   135      case 1:
+; ..\src\BaseSw\UserIf\w25qxx.c	   136          command = W25X_WriteStatusReg1; // Write status register 1 command
+; ..\src\BaseSw\UserIf\w25qxx.c	   137          break;
+; ..\src\BaseSw\UserIf\w25qxx.c	   138      case 2:
+; ..\src\BaseSw\UserIf\w25qxx.c	   139          command = W25X_WriteStatusReg2; // Write status register 2 command
+; ..\src\BaseSw\UserIf\w25qxx.c	   140          break;
+; ..\src\BaseSw\UserIf\w25qxx.c	   141      case 3:
+; ..\src\BaseSw\UserIf\w25qxx.c	   142          command = W25X_WriteStatusReg3; // Write status register 3 command
+; ..\src\BaseSw\UserIf\w25qxx.c	   143          break;
+; ..\src\BaseSw\UserIf\w25qxx.c	   144      default:
+; ..\src\BaseSw\UserIf\w25qxx.c	   145          command = W25X_WriteStatusReg1; // Default write status register 1
+; ..\src\BaseSw\UserIf\w25qxx.c	   146          break;
+; ..\src\BaseSw\UserIf\w25qxx.c	   147      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   148      W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   149      SPI1_ReadWriteByte(command); // Send write status register command
+; ..\src\BaseSw\UserIf\w25qxx.c	   150      SPI1_ReadWriteByte(sr); // Write one byte
+; ..\src\BaseSw\UserIf\w25qxx.c	   151      W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   152  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   153  
+; ..\src\BaseSw\UserIf\w25qxx.c	   154  // W25QXX write enable: set WEL bit
+; ..\src\BaseSw\UserIf\w25qxx.c	   155  void W25QXX_Write_Enable(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   156  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   157      W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   158      SPI1_ReadWriteByte(W25X_WriteEnable); // Send write enable command
+; ..\src\BaseSw\UserIf\w25qxx.c	   159      W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   160  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   161  
+; ..\src\BaseSw\UserIf\w25qxx.c	   162  // W25QXX write disable: clear WEL bit
+; ..\src\BaseSw\UserIf\w25qxx.c	   163  void W25QXX_Write_Disable(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   164  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   165      W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   166      SPI1_ReadWriteByte(W25X_WriteDisable); // Send write disable command
+; ..\src\BaseSw\UserIf\w25qxx.c	   167      W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   168  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   169  
+; ..\src\BaseSw\UserIf\w25qxx.c	   170  // Wait for idle
+; ..\src\BaseSw\UserIf\w25qxx.c	   171  void W25QXX_Wait_Busy(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   172  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   173      while ((W25QXX_Read_SR(1) & 0x01) == 0x01); // Wait for BUSY bit to be 0
+; ..\src\BaseSw\UserIf\w25qxx.c	   174  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   175  
+; ..\src\BaseSw\UserIf\w25qxx.c	   176  // Read chip ID
+; ..\src\BaseSw\UserIf\w25qxx.c	   177  // High 8 bits are manufacturer code (not checked in this program)
+; ..\src\BaseSw\UserIf\w25qxx.c	   178  // Low 8 bits are capacity
+; ..\src\BaseSw\UserIf\w25qxx.c	   179  // 0xEF13 model: W25Q80
+; ..\src\BaseSw\UserIf\w25qxx.c	   180  // 0xEF14 model: W25Q16
+; ..\src\BaseSw\UserIf\w25qxx.c	   181  // 0xEF15 model: W25Q32
+; ..\src\BaseSw\UserIf\w25qxx.c	   182  // 0xEF16 model: W25Q64
+; ..\src\BaseSw\UserIf\w25qxx.c	   183  // 0xEF17 model: W25Q128 (Yangtao 2 development board uses 128 capacity chip)
+; ..\src\BaseSw\UserIf\w25qxx.c	   184  // 0xEF18 model: W25Q256
+; ..\src\BaseSw\UserIf\w25qxx.c	   185  uint16 W25QXX_ReadID(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   186  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   187      uint16 Temp = 0;
+; ..\src\BaseSw\UserIf\w25qxx.c	   188      W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   189      SPI1_ReadWriteByte(0x90); // Send read ID command
+; ..\src\BaseSw\UserIf\w25qxx.c	   190      SPI1_ReadWriteByte(0x00);
+; ..\src\BaseSw\UserIf\w25qxx.c	   191      SPI1_ReadWriteByte(0x00);
+; ..\src\BaseSw\UserIf\w25qxx.c	   192      SPI1_ReadWriteByte(0x00);
+; ..\src\BaseSw\UserIf\w25qxx.c	   193      // Data transmission is MSB first
+; ..\src\BaseSw\UserIf\w25qxx.c	   194      Temp |= SPI1_ReadWriteByte(0xFF) << 8; // Read high 8 bits
+; ..\src\BaseSw\UserIf\w25qxx.c	   195      Temp |= SPI1_ReadWriteByte(0xFF);      // Read low 8 bits
+; ..\src\BaseSw\UserIf\w25qxx.c	   196      W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   197      return Temp;
+; ..\src\BaseSw\UserIf\w25qxx.c	   198  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   199  
+; ..\src\BaseSw\UserIf\w25qxx.c	   200  // Read SPI FLASH
+; ..\src\BaseSw\UserIf\w25qxx.c	   201  // Read data of specified length starting from specified address
+; ..\src\BaseSw\UserIf\w25qxx.c	   202  // pBuffer: data storage area
+; ..\src\BaseSw\UserIf\w25qxx.c	   203  // ReadAddr: start read address (24-bit)
+; ..\src\BaseSw\UserIf\w25qxx.c	   204  // NumByteToRead: number of bytes to read (max 65535)
+; ..\src\BaseSw\UserIf\w25qxx.c	   205  void W25QXX_Read(uint8 *pBuffer, uint32 ReadAddr, uint16 NumByteToRead)
+; ..\src\BaseSw\UserIf\w25qxx.c	   206  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   207      uint16 i = 0;
+; ..\src\BaseSw\UserIf\w25qxx.c	   208      W25QXX_CS(0); // Enable chip select
+; ..\src\BaseSw\UserIf\w25qxx.c	   209      SPI1_ReadWriteByte(W25X_ReadData); // Send read command
+; ..\src\BaseSw\UserIf\w25qxx.c	   210      if (W25QXX_TYPE == W25Q256) // For W25Q256, address is 4 bytes, need to send the highest 8 bits
+; ..\src\BaseSw\UserIf\w25qxx.c	   211      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   212          SPI1_ReadWriteByte((uint8)((ReadAddr) >> 24));
+; ..\src\BaseSw\UserIf\w25qxx.c	   213      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   214      SPI1_ReadWriteByte((uint8)((ReadAddr) >> 16)); // Send high byte of 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   215      SPI1_ReadWriteByte((uint8)((ReadAddr) >> 8));  // Send middle byte of 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   216      SPI1_ReadWriteByte((uint8)ReadAddr);           // Send low byte of 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   217      for (i = 0; i < NumByteToRead; i++)
+; ..\src\BaseSw\UserIf\w25qxx.c	   218      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   219          pBuffer[i] = SPI1_ReadWriteByte(0xFF); // Read data in a loop
+; ..\src\BaseSw\UserIf\w25qxx.c	   220      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   221      W25QXX_CS(1); // Disable chip select
+; ..\src\BaseSw\UserIf\w25qxx.c	   222  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   223  
+; ..\src\BaseSw\UserIf\w25qxx.c	   224  // Write less than 256 bytes of data within one page (0~65535)
+; ..\src\BaseSw\UserIf\w25qxx.c	   225  // Write up to 256 bytes of data at the specified address
+; ..\src\BaseSw\UserIf\w25qxx.c	   226  // pBuffer: data storage area
+; ..\src\BaseSw\UserIf\w25qxx.c	   227  // WriteAddr: start write address (24-bit)
+; ..\src\BaseSw\UserIf\w25qxx.c	   228  // NumByteToWrite: number of bytes to write (max 256), should not exceed the remaining bytes of this page
+; ..\src\BaseSw\UserIf\w25qxx.c	   229  void W25QXX_Write_Page(uint8 *pBuffer, uint32 WriteAddr, uint16 NumByteToWrite)
+; ..\src\BaseSw\UserIf\w25qxx.c	   230  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   231      uint16 i = 0;
+; ..\src\BaseSw\UserIf\w25qxx.c	   232      W25QXX_Write_Enable(); // Write enable
+; ..\src\BaseSw\UserIf\w25qxx.c	   233      W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   234      SPI1_ReadWriteByte(W25X_PageProgram); // Send page program command byte
+; ..\src\BaseSw\UserIf\w25qxx.c	   235      if (W25QXX_TYPE == W25Q256) // For W25Q256, address is 4 bytes (32-bit), need to send the highest 8 bits
+; ..\src\BaseSw\UserIf\w25qxx.c	   236      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   237          // Send the highest 8 bits of address
+; ..\src\BaseSw\UserIf\w25qxx.c	   238          SPI1_ReadWriteByte((uint8)((WriteAddr) >> 24));
+; ..\src\BaseSw\UserIf\w25qxx.c	   239      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   240      SPI1_ReadWriteByte((uint8)((WriteAddr) >> 16)); // Send high 8 bits of 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   241      SPI1_ReadWriteByte((uint8)((WriteAddr) >> 8));  // Send middle 8 bits of 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   242      SPI1_ReadWriteByte((uint8)WriteAddr);           // Send low 8 bits of 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   243      for (i = 0; i < NumByteToWrite; i++)
+; ..\src\BaseSw\UserIf\w25qxx.c	   244      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   245          SPI1_ReadWriteByte(pBuffer[i]); // Write data in a loop
+; ..\src\BaseSw\UserIf\w25qxx.c	   246      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   247      W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   248      W25QXX_Wait_Busy(); // Wait for write to complete
+; ..\src\BaseSw\UserIf\w25qxx.c	   249  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   250  
+; ..\src\BaseSw\UserIf\w25qxx.c	   251  // Unchecked write to SPI FLASH
+; ..\src\BaseSw\UserIf\w25qxx.c	   252  // Must ensure that all data in the target address range is 0xFF, otherwise writing to non-0xFF locations will fail!
+; ..\src\BaseSw\UserIf\w25qxx.c	   253  // Has automatic page crossing capability
+; ..\src\BaseSw\UserIf\w25qxx.c	   254  // Write data of specified length starting from specified address, but ensure address does not overflow!
+; ..\src\BaseSw\UserIf\w25qxx.c	   255  // pBuffer: data storage area
+; ..\src\BaseSw\UserIf\w25qxx.c	   256  // WriteAddr: start write address (24-bit)
+; ..\src\BaseSw\UserIf\w25qxx.c	   257  // NumByteToWrite: number of bytes to write (max 65535)
+; ..\src\BaseSw\UserIf\w25qxx.c	   258  // CHECK OK
+; ..\src\BaseSw\UserIf\w25qxx.c	   259  void W25QXX_Write_NoCheck(uint8 *pBuffer, uint32 WriteAddr, uint16 NumByteToWrite)
+; ..\src\BaseSw\UserIf\w25qxx.c	   260  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   261      uint16 PageRemain;
+; ..\src\BaseSw\UserIf\w25qxx.c	   262      PageRemain = 256 - WriteAddr % 256; // Remaining bytes in the current page
+; ..\src\BaseSw\UserIf\w25qxx.c	   263      if (NumByteToWrite <= PageRemain)
+; ..\src\BaseSw\UserIf\w25qxx.c	   264      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   265          PageRemain = NumByteToWrite; // Not more than 256 bytes
+; ..\src\BaseSw\UserIf\w25qxx.c	   266      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   267      while (1)
+; ..\src\BaseSw\UserIf\w25qxx.c	   268      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   269          W25QXX_Write_Page(pBuffer, WriteAddr, PageRemain);
+; ..\src\BaseSw\UserIf\w25qxx.c	   270          if (NumByteToWrite == PageRemain)
+; ..\src\BaseSw\UserIf\w25qxx.c	   271          {
+; ..\src\BaseSw\UserIf\w25qxx.c	   272              // When the amount to write fits within the remaining bytes of the current page
+; ..\src\BaseSw\UserIf\w25qxx.c	   273              break;
+; ..\src\BaseSw\UserIf\w25qxx.c	   274          }
+; ..\src\BaseSw\UserIf\w25qxx.c	   275          else // When the amount to write exceeds the remaining bytes of the current page
+; ..\src\BaseSw\UserIf\w25qxx.c	   276          {
+; ..\src\BaseSw\UserIf\w25qxx.c	   277              pBuffer += PageRemain;
+; ..\src\BaseSw\UserIf\w25qxx.c	   278              WriteAddr += PageRemain;
+; ..\src\BaseSw\UserIf\w25qxx.c	   279              NumByteToWrite = NumByteToWrite - PageRemain; // Subtract the already written bytes
+; ..\src\BaseSw\UserIf\w25qxx.c	   280              if (NumByteToWrite > 256) // If remaining bytes to write > 256
+; ..\src\BaseSw\UserIf\w25qxx.c	   281              {
+; ..\src\BaseSw\UserIf\w25qxx.c	   282                  PageRemain = 256; // Write 256 bytes in the next page
+; ..\src\BaseSw\UserIf\w25qxx.c	   283              }
+; ..\src\BaseSw\UserIf\w25qxx.c	   284              else // If remaining bytes to write <= 256
+; ..\src\BaseSw\UserIf\w25qxx.c	   285              {
+; ..\src\BaseSw\UserIf\w25qxx.c	   286                  PageRemain = NumByteToWrite;
+; ..\src\BaseSw\UserIf\w25qxx.c	   287              }
+; ..\src\BaseSw\UserIf\w25qxx.c	   288          }
+; ..\src\BaseSw\UserIf\w25qxx.c	   289      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   290  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   291  
+; ..\src\BaseSw\UserIf\w25qxx.c	   292  // Write to SPI FLASH
+; ..\src\BaseSw\UserIf\w25qxx.c	   293  // Write data of specified length starting from specified address
+; ..\src\BaseSw\UserIf\w25qxx.c	   294  // This function includes erase operation!
+; ..\src\BaseSw\UserIf\w25qxx.c	   295  // pBuffer: data storage area
+; ..\src\BaseSw\UserIf\w25qxx.c	   296  // WriteAddr: start write address (24-bit)
+; ..\src\BaseSw\UserIf\w25qxx.c	   297  // NumByteToWrite: number of bytes to write (max 65535)
+; ..\src\BaseSw\UserIf\w25qxx.c	   298  uint8 W25QXX_BUFFER[4096];
+; ..\src\BaseSw\UserIf\w25qxx.c	   299  void W25QXX_Write(uint8 *pBuffer, uint32 WriteAddr, uint16 NumByteToWrite)
+; ..\src\BaseSw\UserIf\w25qxx.c	   300  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   301      // One sector has 4096 bytes
+; ..\src\BaseSw\UserIf\w25qxx.c	   302      uint32 secpos; // Sector address (0~4095)
+; ..\src\BaseSw\UserIf\w25qxx.c	   303      uint16 secoff; // Offset within sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   304      uint16 sec_remain; // Remaining space in sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   305      uint16 i = 0;
+; ..\src\BaseSw\UserIf\w25qxx.c	   306      uint8 *W25QXX_BUF;
+; ..\src\BaseSw\UserIf\w25qxx.c	   307      W25QXX_BUF = W25QXX_BUFFER; // Pointer points to array
+; ..\src\BaseSw\UserIf\w25qxx.c	   308      secpos = WriteAddr / 4096; // Get sector address: 0 is the first sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   309      secoff = WriteAddr % 4096; // Offset within sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   310      sec_remain = 4096 - secoff; // Get remaining space in sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   311      // printf("Addr: %X, Num: %X\r\n",WriteAddr,NumByteToWrite); // For testing
+; ..\src\BaseSw\UserIf\w25qxx.c	   312      if (NumByteToWrite <= sec_remain) // If bytes to write <= remaining space in current sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   313      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   314          sec_remain = NumByteToWrite;
+; ..\src\BaseSw\UserIf\w25qxx.c	   315      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   316      while (1)
+; ..\src\BaseSw\UserIf\w25qxx.c	   317      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   318          W25QXX_Read(W25QXX_BUF, secpos * 4096, 4096); // Read the entire sector content
+; ..\src\BaseSw\UserIf\w25qxx.c	   319          for (i = 0; i < sec_remain; i++) // Verify data
+; ..\src\BaseSw\UserIf\w25qxx.c	   320          {
+; ..\src\BaseSw\UserIf\w25qxx.c	   321              if (W25QXX_BUF[secoff + i] != 0xFF)
+; ..\src\BaseSw\UserIf\w25qxx.c	   322              {
+; ..\src\BaseSw\UserIf\w25qxx.c	   323                  break; // Need to erase
+; ..\src\BaseSw\UserIf\w25qxx.c	   324              }
+; ..\src\BaseSw\UserIf\w25qxx.c	   325          }
+; ..\src\BaseSw\UserIf\w25qxx.c	   326          if (i < sec_remain) // Need to erase
+; ..\src\BaseSw\UserIf\w25qxx.c	   327          {
+; ..\src\BaseSw\UserIf\w25qxx.c	   328              W25QXX_Erase_Sector(secpos); // Erase this sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   329              for (i = 0; i < sec_remain; i++) // Copy
+; ..\src\BaseSw\UserIf\w25qxx.c	   330              {
+; ..\src\BaseSw\UserIf\w25qxx.c	   331                  W25QXX_BUF[i + secoff] = pBuffer[i];
+; ..\src\BaseSw\UserIf\w25qxx.c	   332              }
+; ..\src\BaseSw\UserIf\w25qxx.c	   333              W25QXX_Write_NoCheck(W25QXX_BUF, secpos * 4096, 4096); // Write the entire sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   334          }
+; ..\src\BaseSw\UserIf\w25qxx.c	   335          else // No need to erase
+; ..\src\BaseSw\UserIf\w25qxx.c	   336          {
+; ..\src\BaseSw\UserIf\w25qxx.c	   337              W25QXX_Write_NoCheck(pBuffer, WriteAddr, sec_remain); // Directly write to the remaining space of the sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   338          }
+; ..\src\BaseSw\UserIf\w25qxx.c	   339          if (NumByteToWrite == sec_remain) // If written exactly the remaining space
+; ..\src\BaseSw\UserIf\w25qxx.c	   340              break; // Write completed
+; ..\src\BaseSw\UserIf\w25qxx.c	   341          else // Write not yet completed
+; ..\src\BaseSw\UserIf\w25qxx.c	   342          {
+; ..\src\BaseSw\UserIf\w25qxx.c	   343              secpos++; // Move to next sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   344              secoff = 0; // Offset reset to 0
+; ..\src\BaseSw\UserIf\w25qxx.c	   345              pBuffer += sec_remain; // Move pointer
+; ..\src\BaseSw\UserIf\w25qxx.c	   346              WriteAddr += sec_remain; // Move write address
+; ..\src\BaseSw\UserIf\w25qxx.c	   347              NumByteToWrite -= sec_remain; // Decrease remaining bytes
+; ..\src\BaseSw\UserIf\w25qxx.c	   348              if (NumByteToWrite > 4096)
+; ..\src\BaseSw\UserIf\w25qxx.c	   349              {
+; ..\src\BaseSw\UserIf\w25qxx.c	   350                  sec_remain = 4096; // Still cannot finish writing the next sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   351              }
+; ..\src\BaseSw\UserIf\w25qxx.c	   352              else // Can finish writing the next sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   353              {
+; ..\src\BaseSw\UserIf\w25qxx.c	   354                  sec_remain = NumByteToWrite;
+; ..\src\BaseSw\UserIf\w25qxx.c	   355              }
+; ..\src\BaseSw\UserIf\w25qxx.c	   356          }
+; ..\src\BaseSw\UserIf\w25qxx.c	   357      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   358  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   359  
+; ..\src\BaseSw\UserIf\w25qxx.c	   360  // Erase a sector
+; ..\src\BaseSw\UserIf\w25qxx.c	   361  // Sec_Addr: sector address, range (0~4095) based on actual capacity
+; ..\src\BaseSw\UserIf\w25qxx.c	   362  // Minimum time to erase one sector: 150ms
+; ..\src\BaseSw\UserIf\w25qxx.c	   363  // The address sent is the start address of the sector to be erased.
+; ..\src\BaseSw\UserIf\w25qxx.c	   364  // Therefore, to erase the second sector, the start address of that sector needs to be sent.
+; ..\src\BaseSw\UserIf\w25qxx.c	   365  void W25QXX_Erase_Sector(uint32 Sec_Addr)
+; ..\src\BaseSw\UserIf\w25qxx.c	   366  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   367      Sec_Addr *= 4096;
+; ..\src\BaseSw\UserIf\w25qxx.c	   368      W25QXX_Write_Enable(); // Write enable
+; ..\src\BaseSw\UserIf\w25qxx.c	   369      W25QXX_Wait_Busy(); // Wait for idle
+; ..\src\BaseSw\UserIf\w25qxx.c	   370      W25QXX_CS(0); // Pull chip select low
+; ..\src\BaseSw\UserIf\w25qxx.c	   371      SPI1_ReadWriteByte(W25X_SectorErase); // Send sector erase command
+; ..\src\BaseSw\UserIf\w25qxx.c	   372      // Send 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   373      if (W25QXX_TYPE == W25Q256) // For W25Q256, address is 4 bytes, need to send the highest 8 bits
+; ..\src\BaseSw\UserIf\w25qxx.c	   374      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   375          SPI1_ReadWriteByte((uint8)((Sec_Addr) >> 24));
+; ..\src\BaseSw\UserIf\w25qxx.c	   376      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   377      SPI1_ReadWriteByte((uint8)((Sec_Addr) >> 16)); // Send high 8 bits of 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   378      SPI1_ReadWriteByte((uint8)((Sec_Addr) >> 8));  // Send middle 8 bits of 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   379      SPI1_ReadWriteByte((uint8)Sec_Addr);           // Send low 8 bits of 24-bit address
+; ..\src\BaseSw\UserIf\w25qxx.c	   380      W25QXX_CS(1); // Pull chip select high
+; ..\src\BaseSw\UserIf\w25qxx.c	   381      W25QXX_Wait_Busy(); // Wait for erase to complete
+; ..\src\BaseSw\UserIf\w25qxx.c	   382  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   383  
+; ..\src\BaseSw\UserIf\w25qxx.c	   384  // Erase the entire chip
+; ..\src\BaseSw\UserIf\w25qxx.c	   385  // Very long waiting time...
+; ..\src\BaseSw\UserIf\w25qxx.c	   386  // Chip erase command erases all data in W25Q128 to 0xFF
+; ..\src\BaseSw\UserIf\w25qxx.c	   387  void W25QXX_Erase_Chip(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   388  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   389      W25QXX_Write_Enable();
+; ..\src\BaseSw\UserIf\w25qxx.c	   390      W25QXX_Wait_Busy();
+; ..\src\BaseSw\UserIf\w25qxx.c	   391      W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   392      SPI1_ReadWriteByte(W25X_ChipErase); // Send chip erase command
+; ..\src\BaseSw\UserIf\w25qxx.c	   393      W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   394      W25QXX_Wait_Busy(); // Wait for chip erase to complete
+; ..\src\BaseSw\UserIf\w25qxx.c	   395  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   396  
+; ..\src\BaseSw\UserIf\w25qxx.c	   397  // Enter power-down mode
+; ..\src\BaseSw\UserIf\w25qxx.c	   398  void W25QXX_PowerDown(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   399  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   400      W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   401      SPI1_ReadWriteByte(W25X_PowerDown); // Send power-down command 0xB9
+; ..\src\BaseSw\UserIf\w25qxx.c	   402      W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   403      delay_us(3); // Wait for TPD
+; ..\src\BaseSw\UserIf\w25qxx.c	   404  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   405  
+; ..\src\BaseSw\UserIf\w25qxx.c	   406  // Wake up
+; ..\src\BaseSw\UserIf\w25qxx.c	   407  void W25QXX_WAKEUP(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   408  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   409      W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   410      SPI1_ReadWriteByte(W25X_ReleasePowerDown); // Send power-up command 0xAB
+; ..\src\BaseSw\UserIf\w25qxx.c	   411      W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   412      delay_us(3); // Wait for TRES1
+; ..\src\BaseSw\UserIf\w25qxx.c	   413  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   414  
+; ..\src\BaseSw\UserIf\w25qxx.c	   415  // 读取 JEDEC ID (3字节)
+; ..\src\BaseSw\UserIf\w25qxx.c	   416  // 返回值格式: 0xXXYYZZ
+; ..\src\BaseSw\UserIf\w25qxx.c	   417  //   XX: Manufacturer ID (Winbond = 0xEF)
+; ..\src\BaseSw\UserIf\w25qxx.c	   418  //   YY: Memory Type (W25Q128 = 0x40)
+; ..\src\BaseSw\UserIf\w25qxx.c	   419  //   ZZ: Capacity (W25Q128 = 0x18)
+; ..\src\BaseSw\UserIf\w25qxx.c	   420  uint32 W25QXX_ReadJEDECID(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   421  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   422      uint32 Temp = 0;
+; ..\src\BaseSw\UserIf\w25qxx.c	   423  
+; ..\src\BaseSw\UserIf\w25qxx.c	   424      W25QXX_CS(0);                              // 片选使能
+; ..\src\BaseSw\UserIf\w25qxx.c	   425  
+; ..\src\BaseSw\UserIf\w25qxx.c	   426      SPI1_ReadWriteByte(0x9F);                  // 发送 JEDEC ID 指令
+; ..\src\BaseSw\UserIf\w25qxx.c	   427  
+; ..\src\BaseSw\UserIf\w25qxx.c	   428      Temp |= (uint32)SPI1_ReadWriteByte(0xFF) << 16;  // Manufacturer ID
+; ..\src\BaseSw\UserIf\w25qxx.c	   429      Temp |= (uint32)SPI1_ReadWriteByte(0xFF) << 8;   // Memory Type
+; ..\src\BaseSw\UserIf\w25qxx.c	   430      Temp |= (uint32)SPI1_ReadWriteByte(0xFF);        // Capacity
+; ..\src\BaseSw\UserIf\w25qxx.c	   431  
+; ..\src\BaseSw\UserIf\w25qxx.c	   432      W25QXX_CS(1);                              // 片选禁用
+; ..\src\BaseSw\UserIf\w25qxx.c	   433  
+; ..\src\BaseSw\UserIf\w25qxx.c	   434      return Temp;
+; ..\src\BaseSw\UserIf\w25qxx.c	   435  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   436  
+; ..\src\BaseSw\UserIf\w25qxx.c	   437  uint32 JEDECID_Array[10];
+; ..\src\BaseSw\UserIf\w25qxx.c	   438  void Test_MultipleReads(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   439  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   440  	uint8 i;
+; ..\src\BaseSw\UserIf\w25qxx.c	   441      for (i = 0; i < 10; i++)
+; ..\src\BaseSw\UserIf\w25qxx.c	   442      {
+; ..\src\BaseSw\UserIf\w25qxx.c	   443      	JEDECID_Array[i] = W25QXX_ReadJEDECID();
+; ..\src\BaseSw\UserIf\w25qxx.c	   444      }
+; ..\src\BaseSw\UserIf\w25qxx.c	   445      // 所有输出应该都是 0xEF4018
+; ..\src\BaseSw\UserIf\w25qxx.c	   446  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   447  
+; ..\src\BaseSw\UserIf\w25qxx.c	   448  uint8 ArrayWrite[] = {0x11,0x22,0x33,0x44};
+; ..\src\BaseSw\UserIf\w25qxx.c	   449  uint8 ArrayRead[4];
+; ..\src\BaseSw\UserIf\w25qxx.c	   450  uint16 ID;
+; ..\src\BaseSw\UserIf\w25qxx.c	   451  uint32 JEDECID;
+; ..\src\BaseSw\UserIf\w25qxx.c	   452  void Spi_DemoFunction_SW_CS(void)
+; ..\src\BaseSw\UserIf\w25qxx.c	   453  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   454  	/*Qspi init*/
+; ..\src\BaseSw\UserIf\w25qxx.c	   455  	Spi_Init(&Spi_Config);
+; ..\src\BaseSw\UserIf\w25qxx.c	   456  
+; ..\src\BaseSw\UserIf\w25qxx.c	   457  	/* After enabling the QSPI module, it is recommended to perform a dummy transfer
+; ..\src\BaseSw\UserIf\w25qxx.c	   458  	 * to initialize the internal baud rate generator and shift register */
+; ..\src\BaseSw\UserIf\w25qxx.c	   459  	W25QXX_CS(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   460  	SPI1_ReadWriteByte(0xFF);
+; ..\src\BaseSw\UserIf\w25qxx.c	   461  	W25QXX_CS(1);
+; ..\src\BaseSw\UserIf\w25qxx.c	   462  
+; ..\src\BaseSw\UserIf\w25qxx.c	   463  	ID = W25QXX_ReadID();
+; ..\src\BaseSw\UserIf\w25qxx.c	   464  
+; ..\src\BaseSw\UserIf\w25qxx.c	   465  	JEDECID = W25QXX_ReadJEDECID();
+; ..\src\BaseSw\UserIf\w25qxx.c	   466  
+; ..\src\BaseSw\UserIf\w25qxx.c	   467  	Test_MultipleReads();
+; ..\src\BaseSw\UserIf\w25qxx.c	   468  
+; ..\src\BaseSw\UserIf\w25qxx.c	   469  	W25QXX_Erase_Sector(0);
+; ..\src\BaseSw\UserIf\w25qxx.c	   470      delay_ms(200);
+; ..\src\BaseSw\UserIf\w25qxx.c	   471  
+; ..\src\BaseSw\UserIf\w25qxx.c	   472  	W25QXX_Write(ArrayWrite,0,4);
+; ..\src\BaseSw\UserIf\w25qxx.c	   473  	delay_ms(200);
+; ..\src\BaseSw\UserIf\w25qxx.c	   474  
+; ..\src\BaseSw\UserIf\w25qxx.c	   475  	W25QXX_Read(ArrayRead,0,4);
+; ..\src\BaseSw\UserIf\w25qxx.c	   476  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   477  
+; ..\src\BaseSw\UserIf\w25qxx.c	   478  #endif
+; ..\src\BaseSw\UserIf\w25qxx.c	   479  
+; ..\src\BaseSw\UserIf\w25qxx.c	   480  uint8 gpTxData[6] = {0x90,0x00,0x00,0x00,0xFF,0xFF};
+; ..\src\BaseSw\UserIf\w25qxx.c	   481  uint8 gpRxData[6];
+; ..\src\BaseSw\UserIf\w25qxx.c	   482  
+; ..\src\BaseSw\UserIf\w25qxx.c	   483  uint8 dummyTx[1] = {0xAA};
+; ..\src\BaseSw\UserIf\w25qxx.c	   484  uint8 dummyRx[1];
+; ..\src\BaseSw\UserIf\w25qxx.c	   485  
+; ..\src\BaseSw\UserIf\w25qxx.c	   486  uint8 JEDECID_Tx[4] = {0x9F,0xFF,0xFF,0xFF};
+; ..\src\BaseSw\UserIf\w25qxx.c	   487  uint8 JEDECID_Rx[4];
+; ..\src\BaseSw\UserIf\w25qxx.c	   488  void Spi_DemoFunction_HW_CS(void)
+; Function Spi_DemoFunction_HW_CS
+.L7:
+Spi_DemoFunction_HW_CS:	.type	func
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   489  {
+; ..\src\BaseSw\UserIf\w25qxx.c	   490  	/*Qspi init*/
+; ..\src\BaseSw\UserIf\w25qxx.c	   491  	Spi_Init(&Spi_Config);
+	movh.a	a4,#@his(Spi_Config)
+	lea	a4,[a4]@los(Spi_Config)
+	call	Spi_Init
+.L70:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   492  
+; ..\src\BaseSw\UserIf\w25qxx.c	   493  	Spi_SetupEB(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK, dummyTx, dummyRx, 1);
+	mov	d4,#2
+	lea	a4,dummyTx
+.L71:
+	lea	a5,dummyRx
+.L72:
+	mov	d5,#1
+	call	Spi_SetupEB
+.L73:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   494  	MySpi_SyncTransmit();
+	call	MySpi_SyncTransmit
+.L74:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   495  
+; ..\src\BaseSw\UserIf\w25qxx.c	   496  	Spi_SetupEB(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK, gpTxData, gpRxData, 6);
+	fcall	.cocofun_1
+.L75:
+	call	Spi_SetupEB
+.L76:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   497  	MySpi_SyncTransmit();
+	call	MySpi_SyncTransmit
+.L77:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   498  
+; ..\src\BaseSw\UserIf\w25qxx.c	   499  	Spi_SetupEB(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK, gpTxData, gpRxData, 6);
+	fcall	.cocofun_1
+.L78:
+	call	Spi_SetupEB
+.L79:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   500  	MySpi_SyncTransmit();
+	call	MySpi_SyncTransmit
+.L80:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   501  
+; ..\src\BaseSw\UserIf\w25qxx.c	   502  	Spi_SetupEB(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK, JEDECID_Tx, JEDECID_Rx, 4);
+	mov	d4,#2
+	lea	a4,JEDECID_Tx
+.L81:
+	lea	a5,JEDECID_Rx
+.L82:
+	mov	d5,#4
+	call	Spi_SetupEB
+.L83:
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   503  	MySpi_SyncTransmit();
+	j	MySpi_SyncTransmit
+.L46:
+	
+__Spi_DemoFunction_HW_CS_function_end:
+	.size	Spi_DemoFunction_HW_CS,__Spi_DemoFunction_HW_CS_function_end-Spi_DemoFunction_HW_CS
+.L23:
+	; End of function
+	
+	.sdecl	'.text.w25qxx..cocofun_1',code,cluster('.cocofun_1')
+	.sect	'.text.w25qxx..cocofun_1'
+	.align	2
+; Function .cocofun_1
+.L9:
+.cocofun_1:	.type	func
+; Function body .cocofun_1, coco_iter:0
+	mov	d4,#2
+	lea	a4,gpTxData
+.L88:
+	lea	a5,gpRxData
+.L89:
+	mov	d5,#6
+	fret
+.L28:
+	; End of function
+	.sdecl	'.zdata.w25qxx.gpTxData',data,cluster('gpTxData')
+	.sect	'.zdata.w25qxx.gpTxData'
+	.global	gpTxData
+gpTxData:	.type	object
+	.size	gpTxData,6
+	.byte	144
+	.space	3
+	.byte	255,255
+	.sdecl	'.zbss.w25qxx.gpRxData',data,cluster('gpRxData')
+	.sect	'.zbss.w25qxx.gpRxData'
+	.global	gpRxData
+gpRxData:	.type	object
+	.size	gpRxData,6
+	.space	6
+	.sdecl	'.zdata.w25qxx.dummyTx',data,cluster('dummyTx')
+	.sect	'.zdata.w25qxx.dummyTx'
+	.global	dummyTx
+dummyTx:	.type	object
+	.size	dummyTx,1
+	.byte	170
+	.sdecl	'.zbss.w25qxx.dummyRx',data,cluster('dummyRx')
+	.sect	'.zbss.w25qxx.dummyRx'
+	.global	dummyRx
+dummyRx:	.type	object
+	.size	dummyRx,1
+	.space	1
+	.sdecl	'.zdata.w25qxx.JEDECID_Tx',data,cluster('JEDECID_Tx')
+	.sect	'.zdata.w25qxx.JEDECID_Tx'
+	.global	JEDECID_Tx
+JEDECID_Tx:	.type	object
+	.size	JEDECID_Tx,4
+	.byte	159,255,255,255
+	.sdecl	'.zbss.w25qxx.JEDECID_Rx',data,cluster('JEDECID_Rx')
+	.sect	'.zbss.w25qxx.JEDECID_Rx'
+	.global	JEDECID_Rx
+JEDECID_Rx:	.type	object
+	.size	JEDECID_Rx,4
+	.space	4
+	.calls	'MySpi_SyncTransmit','Spi_SyncTransmit'
+	.calls	'MySpi_SyncTransmit','Spi_GetSequenceResult'
+	.calls	'Spi_DemoFunction_HW_CS','Spi_Init'
+	.calls	'Spi_DemoFunction_HW_CS','Spi_SetupEB'
+	.calls	'Spi_DemoFunction_HW_CS','MySpi_SyncTransmit'
+	.calls	'Spi_DemoFunction_HW_CS','.cocofun_1'
+	.calls	'MySpi_SyncTransmit','',8
+	.calls	'Spi_DemoFunction_HW_CS','',0
+	.extern	Spi_Init
+	.extern	Spi_SetupEB
+	.extern	Spi_GetSequenceResult
+	.extern	Spi_SyncTransmit
+	.extern	Spi_Config
+	.calls	'.cocofun_1','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L11:
+	.word	6575
+	.half	3
+	.word	.L12
+	.byte	4
+.L10:
+	.byte	1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L13
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	130
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	137
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	179
+	.byte	7
+	.word	179
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	195
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	200
+	.byte	9
+	.byte	'value',0
+	.word	179
+	.byte	9
+	.byte	'compare',0
+	.word	179
+	.byte	0,2
+	.byte	'unsigned char',0,1,8,2
+	.byte	'unsigned short int',0,2,7,3
+	.word	274
+	.byte	7
+	.word	296
+	.byte	10,1,164,2,9,12,11
+	.byte	'SequenceId',0
+	.word	257
+	.byte	1,2,35,0,11
+	.byte	'JobLinkPtrPhysical',0
+	.word	301
+	.byte	4,2,35,4,11
+	.byte	'NoOfJobInSeq',0
+	.word	274
+	.byte	2,2,35,8,11
+	.byte	'HwModuleUsed',0
+	.word	257
+	.byte	1,2,35,10,0,3
+	.word	306
+	.byte	7
+	.word	405
+.L42:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.word	257
+	.byte	7
+	.word	436
+	.byte	10,1,205,2,9,24,11
+	.byte	'JobId',0
+	.word	274
+	.byte	2,2,35,0,11
+	.byte	'BaudRateAndClockParam',0
+	.word	415
+	.byte	4,2,35,2,11
+	.byte	'IdleLeadTrailDelay',0
+	.word	415
+	.byte	4,2,35,6,11
+	.byte	'ChnlLinkPtrPhysical',0
+	.word	441
+	.byte	4,2,35,12,11
+	.byte	'CSPortPin',0
+	.word	274
+	.byte	2,2,35,16,11
+	.byte	'JobPriority',0
+	.word	257
+	.byte	1,2,35,18,11
+	.byte	'CsPolarity',0
+	.word	257
+	.byte	1,2,35,19,11
+	.byte	'HwUnit',0
+	.word	257
+	.byte	1,2,35,20,11
+	.byte	'ParitySupport',0
+	.word	257
+	.byte	1,2,35,21,11
+	.byte	'FramebasedCs',0
+	.word	257
+	.byte	1,2,35,22,0,3
+	.word	446
+	.byte	7
+	.word	677
+	.byte	10,1,172,3,9,12,11
+	.byte	'Defaultdata',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'NoOfDataElements',0
+	.word	274
+	.byte	2,2,35,4,11
+	.byte	'ChannelType',0
+	.word	257
+	.byte	1,2,35,6,11
+	.byte	'DataConfig',0
+	.word	257
+	.byte	1,2,35,7,11
+	.byte	'ChannelId',0
+	.word	257
+	.byte	1,2,35,8,0,3
+	.word	687
+	.byte	7
+	.word	801
+	.byte	10,1,216,3,9,4,11
+	.byte	'ChannelOffset',0
+	.word	274
+	.byte	2,2,35,0,11
+	.byte	'DataTransferLength',0
+	.word	274
+	.byte	2,2,35,2,0,3
+	.word	811
+	.byte	7
+	.word	869
+	.byte	10,1,254,2,9,16,11
+	.byte	'ActiveChipSelectLevel',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'JobQueueLength',0
+	.word	274
+	.byte	2,2,35,4,11
+	.byte	'ClockSetting',0
+	.word	257
+	.byte	1,2,35,6,11
+	.byte	'MasterReceivePortPin',0
+	.word	257
+	.byte	1,2,35,7,11
+	.byte	'MaxSequence',0
+	.word	257
+	.byte	1,2,35,8,11
+	.byte	'ExternalDemuxEnabled',0
+	.word	257
+	.byte	1,2,35,9,11
+	.byte	'StrobeDelay',0
+	.word	415
+	.byte	4,2,35,10,0,3
+	.word	879
+	.byte	7
+	.word	1065
+	.byte	12,20
+	.word	1070
+	.byte	13,4,0,3
+	.word	415
+	.byte	10,1,223,3,9,48,11
+	.byte	'SequenceConfigPtr',0
+	.word	410
+	.byte	4,2,35,0,11
+	.byte	'JobConfigPtr',0
+	.word	682
+	.byte	4,2,35,4,11
+	.byte	'ChannelConfigPtr',0
+	.word	806
+	.byte	4,2,35,8,11
+	.byte	'ChannelOffsetInfo',0
+	.word	874
+	.byte	4,2,35,12,11
+	.byte	'QSPIHwConfigPtr',0
+	.word	1075
+	.byte	20,2,35,16,11
+	.byte	'QSPIHwMap',0
+	.word	1084
+	.byte	4,2,35,36,11
+	.byte	'NoOfSequences',0
+	.word	257
+	.byte	1,2,35,40,11
+	.byte	'NoOfJobs',0
+	.word	274
+	.byte	2,2,35,42,11
+	.byte	'NoOfChannels',0
+	.word	257
+	.byte	1,2,35,44,0,3
+	.word	1089
+	.byte	7
+	.word	1305
+	.byte	12,12
+	.word	1310
+	.byte	13,2,0,3
+	.word	257
+	.byte	7
+	.word	1324
+	.byte	3
+	.word	274
+	.byte	7
+	.word	1334
+	.byte	10,1,130,4,9,36,11
+	.byte	'CoreConfigPtr',0
+	.word	1315
+	.byte	12,2,35,0,11
+	.byte	'SequenceLookup',0
+	.word	1329
+	.byte	4,2,35,12,11
+	.byte	'JobLookup',0
+	.word	1339
+	.byte	4,2,35,16,11
+	.byte	'ChannelLookup',0
+	.word	1329
+	.byte	4,2,35,20,11
+	.byte	'NoOfSequences',0
+	.word	257
+	.byte	1,2,35,24,11
+	.byte	'NoOfJobs',0
+	.word	274
+	.byte	2,2,35,26,11
+	.byte	'NoOfChannels',0
+	.word	257
+	.byte	1,2,35,28,11
+	.byte	'SyncTimeout',0
+	.word	415
+	.byte	4,2,35,30,0,3
+	.word	1344
+	.byte	7
+	.word	1524
+	.byte	3
+	.word	1529
+	.byte	14
+	.byte	'Spi_Init',0,1,223,4,13,1,1,1,1,15
+	.byte	'ConfigPtr',0,1,223,4,50
+	.word	1534
+	.byte	0,3
+	.word	257
+	.byte	3
+	.word	257
+	.byte	7
+	.word	1582
+	.byte	3
+	.word	1587
+	.byte	3
+	.word	1587
+	.byte	3
+	.word	274
+	.byte	16
+	.byte	'Spi_SetupEB',0,1,173,6,23
+	.word	257
+	.byte	1,1,1,1,15
+	.byte	'Channel',0,1,175,6,25
+	.word	1577
+	.byte	15
+	.byte	'SrcDataBufferPtr',0,1,176,6,35
+	.word	1592
+	.byte	15
+	.byte	'DesDataBufferPtr',0,1,177,6,35
+	.word	1597
+	.byte	15
+	.byte	'Length',0,1,178,6,30
+	.word	1602
+	.byte	0,17,1,191,1,9,1,18
+	.byte	'SPI_SEQ_OK',0,0,18
+	.byte	'SPI_SEQ_PENDING',0,1,18
+	.byte	'SPI_SEQ_FAILED',0,2,18
+	.byte	'SPI_SEQ_CANCELED',0,3,0,3
+	.word	257
+	.byte	16
+	.byte	'Spi_GetSequenceResult',0,1,131,7,26
+	.word	1718
+	.byte	1,1,1,1,15
+	.byte	'Sequence',0,1,131,7,71
+	.word	1792
+	.byte	0,3
+	.word	257
+	.byte	16
+	.byte	'Spi_SyncTransmit',0,1,201,7,23
+	.word	257
+	.byte	1,1,1,1,15
+	.byte	'Sequence',0,1,201,7,63
+	.word	1851
+	.byte	0
+.L44:
+	.byte	6
+	.word	1718
+	.byte	19,1,7
+	.word	1910
+	.byte	20
+	.byte	'__codeptr',0,2,1,1
+	.word	1912
+	.byte	20
+	.byte	'boolean',0,3,101,29
+	.word	257
+	.byte	20
+	.byte	'uint8',0,3,105,29
+	.word	257
+	.byte	20
+	.byte	'uint16',0,3,109,29
+	.word	274
+	.byte	20
+	.byte	'uint32',0,3,113,29
+	.word	415
+	.byte	2
+	.byte	'unsigned long long int',0,8,7,20
+	.byte	'uint64',0,3,118,29
+	.word	1995
+	.byte	20
+	.byte	'Std_ReturnType',0,4,97,16
+	.word	257
+	.byte	20
+	.byte	'unsigned_int',0,5,79,22
+	.word	179
+	.byte	20
+	.byte	'Spi_SeqResultType',0,1,197,1,3
+	.word	1718
+	.byte	20
+	.byte	'Spi_DataBufferType',0,1,222,1,15
+	.word	257
+	.byte	20
+	.byte	'Spi_NumberOfDataType',0,1,229,1,16
+	.word	274
+	.byte	20
+	.byte	'Spi_ChannelType',0,1,235,1,15
+	.word	257
+	.byte	20
+	.byte	'Spi_JobType',0,1,241,1,16
+	.word	274
+	.byte	20
+	.byte	'Spi_SequenceType',0,1,247,1,15
+	.word	257
+	.byte	20
+	.byte	'Spi_HWUnitType',0,1,253,1,15
+	.word	257
+	.byte	20
+	.byte	'Spi_QSPIHwMapConfigType',0,1,129,2,16
+	.word	415
+	.byte	20
+	.byte	'Spi_SequenceConfigType',0,1,198,2,3
+	.word	306
+	.byte	20
+	.byte	'Spi_JobConfigType',0,1,246,2,3
+	.word	446
+	.byte	20
+	.byte	'Spi_QspiHwConfigType',0,1,164,3,3
+	.word	879
+	.byte	20
+	.byte	'Spi_ChannelConfigType',0,1,192,3,3
+	.word	687
+	.byte	20
+	.byte	'Spi_CoreChannelOffsetType',0,1,220,3,3
+	.word	811
+	.byte	20
+	.byte	'Spi_CoreConfigType',0,1,254,3,3
+	.word	1089
+	.byte	20
+	.byte	'Spi_ConfigType',0,1,154,4,3
+	.word	1344
+	.byte	3
+	.word	1344
+	.byte	21
+	.byte	'Spi_Config',0,6,60,29
+	.word	2501
+	.byte	1,1,20
+	.byte	'Mcu_ExternalClockConfigType',0,7,223,1,18
+	.word	415
+	.byte	20
+	.byte	'Mcu_ClockType',0,7,228,1,18
+	.word	415
+	.byte	20
+	.byte	'Mcu_RamSectionType',0,7,233,1,18
+	.word	415
+	.byte	22
+	.byte	'void',0,7
+	.word	2615
+	.byte	20
+	.byte	'Mcu_RamBaseAdrType',0,7,244,1,18
+	.word	2621
+	.byte	20
+	.byte	'Mcu_RamSizeType',0,7,248,1,18
+	.word	415
+	.byte	20
+	.byte	'Mcu_RamWriteSizeType',0,7,252,1,18
+	.word	415
+	.byte	20
+	.byte	'Mcu_RamPrstDatType',0,7,128,2,19
+	.word	1995
+	.byte	10,7,237,2,9,4,23
+	.byte	'Insel',0,1
+	.word	257
+	.byte	2,6,2,35,0,23
+	.byte	'SysPllPDiv',0,1
+	.word	257
+	.byte	3,3,2,35,0,23
+	.byte	'SysPllNDiv',0,2
+	.word	274
+	.byte	7,4,2,35,0,23
+	.byte	'SysPllK2Div',0,1
+	.word	257
+	.byte	3,1,2,35,1,23
+	.byte	'FmPllEn',0,1
+	.word	257
+	.byte	1,0,2,35,1,23
+	.byte	'ModulationAmplitude',0,2
+	.word	274
+	.byte	16,0,2,35,2,0,20
+	.byte	'Mcu_SystemPllConfigType',0,7,246,2,3
+	.word	2737
+	.byte	10,7,254,2,9,4,23
+	.byte	'PerPllNDiv',0,1
+	.word	257
+	.byte	7,1,2,35,0,23
+	.byte	'PerPllPDiv',0,2
+	.word	274
+	.byte	3,6,2,35,0,23
+	.byte	'PerPllK2Div',0,1
+	.word	257
+	.byte	3,3,2,35,1,23
+	.byte	'PerPllK3Div',0,1
+	.word	257
+	.byte	3,0,2,35,1,23
+	.byte	'K3DivByPass',0,1
+	.word	257
+	.byte	1,7,2,35,2,23
+	.byte	'Reserved',0,2
+	.word	274
+	.byte	15,0,2,35,2,0,20
+	.byte	'Mcu_PeripheralPllConfigType',0,7,134,3,3
+	.word	2911
+	.byte	12,12
+	.word	415
+	.byte	13,2,0,10,7,142,3,9,28,11
+	.byte	'Ccucon0',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'Ccucon1',0
+	.word	415
+	.byte	4,2,35,4,11
+	.byte	'Ccucon2',0
+	.word	415
+	.byte	4,2,35,8,11
+	.byte	'Ccucon5',0
+	.word	415
+	.byte	4,2,35,12,11
+	.byte	'CcuconCpu',0
+	.word	3088
+	.byte	12,2,35,16,0,20
+	.byte	'Mcu_PllDistributionConfigType',0,7,154,3,3
+	.word	3097
+	.byte	3
+	.word	3097
+	.byte	7
+	.word	3230
+	.byte	10,7,162,3,9,44,11
+	.byte	'SystemPllCfg',0
+	.word	2737
+	.byte	4,2,35,0,11
+	.byte	'PeripheralPllCfg',0
+	.word	2911
+	.byte	4,2,35,4,11
+	.byte	'SysPllK2DivStepUpChangeDelay',0
+	.word	415
+	.byte	4,2,35,8,11
+	.byte	'SysPllK2DivStepDownChangeDelay',0
+	.word	415
+	.byte	4,2,35,12,11
+	.byte	'PeripheralPllK2StepUpChangeDelay',0
+	.word	415
+	.byte	4,2,35,16,11
+	.byte	'PeripheralPllK2StepDownChangeDelay',0
+	.word	415
+	.byte	4,2,35,20,11
+	.byte	'PeripheralPllK3StepUpChangeDelay',0
+	.word	415
+	.byte	4,2,35,24,11
+	.byte	'PeripheralPllK3StepDownChangeDelay',0
+	.word	415
+	.byte	4,2,35,28,11
+	.byte	'PllDistributionCfgPtr',0
+	.word	3235
+	.byte	4,2,35,32,11
+	.byte	'ExternalClockCfg',0
+	.word	415
+	.byte	4,2,35,36,11
+	.byte	'BackupFreqKDiv',0
+	.word	274
+	.byte	2,2,35,40,11
+	.byte	'ConvCtrlBlockConf',0
+	.word	257
+	.byte	1,2,35,42,0,20
+	.byte	'Mcu_ClockConfigType',0,7,188,3,3
+	.word	3240
+	.byte	10,7,195,3,9,28,11
+	.byte	'RamBaseAdrPtr',0
+	.word	2626
+	.byte	4,2,35,0,11
+	.byte	'RamSize',0
+	.word	415
+	.byte	4,2,35,4,11
+	.byte	'RamPrstData',0
+	.word	1995
+	.byte	8,2,35,8,11
+	.byte	'RamData',0
+	.word	1995
+	.byte	8,2,35,16,11
+	.byte	'RamWriteSize',0
+	.word	415
+	.byte	4,2,35,24,0,20
+	.byte	'Mcu_RamConfigType',0,7,204,3,3
+	.word	3682
+	.byte	7
+	.word	2615
+	.byte	10,7,212,3,9,4,23
+	.byte	'McuMode',0,1
+	.word	257
+	.byte	3,5,2,35,0,23
+	.byte	'EvrcLowPowerMode',0,1
+	.word	257
+	.byte	1,4,2,35,0,23
+	.byte	'Reserved',0,4
+	.word	179
+	.byte	28,0,2,35,0,0,20
+	.byte	'Mcu_ModeEvrcCtrlType',0,7,217,3,3
+	.word	3821
+	.byte	10,7,234,3,9,28,11
+	.byte	'MaxModeEvrcCtrl',0
+	.word	3821
+	.byte	4,2,35,0,11
+	.byte	'Pmswcr0',0
+	.word	415
+	.byte	4,2,35,4,11
+	.byte	'Pmswcr3',0
+	.word	415
+	.byte	4,2,35,8,11
+	.byte	'Pmswcr4',0
+	.word	415
+	.byte	4,2,35,12,11
+	.byte	'Pmswcr5',0
+	.word	415
+	.byte	4,2,35,16,11
+	.byte	'Evruvmon',0
+	.word	415
+	.byte	4,2,35,20,11
+	.byte	'EvrmonCtrl',0
+	.word	415
+	.byte	4,2,35,24,0,20
+	.byte	'Mcu_LowPowerModeType',0,7,253,3,3
+	.word	3925
+	.byte	10,7,133,4,9,8,11
+	.byte	'GtmCmuExtClockNum',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'GtmCmuExtClockDen',0
+	.word	415
+	.byte	4,2,35,4,0,20
+	.byte	'Mcu_GtmExtClkType',0,7,139,4,3
+	.word	4093
+	.byte	12,32
+	.word	415
+	.byte	13,7,0,12,24
+	.word	4093
+	.byte	13,2,0,10,7,146,4,9,80,11
+	.byte	'GtmCmuClockEnable',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'GtmCmuGlobalNumerator',0
+	.word	415
+	.byte	4,2,35,4,11
+	.byte	'GtmCmuGlobalDenominator',0
+	.word	415
+	.byte	4,2,35,8,11
+	.byte	'GtmCmuConfClkCtrl',0
+	.word	4181
+	.byte	32,2,35,12,11
+	.byte	'GtmCmuFixedClkCtrl',0
+	.word	415
+	.byte	4,2,35,44,11
+	.byte	'GtmCmuClsInDiv',0
+	.word	415
+	.byte	4,2,35,48,11
+	.byte	'GtmEclkCtrl',0
+	.word	4190
+	.byte	24,2,35,52,11
+	.byte	'GtmCmuClkCtrl',0
+	.word	415
+	.byte	4,2,35,76,0,20
+	.byte	'Mcu_GtmClockSettingType',0,7,164,4,3
+	.word	4199
+	.byte	10,7,171,4,9,12,11
+	.byte	'GtmCcmCfg',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'GtmCcmConfClockCfg',0
+	.word	415
+	.byte	4,2,35,4,11
+	.byte	'GtmCcmFixedClockCfg',0
+	.word	415
+	.byte	4,2,35,8,0,20
+	.byte	'Mcu_GtmClusterConfigType',0,7,179,4,3
+	.word	4453
+	.byte	10,7,186,4,9,8,11
+	.byte	'TomTgcIntTrigRstCn0',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'TomTgcActTb',0
+	.word	415
+	.byte	4,2,35,4,0,20
+	.byte	'Mcu_GtmTomConfigType',0,7,201,4,3
+	.word	4570
+	.byte	10,7,208,4,9,8,11
+	.byte	'AtomAgcIntTrigRstCn0',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'AtomAgcActTb',0
+	.word	415
+	.byte	4,2,35,4,0,20
+	.byte	'Mcu_GtmAtomConfigType',0,7,223,4,3
+	.word	4657
+	.byte	10,7,230,4,9,8,11
+	.byte	'GtmAdcTrigOut0',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'GtmAdcTrigOut1',0
+	.word	415
+	.byte	4,2,35,4,0,20
+	.byte	'Mcu_GtmAdcTrigType',0,7,234,4,3
+	.word	4747
+	.byte	10,7,238,4,9,8,11
+	.byte	'GtmDsadcTrigOut0',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'GtmDsadcTrigOut1',0
+	.word	415
+	.byte	4,2,35,4,0,20
+	.byte	'Mcu_GtmDsadcTrigType',0,7,242,4,3
+	.word	4830
+	.byte	3
+	.word	4199
+	.byte	7
+	.word	4919
+	.byte	3
+	.word	4453
+	.byte	7
+	.word	4929
+	.byte	12,48
+	.word	4570
+	.byte	13,5,0,12,48
+	.word	4657
+	.byte	13,5,0,12,40
+	.word	4747
+	.byte	13,4,0,12,32
+	.word	4830
+	.byte	13,3,0,12,76
+	.word	415
+	.byte	13,18,0,12,24
+	.word	415
+	.byte	13,5,0,10,7,250,4,9,236,2,11
+	.byte	'GtmClockCfgPtr',0
+	.word	4924
+	.byte	4,2,35,0,11
+	.byte	'GtmClusterCfgPtr',0
+	.word	4934
+	.byte	4,2,35,4,11
+	.byte	'GtmTomCfg',0
+	.word	4939
+	.byte	48,2,35,8,11
+	.byte	'GtmAtomCfg',0
+	.word	4948
+	.byte	48,2,35,56,11
+	.byte	'GtmAdcTrigCfg',0
+	.word	4957
+	.byte	40,2,35,104,11
+	.byte	'GtmDsadcTrigCfg',0
+	.word	4966
+	.byte	32,3,35,144,1,11
+	.byte	'GtmToutSelCfg',0
+	.word	4975
+	.byte	76,3,35,176,1,11
+	.byte	'GtmToutSelCfgMsk',0
+	.word	4975
+	.byte	76,3,35,252,1,11
+	.byte	'GtmTimInSelCfg',0
+	.word	4984
+	.byte	24,3,35,200,2,11
+	.byte	'GtmTbuCfg',0
+	.word	415
+	.byte	4,3,35,224,2,11
+	.byte	'GtmTomModuleUsage',0
+	.word	274
+	.byte	2,3,35,228,2,11
+	.byte	'GtmAtomModuleUsage',0
+	.word	274
+	.byte	2,3,35,230,2,11
+	.byte	'IsGtmSleepModeEnabled',0
+	.word	257
+	.byte	1,3,35,232,2,0,20
+	.byte	'Mcu_GtmConfigType',0,7,150,5,3
+	.word	4993
+	.byte	10,8,199,1,9,16,11
+	.byte	'PC0',0
+	.word	257
+	.byte	1,2,35,0,11
+	.byte	'PC1',0
+	.word	257
+	.byte	1,2,35,1,11
+	.byte	'PC2',0
+	.word	257
+	.byte	1,2,35,2,11
+	.byte	'PC3',0
+	.word	257
+	.byte	1,2,35,3,11
+	.byte	'PC4',0
+	.word	257
+	.byte	1,2,35,4,11
+	.byte	'PC5',0
+	.word	257
+	.byte	1,2,35,5,11
+	.byte	'PC6',0
+	.word	257
+	.byte	1,2,35,6,11
+	.byte	'PC7',0
+	.word	257
+	.byte	1,2,35,7,11
+	.byte	'PC8',0
+	.word	257
+	.byte	1,2,35,8,11
+	.byte	'PC9',0
+	.word	257
+	.byte	1,2,35,9,11
+	.byte	'PC10',0
+	.word	257
+	.byte	1,2,35,10,11
+	.byte	'PC11',0
+	.word	257
+	.byte	1,2,35,11,11
+	.byte	'PC12',0
+	.word	257
+	.byte	1,2,35,12,11
+	.byte	'PC13',0
+	.word	257
+	.byte	1,2,35,13,11
+	.byte	'PC14',0
+	.word	257
+	.byte	1,2,35,14,11
+	.byte	'PC15',0
+	.word	257
+	.byte	1,2,35,15,0,20
+	.byte	'Port_n_ControlType',0,8,219,1,3
+	.word	5351
+	.byte	10,8,223,1,9,4,23
+	.byte	'P0',0,1
+	.word	257
+	.byte	1,7,2,35,0,23
+	.byte	'P1',0,1
+	.word	257
+	.byte	1,6,2,35,0,23
+	.byte	'P2',0,1
+	.word	257
+	.byte	1,5,2,35,0,23
+	.byte	'P3',0,1
+	.word	257
+	.byte	1,4,2,35,0,23
+	.byte	'P4',0,1
+	.word	257
+	.byte	1,3,2,35,0,23
+	.byte	'P5',0,1
+	.word	257
+	.byte	1,2,2,35,0,23
+	.byte	'P6',0,1
+	.word	257
+	.byte	1,1,2,35,0,23
+	.byte	'P7',0,1
+	.word	257
+	.byte	1,0,2,35,0,23
+	.byte	'P8',0,1
+	.word	257
+	.byte	1,7,2,35,1,23
+	.byte	'P9',0,1
+	.word	257
+	.byte	1,6,2,35,1,23
+	.byte	'P10',0,1
+	.word	257
+	.byte	1,5,2,35,1,23
+	.byte	'P11',0,1
+	.word	257
+	.byte	1,4,2,35,1,23
+	.byte	'P12',0,1
+	.word	257
+	.byte	1,3,2,35,1,23
+	.byte	'P13',0,1
+	.word	257
+	.byte	1,2,2,35,1,23
+	.byte	'P14',0,1
+	.word	257
+	.byte	1,1,2,35,1,23
+	.byte	'P15',0,1
+	.word	257
+	.byte	1,0,2,35,1,23
+	.byte	'reserved',0,2
+	.word	274
+	.byte	16,0,2,35,2,0,20
+	.byte	'Port_n_PinType',0,8,244,1,3
+	.word	5600
+	.byte	12,16
+	.word	257
+	.byte	13,15,0,10,8,252,1,9,16,11
+	.byte	'U',0
+	.word	5881
+	.byte	16,2,35,0,0,20
+	.byte	'Port_n_ModeType',0,8,129,2,3
+	.word	5890
+	.byte	10,8,136,2,9,56,11
+	.byte	'PinControl',0
+	.word	5351
+	.byte	16,2,35,0,11
+	.byte	'PinLevel',0
+	.word	5600
+	.byte	4,2,35,16,11
+	.byte	'DriverStrength0',0
+	.word	415
+	.byte	4,2,35,20,11
+	.byte	'DriverStrength1',0
+	.word	415
+	.byte	4,2,35,24,11
+	.byte	'ModeChangeControl',0
+	.word	5600
+	.byte	4,2,35,28,11
+	.byte	'DirChangeControl',0
+	.word	5600
+	.byte	4,2,35,32,11
+	.byte	'PinControl2',0
+	.word	5351
+	.byte	16,2,35,36,11
+	.byte	'EmergencyStopConf',0
+	.word	5600
+	.byte	4,2,35,52,0,20
+	.byte	'Port_n_ConfigType',0,8,160,2,3
+	.word	5933
+	.byte	10,8,166,2,9,28,11
+	.byte	'LPCR0',0
+	.word	415
+	.byte	4,2,35,0,11
+	.byte	'LPCR1',0
+	.word	415
+	.byte	4,2,35,4,11
+	.byte	'LPCR2',0
+	.word	415
+	.byte	4,2,35,8,11
+	.byte	'LPCR3',0
+	.word	415
+	.byte	4,2,35,12,11
+	.byte	'LPCR4',0
+	.word	415
+	.byte	4,2,35,16,11
+	.byte	'LPCR5',0
+	.word	415
+	.byte	4,2,35,20,11
+	.byte	'LPCR6',0
+	.word	415
+	.byte	4,2,35,24,0,20
+	.byte	'Port_n_LVDSConfigType',0,8,190,2,3
+	.word	6156
+	.byte	20
+	.byte	'Port_n_PCSRConfigType',0,8,194,2,16
+	.word	415
+	.byte	20
+	.byte	'Dio_PortType',0,9,142,1,15
+	.word	257
+	.byte	20
+	.byte	'Dio_PortLevelType',0,9,147,1,16
+	.word	274
+	.byte	10,9,152,1,9,4,11
+	.byte	'mask',0
+	.word	274
+	.byte	2,2,35,0,11
+	.byte	'offset',0
+	.word	257
+	.byte	1,2,35,2,11
+	.byte	'port',0
+	.word	257
+	.byte	1,2,35,3,0,20
+	.byte	'Dio_ChannelGroupType',0,9,162,1,3
+	.word	6379
+	.byte	10,9,167,1,9,4,11
+	.byte	'Dio_PortIdConfig',0
+	.word	257
+	.byte	1,2,35,0,11
+	.byte	'Dio_ChannelConfig',0
+	.word	274
+	.byte	2,2,35,2,0,20
+	.byte	'Dio_PortChannelIdType',0,9,175,1,3
+	.word	6460
+.L48:
+	.byte	12,6
+	.word	257
+	.byte	13,5,0
+.L49:
+	.byte	12,1
+	.word	257
+	.byte	13,0,0
+.L50:
+	.byte	12,4
+	.word	257
+	.byte	13,3,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L12:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,1,1,11,15,73,19,0,0,13,33,0,47,15,0,0,14,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,15
+	.byte	5,0,3,8,58,15,59,15,57,15,73,19,0,0,16,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,17
+	.byte	4,1,58,15,59,15,57,15,11,15,0,0,18,40,0,3,8,28,13,0,0,19,21,0,54,15,0,0,20,22,0,3,8,58,15,59,15,57,15
+	.byte	73,19,0,0,21,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,22,59,0,3,8,0,0,23,13,0,3,8,11,15,73,19
+	.byte	13,15,12,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L13:
+	.word	.L53-.L52
+.L52:
+	.half	3
+	.word	.L55-.L54
+.L54:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc',0,0
+	.byte	'Spi.h',0,1,0,0
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Std_Types.h',0,2,0,0
+	.byte	'Mcal_Compiler.h',0,3,0,0
+	.byte	'Spi_PBcfg.h',0,4,0,0
+	.byte	'Mcu.h',0,5,0,0
+	.byte	'Port.h',0,6,0,0
+	.byte	'Dio.h',0,7,0,0,0
+.L55:
+.L53:
+	.sdecl	'.debug_info',debug,cluster('MySpi_SyncTransmit')
+	.sect	'.debug_info'
+.L14:
+	.word	238
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L17,.L16
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'MySpi_SyncTransmit',0,1,4,6,1,1,1
+	.word	.L5,.L41,.L4
+	.byte	4
+	.word	.L5,.L41
+	.byte	5
+	.byte	'T_Timeout',0,1,7,9
+	.word	.L42,.L43
+	.byte	5
+	.byte	'Spi_TransmitStatus',0,1,8,29
+	.word	.L44,.L45
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('MySpi_SyncTransmit')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('MySpi_SyncTransmit')
+	.sect	'.debug_line'
+.L16:
+	.word	.L57-.L56
+.L56:
+	.half	3
+	.word	.L59-.L58
+.L58:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0,0,0,0,0
+.L59:
+	.byte	5,19,7,0,5,2
+	.word	.L5
+	.byte	3,6,1,5,6,3,125,1,5,50,9
+	.half	.L51-.L5
+	.byte	3,4,1,5,48,1,5,25,9
+	.half	.L60-.L51
+	.byte	3,3,1,5,46,9
+	.half	.L2-.L60
+	.byte	3,4,1,5,22,9
+	.half	.L61-.L2
+	.byte	1,5,24,9
+	.half	.L62-.L61
+	.byte	3,2,1,5,10,9
+	.half	.L63-.L62
+	.byte	1,5,59,7,9
+	.half	.L64-.L63
+	.byte	1,5,48,9
+	.half	.L65-.L64
+	.byte	1,5,1,7,9
+	.half	.L3-.L65
+	.byte	3,1,1,7,9
+	.half	.L18-.L3
+	.byte	0,1,1
+.L57:
+	.sdecl	'.debug_ranges',debug,cluster('MySpi_SyncTransmit')
+	.sect	'.debug_ranges'
+.L17:
+	.word	-1,.L5,0,.L18-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_DemoFunction_HW_CS')
+	.sect	'.debug_info'
+.L19:
+	.word	185
+	.half	3
+	.word	.L20
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L22,.L21
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'Spi_DemoFunction_HW_CS',0,1,232,3,6,1,1,1
+	.word	.L7,.L46,.L6
+	.byte	4
+	.word	.L47
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_DemoFunction_HW_CS')
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Spi_DemoFunction_HW_CS')
+	.sect	'.debug_line'
+.L21:
+	.word	.L67-.L66
+.L66:
+	.half	3
+	.word	.L69-.L68
+.L68:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0,0,0,0,0
+.L69:
+	.byte	5,12,7,0,5,2
+	.word	.L7
+	.byte	3,234,3,1,5,14,9
+	.half	.L70-.L7
+	.byte	3,2,1,5,60,1,5,69,9
+	.half	.L71-.L70
+	.byte	1,5,78,9
+	.half	.L72-.L71
+	.byte	1,5,20,9
+	.half	.L73-.L72
+	.byte	3,1,1,5,14,9
+	.half	.L74-.L73
+	.byte	3,2,1,5,80,9
+	.half	.L75-.L74
+	.byte	1,5,20,9
+	.half	.L76-.L75
+	.byte	3,1,1,5,14,9
+	.half	.L77-.L76
+	.byte	3,2,1,5,80,9
+	.half	.L78-.L77
+	.byte	1,5,20,9
+	.half	.L79-.L78
+	.byte	3,1,1,5,14,9
+	.half	.L80-.L79
+	.byte	3,2,1,5,60,1,5,72,9
+	.half	.L81-.L80
+	.byte	1,5,84,9
+	.half	.L82-.L81
+	.byte	1,5,20,9
+	.half	.L83-.L82
+	.byte	3,1,1,5,1,7,9
+	.half	.L23-.L83
+	.byte	3,1,0,1,1
+.L67:
+	.sdecl	'.debug_ranges',debug,cluster('Spi_DemoFunction_HW_CS')
+	.sect	'.debug_ranges'
+.L22:
+	.word	-1,.L7,0,.L23-.L7,0,0
+.L47:
+	.word	-1,.L7,0,.L46-.L7,-1,.L9,0,.L28-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_1')
+	.sect	'.debug_info'
+.L24:
+	.word	165
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L27,.L26
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'.cocofun_1',0,1,232,3,6,1
+	.word	.L9,.L28,.L8
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_1')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_1')
+	.sect	'.debug_line'
+.L26:
+	.word	.L85-.L84
+.L84:
+	.half	3
+	.word	.L87-.L86
+.L86:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0,0,0,0,0
+.L87:
+	.byte	5,14,7,0,5,2
+	.word	.L9
+	.byte	3,239,3,1,5,60,1,5,70,9
+	.half	.L88-.L9
+	.byte	1,5,80,9
+	.half	.L89-.L88
+	.byte	1,9
+	.half	.L28-.L89
+	.byte	0,1,1,5,14,0,5,2
+	.word	.L9
+	.byte	3,242,3,1,5,60,1,5,70,9
+	.half	.L88-.L9
+	.byte	1,5,80,9
+	.half	.L89-.L88
+	.byte	1,3,125,1,7,9
+	.half	.L28-.L89
+	.byte	0,1,1
+.L85:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_1')
+	.sect	'.debug_ranges'
+.L27:
+	.word	-1,.L9,0,.L28-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('gpTxData')
+	.sect	'.debug_info'
+.L29:
+	.word	153
+	.half	3
+	.word	.L30
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L10
+	.byte	3
+	.byte	'gpTxData',0,2,224,3,7
+	.word	.L48
+	.byte	1,5,3
+	.word	gpTxData
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('gpTxData')
+	.sect	'.debug_abbrev'
+.L30:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('gpRxData')
+	.sect	'.debug_info'
+.L31:
+	.word	153
+	.half	3
+	.word	.L32
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L10
+	.byte	3
+	.byte	'gpRxData',0,2,225,3,7
+	.word	.L48
+	.byte	1,5,3
+	.word	gpRxData
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('gpRxData')
+	.sect	'.debug_abbrev'
+.L32:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('dummyTx')
+	.sect	'.debug_info'
+.L33:
+	.word	152
+	.half	3
+	.word	.L34
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L10
+	.byte	3
+	.byte	'dummyTx',0,2,227,3,7
+	.word	.L49
+	.byte	1,5,3
+	.word	dummyTx
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('dummyTx')
+	.sect	'.debug_abbrev'
+.L34:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('dummyRx')
+	.sect	'.debug_info'
+.L35:
+	.word	152
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L10
+	.byte	3
+	.byte	'dummyRx',0,2,228,3,7
+	.word	.L49
+	.byte	1,5,3
+	.word	dummyRx
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('dummyRx')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('JEDECID_Tx')
+	.sect	'.debug_info'
+.L37:
+	.word	155
+	.half	3
+	.word	.L38
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L10
+	.byte	3
+	.byte	'JEDECID_Tx',0,2,230,3,7
+	.word	.L50
+	.byte	1,5,3
+	.word	JEDECID_Tx
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('JEDECID_Tx')
+	.sect	'.debug_abbrev'
+.L38:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('JEDECID_Rx')
+	.sect	'.debug_info'
+.L39:
+	.word	155
+	.half	3
+	.word	.L40
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\UserIf\\w25qxx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L10
+	.byte	3
+	.byte	'JEDECID_Rx',0,2,231,3,7
+	.word	.L50
+	.byte	1,5,3
+	.word	JEDECID_Rx
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('JEDECID_Rx')
+	.sect	'.debug_abbrev'
+.L40:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_1')
+	.sect	'.debug_loc'
+.L8:
+	.word	-1,.L9,0,.L28-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('MySpi_SyncTransmit')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L51-.L5
+	.half	2
+	.byte	138,0
+	.word	.L51-.L5,.L41-.L5
+	.half	2
+	.byte	138,8
+	.word	.L41-.L5,.L41-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L45:
+	.word	-1,.L5,0,.L41-.L5
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L43:
+	.word	-1,.L5,.L51-.L5,.L41-.L5
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Spi_DemoFunction_HW_CS')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L46-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L90:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('MySpi_SyncTransmit')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L90,.L5,.L41-.L5
+	.byte	4
+	.word	(.L51-.L5)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L41-.L51)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('Spi_DemoFunction_HW_CS')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L90,.L7,.L46-.L7
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L91:
+	.word	52
+	.word	-1
+	.byte	3,0,2,1,40,12,26,0,9,40,27,155,0,7,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36
+	.byte	8,37,8,38,8,39,0
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_1')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L91,.L9,.L28-.L9
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\src\BaseSw\UserIf\w25qxx.c	   504  }
+; ..\src\BaseSw\UserIf\w25qxx.c	   505  
+
+	; Module end

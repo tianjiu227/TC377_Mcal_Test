@@ -1,0 +1,444 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\BaseSw\\Infra\\Autosar_Srv\\.Dem.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\BaseSw\\Infra\\Autosar_Srv\\Dem.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\BaseSw\\Infra\\Autosar_Srv\\Dem.src ..\\src\\BaseSw\\Infra\\Autosar_Srv\\Dem.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Dem.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Dem.Dem_ReportErrorStatus',code,cluster('Dem_ReportErrorStatus')
+	.sect	'.text.Dem.Dem_ReportErrorStatus'
+	.align	2
+	
+	.global	Dem_ReportErrorStatus
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	     1  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	     2  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	     3  ** Copyright (C) Infineon Technologies (2021)                                 **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	     4  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	     5  ** All rights reserved.                                                       **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	     6  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	     7  ** This document contains proprietary information belonging to Infineon       **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	     8  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	     9  ** of its contents is not permitted without prior written authorization.      **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    10  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    11  ********************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    12  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    13  **  FILENAME     : Dem.c                                                      **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    14  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    15  **  VERSION      : 1.0.0                                                      **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    16  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    17  **  DATE         : 2021-11-09                                                 **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    18  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    19  **  VARIANT      : Variant PB                                                 **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    20  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    21  **  PLATFORM     : Infineon AURIX2G                                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    22  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    23  **  AUTHOR       : DL-AUTOSAR-Engineering                                     **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    24  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    25  **  VENDOR       : Infineon Technologies                                      **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    26  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    27  **  DESCRIPTION  : Dem Driver source file                                     **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    28  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    29  **  SPECIFICATION(S) : Specification of Dem Driver,                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    30  **                     AUTOSAR Release 4.2.2, AUTOSAR Release 4.4.0           **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    31  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    32  **  MAY BE CHANGED BY USER : yes                                              **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    33  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    34  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    35  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    36  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    37  **                      Includes                                              **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    38  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    39  #include "Dem.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    40  #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    41  #if (APP_SW == DEMO_APP)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    42  #include "Test_Print.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    43  #endif /*#if (APP_SW == DEMO_APP)*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    44  #if (APP_SW == TEST_APP)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    45  #include "Test_Dem.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    46  #endif /*#if (APP_SW == TEST_APP)*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    47  #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    48  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    49  **                      Imported Compiler Switch Check                        **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    50  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    51  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    52  **                      Private Macro Definitions                             **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    53  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    54  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    55  **                      Private Type Definitions                              **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    56  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    57  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    58  **                      Private Function Declarations                         **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    59  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    60  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    61  **                      Global Constant Definitions                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    62  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    63  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    64  **                      Global Variable Definitions                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    65  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    66  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    67  **                      Private Constant Definitions                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    68  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    69  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    70  **                      Private Variable Definitions                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    71  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    72  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    73  **                      Global Function Definitions                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    74  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    75  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    76  /*****************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    77   Dem_ReportErrorStatus
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    78  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    79    Function name:  void Dem_ReportErrorStatus(Dem_EventIdType EventId,
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    80    Dem_EventStatusType EventStatus)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    81  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    82    Description:    This is only a function stub for Eg Application
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    83    Parameter:
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    84    Return value:
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    85    Remarks:
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    86  *****************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    87  void Dem_ReportErrorStatus(Dem_EventIdType EventId,
+; Function Dem_ReportErrorStatus
+.L4:
+Dem_ReportErrorStatus:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    88                             Dem_EventStatusType EventStatus)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    89  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    90    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    91    #if (APP_SW == DEMO_APP)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    92    if(DEM_EVENT_STATUS_FAILED == EventStatus)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    93    {
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    94      print_f("\n DEM EVENT FAILED \n");
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    95      print_f("EventId:%d", EventId);
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    96    }
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    97    if(DEM_EVENT_STATUS_PASSED == EventStatus)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    98    {
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	    99      print_f("\n DEM EVENT PASSED \n");
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   100      print_f("EventId:%d", EventId);
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   101    }
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   102    #endif /*#if (APP_SW == DEMO_APP)*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   103  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   104    #if (APP_SW == TEST_APP)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   105    #if (AUTOSAR_VERSION_UNDER_TEST == TEST_AUTOSAR422)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   106    Test_Dem_ReportErrorStatus(EventId, EventStatus);
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   107    #endif /*#if (AUTOSAR_VERSION_UNDER_TEST == TEST_AUTOSAR422)*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   108    #endif /*#if (APP_SW == TEST_APP)*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   109    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   110  }
+	ret
+.L21:
+	
+__Dem_ReportErrorStatus_function_end:
+	.size	Dem_ReportErrorStatus,__Dem_ReportErrorStatus_function_end-Dem_ReportErrorStatus
+.L15:
+	; End of function
+	
+	.sdecl	'.text.Dem.Dem_SetEventStatus',code,cluster('Dem_SetEventStatus')
+	.sect	'.text.Dem.Dem_SetEventStatus'
+	.align	2
+	
+	.global	Dem_SetEventStatus
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   111  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   112  /*****************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   113   Dem_SetEventStatus
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   114  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   115    Function name:  Std_ReturnType Dem_SetEventStatus(Dem_EventIdType EventId,
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   116    Dem_EventStatusType EventStatus)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   117  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   118    Description:    This is only a function stub for Eg Application
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   119    Parameter:
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   120    Return value:
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   121    Remarks:
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   122  *****************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   123  Std_ReturnType Dem_SetEventStatus(Dem_EventIdType EventId,
+; Function Dem_SetEventStatus
+.L6:
+Dem_SetEventStatus:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   124                             Dem_EventStatusType EventStatus)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   125  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   126    Std_ReturnType RetVal = E_OK;
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   127    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   128    #if (APP_SW == DEMO_APP)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   129    if(DEM_EVENT_STATUS_FAILED == EventStatus)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   130    {
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   131      print_f("\n DEM EVENT FAILED \n");
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   132      print_f("EventId:%d", EventId);
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   133    }
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   134    if(DEM_EVENT_STATUS_PASSED == EventStatus)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   135    {
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   136      print_f("\n DEM EVENT PASSED \n");
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   137      print_f("EventId:%d", EventId);
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   138    }
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   139    #endif /*#if (APP_SW == DEMO_APP)*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   140  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   141    #if (APP_SW == TEST_APP)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   142    #if (AUTOSAR_VERSION_UNDER_TEST == TEST_AUTOSAR440)
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   143    RetVal = Test_Dem_SetEventStatus(EventId, EventStatus);
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   144    #endif /*#if (AUTOSAR_VERSION_UNDER_TEST == TEST_AUTOSAR440)*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   145    #endif /*#if (APP_SW == TEST_APP)*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   146    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   147  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   148    return (RetVal);
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   149  }
+	mov	d2,#0
+	ret
+.L26:
+	
+__Dem_SetEventStatus_function_end:
+	.size	Dem_SetEventStatus,__Dem_SetEventStatus_function_end-Dem_SetEventStatus
+.L20:
+	; End of function
+	
+	.calls	'Dem_ReportErrorStatus','',0
+	.calls	'Dem_SetEventStatus','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L8:
+	.word	430
+	.half	3
+	.word	.L9
+	.byte	4
+.L7:
+	.byte	1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Dem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L10
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	138
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	145
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	187
+	.byte	7
+	.word	187
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	203
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	208
+	.byte	9
+	.byte	'value',0
+	.word	187
+	.byte	9
+	.byte	'compare',0
+	.word	187
+	.byte	0
+.L22:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L24:
+	.byte	2
+	.byte	'unsigned char',0,1,8,10,1,7
+	.word	304
+	.byte	11
+	.byte	'__codeptr',0,1,1,1
+	.word	306
+	.byte	11
+	.byte	'uint8',0,2,105,29
+	.word	287
+	.byte	11
+	.byte	'uint16',0,2,109,29
+	.word	265
+	.byte	11
+	.byte	'Std_ReturnType',0,3,97,16
+	.word	287
+	.byte	11
+	.byte	'Dem_EventIdType',0,4,61,16
+	.word	265
+	.byte	11
+	.byte	'Dem_EventStatusType',0,4,62,15
+	.word	287
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L10:
+	.word	.L30-.L29
+.L29:
+	.half	3
+	.word	.L32-.L31
+.L31:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Dem.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Dem.h',0,0,0,0,0
+.L32:
+.L30:
+	.sdecl	'.debug_info',debug,cluster('Dem_ReportErrorStatus')
+	.sect	'.debug_info'
+.L11:
+	.word	239
+	.half	3
+	.word	.L12
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Dem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L14,.L13
+	.byte	2
+	.word	.L7
+	.byte	3
+	.byte	'Dem_ReportErrorStatus',0,1,87,6,1,1,1
+	.word	.L4,.L21,.L3
+	.byte	4
+	.byte	'EventId',0,1,87,44
+	.word	.L22,.L23
+	.byte	4
+	.byte	'EventStatus',0,1,88,48
+	.word	.L24,.L25
+	.byte	5
+	.word	.L4,.L21
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dem_ReportErrorStatus')
+	.sect	'.debug_abbrev'
+.L12:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dem_ReportErrorStatus')
+	.sect	'.debug_line'
+.L13:
+	.word	.L34-.L33
+.L33:
+	.half	3
+	.word	.L36-.L35
+.L35:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Dem.c',0,0,0,0,0
+.L36:
+	.byte	5,1,7,0,5,2
+	.word	.L4
+	.byte	3,237,0,1,7,9
+	.half	.L15-.L4
+	.byte	0,1,1
+.L34:
+	.sdecl	'.debug_ranges',debug,cluster('Dem_ReportErrorStatus')
+	.sect	'.debug_ranges'
+.L14:
+	.word	-1,.L4,0,.L15-.L4,0,0
+	.sdecl	'.debug_info',debug,cluster('Dem_SetEventStatus')
+	.sect	'.debug_info'
+.L16:
+	.word	240
+	.half	3
+	.word	.L17
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Dem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L19,.L18
+	.byte	2
+	.word	.L7
+	.byte	3
+	.byte	'Dem_SetEventStatus',0,1,123,16
+	.word	.L24
+	.byte	1,1,1
+	.word	.L6,.L26,.L5
+	.byte	4
+	.byte	'EventId',0,1,123,51
+	.word	.L22,.L27
+	.byte	4
+	.byte	'EventStatus',0,1,124,48
+	.word	.L24,.L28
+	.byte	5
+	.word	.L6,.L26
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dem_SetEventStatus')
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dem_SetEventStatus')
+	.sect	'.debug_line'
+.L18:
+	.word	.L38-.L37
+.L37:
+	.half	3
+	.word	.L40-.L39
+.L39:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Dem.c',0,0,0,0,0
+.L40:
+	.byte	5,11,7,0,5,2
+	.word	.L6
+	.byte	3,147,1,1,5,1,3,1,1,7,9
+	.half	.L20-.L6
+	.byte	0,1,1
+.L38:
+	.sdecl	'.debug_ranges',debug,cluster('Dem_SetEventStatus')
+	.sect	'.debug_ranges'
+.L19:
+	.word	-1,.L6,0,.L20-.L6,0,0
+	.sdecl	'.debug_loc',debug,cluster('Dem_ReportErrorStatus')
+	.sect	'.debug_loc'
+.L3:
+	.word	-1,.L4,0,.L21-.L4
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L23:
+	.word	-1,.L4,0,.L21-.L4
+	.half	1
+	.byte	84
+	.word	0,0
+.L25:
+	.word	-1,.L4,0,.L21-.L4
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Dem_SetEventStatus')
+	.sect	'.debug_loc'
+.L5:
+	.word	-1,.L6,0,.L26-.L6
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L27:
+	.word	-1,.L6,0,.L26-.L6
+	.half	1
+	.byte	84
+	.word	0,0
+.L28:
+	.word	-1,.L6,0,.L26-.L6
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L41:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Dem_ReportErrorStatus')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L41,.L4,.L21-.L4
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Dem_SetEventStatus')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L41,.L6,.L26-.L6
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   150  
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   151  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   152  **                      Private Function Definitions                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\Dem.c	   153  *******************************************************************************/
+
+	; Module end

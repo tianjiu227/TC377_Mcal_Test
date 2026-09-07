@@ -1,0 +1,702 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq\\.Spi_Irq.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq\\Spi_Irq.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq\\Spi_Irq.src ..\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq\\Spi_Irq.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq\\Spi_Irq.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	1759
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq\\Spi_Irq.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	148
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	155
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	197
+	.byte	7
+	.word	197
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	213
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	218
+	.byte	9
+	.byte	'value',0
+	.word	197
+	.byte	9
+	.byte	'compare',0
+	.word	197
+	.byte	0,10,1,7
+	.word	275
+	.byte	11
+	.byte	'__codeptr',0,1,1,1
+	.word	277
+	.byte	2
+	.byte	'unsigned char',0,1,8,11
+	.byte	'uint8',0,2,105,29
+	.word	300
+	.byte	2
+	.byte	'unsigned short int',0,2,7,11
+	.byte	'uint16',0,2,109,29
+	.word	331
+	.byte	2
+	.byte	'unsigned long int',0,4,7,11
+	.byte	'uint32',0,2,113,29
+	.word	368
+	.byte	11
+	.byte	'Spi_DataBufferType',0,3,222,1,15
+	.word	300
+	.byte	11
+	.byte	'Spi_NumberOfDataType',0,3,229,1,16
+	.word	331
+	.byte	11
+	.byte	'Spi_ChannelType',0,3,235,1,15
+	.word	300
+	.byte	11
+	.byte	'Spi_JobType',0,3,241,1,16
+	.word	331
+	.byte	11
+	.byte	'Spi_SequenceType',0,3,247,1,15
+	.word	300
+	.byte	11
+	.byte	'Spi_HWUnitType',0,3,253,1,15
+	.word	300
+	.byte	11
+	.byte	'Spi_QSPIHwMapConfigType',0,3,129,2,16
+	.word	368
+	.byte	3
+	.word	331
+	.byte	7
+	.word	591
+	.byte	12,3,164,2,9,12,13
+	.byte	'SequenceId',0
+	.word	300
+	.byte	1,2,35,0,13
+	.byte	'JobLinkPtrPhysical',0
+	.word	596
+	.byte	4,2,35,4,13
+	.byte	'NoOfJobInSeq',0
+	.word	331
+	.byte	2,2,35,8,13
+	.byte	'HwModuleUsed',0
+	.word	300
+	.byte	1,2,35,10,0,11
+	.byte	'Spi_SequenceConfigType',0,3,198,2,3
+	.word	601
+	.byte	3
+	.word	300
+	.byte	7
+	.word	732
+	.byte	12,3,205,2,9,24,13
+	.byte	'JobId',0
+	.word	331
+	.byte	2,2,35,0,13
+	.byte	'BaudRateAndClockParam',0
+	.word	368
+	.byte	4,2,35,2,13
+	.byte	'IdleLeadTrailDelay',0
+	.word	368
+	.byte	4,2,35,6,13
+	.byte	'ChnlLinkPtrPhysical',0
+	.word	737
+	.byte	4,2,35,12,13
+	.byte	'CSPortPin',0
+	.word	331
+	.byte	2,2,35,16,13
+	.byte	'JobPriority',0
+	.word	300
+	.byte	1,2,35,18,13
+	.byte	'CsPolarity',0
+	.word	300
+	.byte	1,2,35,19,13
+	.byte	'HwUnit',0
+	.word	300
+	.byte	1,2,35,20,13
+	.byte	'ParitySupport',0
+	.word	300
+	.byte	1,2,35,21,13
+	.byte	'FramebasedCs',0
+	.word	300
+	.byte	1,2,35,22,0,11
+	.byte	'Spi_JobConfigType',0,3,246,2,3
+	.word	742
+	.byte	12,3,254,2,9,16,13
+	.byte	'ActiveChipSelectLevel',0
+	.word	368
+	.byte	4,2,35,0,13
+	.byte	'JobQueueLength',0
+	.word	331
+	.byte	2,2,35,4,13
+	.byte	'ClockSetting',0
+	.word	300
+	.byte	1,2,35,6,13
+	.byte	'MasterReceivePortPin',0
+	.word	300
+	.byte	1,2,35,7,13
+	.byte	'MaxSequence',0
+	.word	300
+	.byte	1,2,35,8,13
+	.byte	'ExternalDemuxEnabled',0
+	.word	300
+	.byte	1,2,35,9,13
+	.byte	'StrobeDelay',0
+	.word	368
+	.byte	4,2,35,10,0,11
+	.byte	'Spi_QspiHwConfigType',0,3,164,3,3
+	.word	1000
+	.byte	12,3,172,3,9,12,13
+	.byte	'Defaultdata',0
+	.word	368
+	.byte	4,2,35,0,13
+	.byte	'NoOfDataElements',0
+	.word	331
+	.byte	2,2,35,4,13
+	.byte	'ChannelType',0
+	.word	300
+	.byte	1,2,35,6,13
+	.byte	'DataConfig',0
+	.word	300
+	.byte	1,2,35,7,13
+	.byte	'ChannelId',0
+	.word	300
+	.byte	1,2,35,8,0,11
+	.byte	'Spi_ChannelConfigType',0,3,192,3,3
+	.word	1216
+	.byte	12,3,216,3,9,4,13
+	.byte	'ChannelOffset',0
+	.word	331
+	.byte	2,2,35,0,13
+	.byte	'DataTransferLength',0
+	.word	331
+	.byte	2,2,35,2,0,11
+	.byte	'Spi_CoreChannelOffsetType',0,3,220,3,3
+	.word	1361
+	.byte	3
+	.word	601
+	.byte	7
+	.word	1454
+	.byte	3
+	.word	742
+	.byte	7
+	.word	1464
+	.byte	3
+	.word	1216
+	.byte	7
+	.word	1474
+	.byte	3
+	.word	1361
+	.byte	7
+	.word	1484
+	.byte	3
+	.word	1000
+	.byte	7
+	.word	1494
+	.byte	14,20
+	.word	1499
+	.byte	15,4,0,3
+	.word	368
+	.byte	12,3,223,3,9,48,13
+	.byte	'SequenceConfigPtr',0
+	.word	1459
+	.byte	4,2,35,0,13
+	.byte	'JobConfigPtr',0
+	.word	1469
+	.byte	4,2,35,4,13
+	.byte	'ChannelConfigPtr',0
+	.word	1479
+	.byte	4,2,35,8,13
+	.byte	'ChannelOffsetInfo',0
+	.word	1489
+	.byte	4,2,35,12,13
+	.byte	'QSPIHwConfigPtr',0
+	.word	1504
+	.byte	20,2,35,16,13
+	.byte	'QSPIHwMap',0
+	.word	1513
+	.byte	4,2,35,36,13
+	.byte	'NoOfSequences',0
+	.word	300
+	.byte	1,2,35,40,13
+	.byte	'NoOfJobs',0
+	.word	331
+	.byte	2,2,35,42,13
+	.byte	'NoOfChannels',0
+	.word	300
+	.byte	1,2,35,44,0,11
+	.byte	'Spi_CoreConfigType',0,3,254,3,3
+	.word	1518
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,19,1
+	.byte	58,15,59,15,57,15,11,15,0,0,13,13,0,3,8,73,19,11,15,56,9,0,0,14,1,1,11,15,73,19,0,0,15,33,0,47,15,0,0
+	.byte	0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc',0,0
+	.byte	'..\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq\\Spi_Irq.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Spi.h',0,2,0,0,0
+.L9:
+.L7:
+
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	     1  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	     2  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	     3  ** Copyright (C) Infineon Technologies (2021)                                 **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	     4  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	     5  ** All rights reserved.                                                       **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	     6  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	     7  ** This document contains proprietary information belonging to Infineon       **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	     8  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	     9  ** of its contents is not permitted without prior written authorization.      **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    10  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    11  ********************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    12  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    13  **  FILENAME  : Spi_Irq.c                                                     **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    14  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    15  **  VERSION   : 3.0.0                                                         **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    16  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    17  **  DATE      : 2021-11-08                                                    **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    18  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    19  **  VARIANT   : Post-Build                                                    **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    20  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    21  **  PLATFORM  : Infineon AURIX2G                                              **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    22  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    23  **  AUTHOR    : DL-AUTOSAR-Engineering                                        **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    24  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    25  **  VENDOR    : Infineon Technologies                                         **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    26  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    27  **  DESCRIPTION :  This file contains ISRs of SPI Handler driver              **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    28  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    29  **  SPECIFICATION(S) : Specification of SPI Driver, AUTOSAR Release 4.2.2     **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    30  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    31  **  MAY BE CHANGED BY USER : Yes                                              **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    32  **                                                                            **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    33  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    34  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    35  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    36  **                      Includes                                              **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    37  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    38  /* Inclusion of Platform_Types.h and Compiler.h */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    39  #include "Std_Types.h"
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    40  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    41  /* Module header file inclusion */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    42  #include "Spi.h"
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    43  /* MCAL driver utility functions for setting interrupt priority initialization
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    44      and interrupt category */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    45  #include "IFX_Os.h"
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    46  #include "Irq.h"
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    47  #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    48  #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    49    #include "Test_Main.h"
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    50  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    51  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    52  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    53  **                      Imported Compiler Switch Checks                       **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    54  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    55  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    56  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    57  **                      Private Macro Definitions                             **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    58  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    59  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    60  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    61  **                      Private Type Definitions                              **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    62  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    63  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    64  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    65  **                      Private Function Declarations                         **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    66  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    67  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    68  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    69  **                      Global Constant Definitions                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    70  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    71  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    72  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    73  **                      Global Variable Definitions                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    74  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    75  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    76  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    77  **                      Private Constant Definitions                          **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    78  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    79  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    80  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    81  **                      Private Variable Definitions                          **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    82  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    83  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    84  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    85  **                      Private Function Definitions                          **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    86  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    87  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    88  /*******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    89  **                      Global Function Definitions                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    90  *******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    91  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    92  /******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    93  ** Syntax : void QSPIXERR_ISR(void)                                          **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    94  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    95  ** Service ID:       NA                                                      **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    96  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    97  ** Sync/Async:       Synchronous                                             **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    98  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	    99  ** Reentrancy:       reentrant                                               **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   100  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   101  ** Parameters (in):  none                                                    **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   102  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   103  ** Parameters (out): none                                                    **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   104  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   105  ** Return value:     none                                                    **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   106  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   107  ** Description : Service for Error interrupt of QSPIx                        **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   108  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   109  ******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   110  /* Included to remove the GHS Warning */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   111  #ifndef SPI_HW_QSPI5_USED
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   112  #define SPI_HW_QSPI5_USED 0x00u
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   113  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   114  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   115  /* This node is for QSPI0_ESRC */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   116  #if ((SPI_HW_QSPI0_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   117  #if IRQ_QSPI0_ERR_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   118  #if ((IRQ_QSPI0_ERR_PRIO > 0) || (IRQ_QSPI0_ERR_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   119  #if ((IRQ_QSPI0_ERR_PRIO > 0) && (IRQ_QSPI0_ERR_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   120  IFX_INTERRUPT(QSPI0ERR_ISR, 0, IRQ_QSPI0_ERR_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   121  #elif IRQ_QSPI0_ERR_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   122  ISR(QSPI0ERR_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   123  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   124  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   125    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   126    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   127    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   128    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   129    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   130    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   131    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   132    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   133    /* Call QSPI0 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   134    Spi_IsrQspiError(SPI_QSPI0_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   135  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   136  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   137  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   138  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   139  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   140  #if ((SPI_HW_QSPI1_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   141  /* This node is for QSPI1_ESRC */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   142  #if IRQ_QSPI1_ERR_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   143  #if ((IRQ_QSPI1_ERR_PRIO > 0) || (IRQ_QSPI1_ERR_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   144  #if ((IRQ_QSPI1_ERR_PRIO > 0) && (IRQ_QSPI1_ERR_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   145  IFX_INTERRUPT(QSPI1ERR_ISR, 0, IRQ_QSPI1_ERR_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   146  #elif IRQ_QSPI1_ERR_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   147  ISR(QSPI1ERR_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   148  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   149  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   150    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   151    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   152    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   153    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   154    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   155    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   156    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   157    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   158    /* Call QSPI1 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   159    Spi_IsrQspiError(SPI_QSPI1_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   160  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   161  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   162  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   163  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   164  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   165  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   166  /* This node is for QSPI2_ESRC */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   167  #if ((SPI_HW_QSPI2_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   168  #if IRQ_QSPI2_ERR_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   169  #if ((IRQ_QSPI2_ERR_PRIO > 0) || (IRQ_QSPI2_ERR_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   170  #if ((IRQ_QSPI2_ERR_PRIO > 0) && (IRQ_QSPI2_ERR_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   171  IFX_INTERRUPT(QSPI2ERR_ISR, 0, IRQ_QSPI2_ERR_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   172  #elif IRQ_QSPI2_ERR_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   173  ISR(QSPI2ERR_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   174  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   175  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   176    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   177    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   178    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   179    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   180    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   181    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   182    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   183    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   184    /* Call QSPI2 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   185    Spi_IsrQspiError(SPI_QSPI2_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   186  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   187  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   188  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   189  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   190  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   191  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   192  #if ((SPI_HW_QSPI3_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   193  /* This node is for QSPI3_ESRC */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   194  #if IRQ_QSPI3_ERR_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   195  #if ((IRQ_QSPI3_ERR_PRIO > 0) || (IRQ_QSPI3_ERR_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   196  #if ((IRQ_QSPI3_ERR_PRIO > 0) && (IRQ_QSPI3_ERR_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   197  IFX_INTERRUPT(QSPI3ERR_ISR, 0, IRQ_QSPI3_ERR_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   198  #elif IRQ_QSPI3_ERR_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   199  ISR(QSPI3ERR_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   200  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   201  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   202    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   203    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   204    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   205    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   206    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   207    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   208    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   209    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   210    /* Call QSPI3 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   211    Spi_IsrQspiError(SPI_QSPI3_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   212  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   213  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   214  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   215  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   216  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   217  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   218  #if ((defined SPI_HW_QSPI4_USED) && (SPI_HW_QSPI4_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   219  /* This node is for QSPI4_ESRC */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   220  #if IRQ_QSPI4_ERR_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   221  #if ((IRQ_QSPI4_ERR_PRIO > 0) || (IRQ_QSPI4_ERR_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   222  #if ((IRQ_QSPI4_ERR_PRIO > 0) && (IRQ_QSPI4_ERR_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   223  IFX_INTERRUPT(QSPI4ERR_ISR, 0, IRQ_QSPI4_ERR_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   224  #elif IRQ_QSPI4_ERR_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   225  ISR(QSPI4ERR_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   226  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   227  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   228    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   229    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   230    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   231    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   232    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   233    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   234    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   235    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   236    /* Call QSPI4 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   237    Spi_IsrQspiError(SPI_QSPI4_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   238  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   239  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   240  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   241  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   242  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   243  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   244  #if ((SPI_HW_QSPI5_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   245  /* This node is for QSPI5_ESRC */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   246  #if IRQ_QSPI5_ERR_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   247  #if ((IRQ_QSPI5_ERR_PRIO > 0) || (IRQ_QSPI5_ERR_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   248  #if ((IRQ_QSPI5_ERR_PRIO > 0) && (IRQ_QSPI5_ERR_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   249  IFX_INTERRUPT(QSPI5ERR_ISR, 0, IRQ_QSPI5_ERR_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   250  #elif IRQ_QSPI5_ERR_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   251  ISR(QSPI5ERR_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   252  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   253  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   254    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   255    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   256    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   257    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   258    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   259    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   260    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   261    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   262    /* Call QSPI5 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   263    Spi_IsrQspiError(SPI_QSPI5_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   264  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   265  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   266  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   267  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   268  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   269  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   270  /******************************************************************************
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   271  ** Syntax : void QSPIXPT_ISR(void)                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   272  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   273  ** Service ID:       NA                                                      **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   274  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   275  ** Sync/Async:       Synchronous                                             **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   276  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   277  ** Reentrancy:       reentrant                                               **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   278  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   279  ** Parameters (in):  none                                                    **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   280  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   281  ** Parameters (out): none                                                    **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   282  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   283  ** Return value:     none                                                    **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   284  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   285  ** Description : Service for Phase transition interrupt (PT2) used by QSPIx  **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   286  **                                                                           **
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   287  ******************************************************************************/
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   288  #if ((SPI_HW_QSPI0_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   289  #if IRQ_QSPI0_PT_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   290  #if ((IRQ_QSPI0_PT_PRIO > 0) || (IRQ_QSPI0_PT_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   291  #if ((IRQ_QSPI0_PT_PRIO > 0) && (IRQ_QSPI0_PT_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   292  IFX_INTERRUPT(QSPI0PT_ISR, 0, IRQ_QSPI0_PT_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   293  #elif IRQ_QSPI0_PT_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   294  ISR(QSPI0PT_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   295  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   296  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   297    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   298    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   299    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   300    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   301    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   302    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   303    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   304    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   305    /* Call QSPI0 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   306    Spi_IsrQspiPT2(SPI_QSPI0_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   307  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   308  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   309  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   310  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   311  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   312  #if ((SPI_HW_QSPI1_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   313  #if IRQ_QSPI1_PT_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   314  #if ((IRQ_QSPI1_PT_PRIO > 0) || (IRQ_QSPI1_PT_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   315  #if ((IRQ_QSPI1_PT_PRIO > 0) && (IRQ_QSPI1_PT_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   316  IFX_INTERRUPT(QSPI1PT_ISR, 0, IRQ_QSPI1_PT_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   317  #elif IRQ_QSPI1_PT_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   318  ISR(QSPI1PT_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   319  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   320  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   321    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   322    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   323    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   324    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   325    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   326    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   327    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   328    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   329    /* Call QSPI1 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   330    Spi_IsrQspiPT2(SPI_QSPI1_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   331  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   332  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   333  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   334  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   335  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   336  #if ((SPI_HW_QSPI2_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   337  #if IRQ_QSPI2_PT_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   338  #if ((IRQ_QSPI2_PT_PRIO > 0) || (IRQ_QSPI2_PT_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   339  #if ((IRQ_QSPI2_PT_PRIO > 0) && (IRQ_QSPI2_PT_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   340  IFX_INTERRUPT(QSPI2PT_ISR, 0, IRQ_QSPI2_PT_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   341  #elif IRQ_QSPI2_PT_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   342  ISR(QSPI2PT_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   343  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   344  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   345    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   346    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   347    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   348    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   349    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   350    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   351    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   352    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   353    /* Call QSPI2 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   354    Spi_IsrQspiPT2(SPI_QSPI2_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   355  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   356  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   357  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   358  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   359  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   360  #if ((SPI_HW_QSPI3_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   361  #if IRQ_QSPI3_PT_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   362  #if ((IRQ_QSPI3_PT_PRIO > 0) || (IRQ_QSPI3_PT_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   363  #if ((IRQ_QSPI3_PT_PRIO > 0) && (IRQ_QSPI3_PT_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   364  IFX_INTERRUPT(QSPI3PT_ISR, 0, IRQ_QSPI3_PT_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   365  #elif IRQ_QSPI3_PT_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   366  ISR(QSPI3PT_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   367  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   368  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   369    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   370    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   371    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   372    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   373    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   374    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   375    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   376    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   377    /* Call QSPI3 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   378    Spi_IsrQspiPT2(SPI_QSPI3_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   379  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   380  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   381  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   382  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   383  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   384  #if ((defined SPI_HW_QSPI4_USED) && (SPI_HW_QSPI4_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   385  #if IRQ_QSPI4_PT_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   386  #if ((IRQ_QSPI4_PT_PRIO > 0) || (IRQ_QSPI4_PT_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   387  #if ((IRQ_QSPI4_PT_PRIO > 0) && (IRQ_QSPI4_PT_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   388  IFX_INTERRUPT(QSPI4PT_ISR, 0, IRQ_QSPI4_PT_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   389  #elif IRQ_QSPI4_PT_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   390  ISR(QSPI4PT_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   391  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   392  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   393    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   394    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   395    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   396    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   397    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   398    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   399    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   400    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   401    /* Call QSPI4 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   402    Spi_IsrQspiPT2(SPI_QSPI4_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   403  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   404  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   405  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   406  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   407  
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   408  #if ((SPI_HW_QSPI5_USED == STD_ON) && (SPI_LEVEL_DELIVERED != 0))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   409  #if IRQ_QSPI5_PT_TOS != IRQ_TOS_DMA
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   410  #if ((IRQ_QSPI5_PT_PRIO > 0) || (IRQ_QSPI5_PT_CAT == IRQ_CAT2))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   411  #if ((IRQ_QSPI5_PT_PRIO > 0) && (IRQ_QSPI5_PT_CAT == IRQ_CAT1))
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   412  IFX_INTERRUPT(QSPI5PT_ISR, 0, IRQ_QSPI5_PT_PRIO)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   413  #elif IRQ_QSPI5_PT_CAT == IRQ_CAT2
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   414  ISR(QSPI5PT_ISR)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   415  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   416  {
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   417    ENABLE();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   418    #ifdef  APP_SW
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   419    #if (APP_SW == TEST_APP)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   420    #if (TEST_ACCESS_MODE_RT == TEST_MCAL_USER1)
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   421    Mcal_SetModetoUser();
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   422    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   423    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   424    #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   425    /* Call QSPI5 Interrupt function */
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   426    Spi_IsrQspiPT2(SPI_QSPI5_INDEX);
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   427  }
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   428  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   429  #endif
+; ..\src\AppSw\Tricore\Demo_Irq\Spi_Irq\Spi_Irq.c	   430  #endif
+
+	; Module end

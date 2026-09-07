@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Tricore-Tasking-TC37x",
+            "includePath": [
+                "${workspaceFolder}/src/AppSw/Tricore/Main",
+                "${workspaceFolder}/src/AppSw/Tricore/Cfg_Ssw/TC37A",
+                "${workspaceFolder}/src/BaseSw/EB_Cfg/inc",
+                "${workspaceFolder}/src/BaseSw/Infra/Integration",
+                "${workspaceFolder}/src/BaseSw/Infra/Autosar_Srv/AS440",
+                "${workspaceFolder}/src/BaseSw/Infra/Irq/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/Infra/Ssw/TC37A/Tricore",
+                "${workspaceFolder}/src/BaseSw/Infra_Prod/Platform",
+                "${workspaceFolder}/src/BaseSw/Infra_Prod/Sfr/TC37xA",
+                "${workspaceFolder}/src/BaseSw/Infra_Prod/Sfr/TC37xA/_Reg",
+                "${workspaceFolder}/src/BaseSw/MCAL/Adc/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/MCAL/Can_17_McmCan/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/MCAL/Dio/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/MCAL/Gpt/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/MCAL/McalLib/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/MCAL/McalLib/ssc/inc/AS440",
+                "${workspaceFolder}/src/BaseSw/MCAL/Mcu/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/MCAL/Port/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/MCAL/Pwm_17_GtmCcu6/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/MCAL/Spi/ssc/inc",
+                "${workspaceFolder}/src/BaseSw/UserIf",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "__TASKING__",
+                "__CTC__",
+                "__TRICORE__"
+            ],
+            "compilerPath": "",
+            "cStandard": "c99",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

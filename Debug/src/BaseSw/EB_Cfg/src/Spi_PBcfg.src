@@ -1,0 +1,1768 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\BaseSw\\EB_Cfg\\src\\.Spi_PBcfg.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.src ..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c'
+
+	
+$TC162
+	
+	.sdecl	'.zrodata.Spi_PBcfg.SequenceLookupIndex',data,rom,cluster('SequenceLookupIndex')
+	.sect	'.zrodata.Spi_PBcfg.SequenceLookupIndex'
+	.align	4
+SequenceLookupIndex:	.type	object
+	.size	SequenceLookupIndex,3
+	.space	1
+	.byte	1,2
+	.sdecl	'.zrodata.Spi_PBcfg.JobLookupIndex',data,rom,cluster('JobLookupIndex')
+	.sect	'.zrodata.Spi_PBcfg.JobLookupIndex'
+	.align	4
+JobLookupIndex:	.type	object
+	.size	JobLookupIndex,6
+	.space	2
+	.half	1,2
+	.sdecl	'.zrodata.Spi_PBcfg.ChannelLookupIndex',data,rom,cluster('ChannelLookupIndex')
+	.sect	'.zrodata.Spi_PBcfg.ChannelLookupIndex'
+	.align	4
+ChannelLookupIndex:	.type	object
+	.size	ChannelLookupIndex,3
+	.space	1
+	.byte	1,2
+	.sdecl	'.zrodata.Spi_PBcfg.SpiSequence_qspi0_MCU2_JobLinkPtr_Physical',data,rom,cluster('SpiSequence_qspi0_MCU2_JobLinkPtr_Physical')
+	.sect	'.zrodata.Spi_PBcfg.SpiSequence_qspi0_MCU2_JobLinkPtr_Physical'
+	.align	4
+SpiSequence_qspi0_MCU2_JobLinkPtr_Physical:	.type	object
+	.size	SpiSequence_qspi0_MCU2_JobLinkPtr_Physical,4
+	.space	2
+	.half	65535
+	.sdecl	'.zrodata.Spi_PBcfg.SpiSequence_QSPI2_35584_JobLinkPtr_Physical',data,rom,cluster('SpiSequence_QSPI2_35584_JobLinkPtr_Physical')
+	.sect	'.zrodata.Spi_PBcfg.SpiSequence_QSPI2_35584_JobLinkPtr_Physical'
+	.align	4
+SpiSequence_QSPI2_35584_JobLinkPtr_Physical:	.type	object
+	.size	SpiSequence_QSPI2_35584_JobLinkPtr_Physical,4
+	.half	1,65535
+	.sdecl	'.zrodata.Spi_PBcfg.SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical',data,rom,cluster('SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical')
+	.sect	'.zrodata.Spi_PBcfg.SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical'
+	.align	4
+SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical:	.type	object
+	.size	SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical,4
+	.half	2,65535
+	.sdecl	'.zrodata.Spi_PBcfg.SpiJob_0_ChannelLinkPtr_Physical',data,rom,cluster('SpiJob_0_ChannelLinkPtr_Physical')
+	.sect	'.zrodata.Spi_PBcfg.SpiJob_0_ChannelLinkPtr_Physical'
+	.align	4
+SpiJob_0_ChannelLinkPtr_Physical:	.type	object
+	.size	SpiJob_0_ChannelLinkPtr_Physical,2
+	.space	1
+	.byte	255
+	.sdecl	'.zrodata.Spi_PBcfg.SpiJob_1_ChannelLinkPtr_Physical',data,rom,cluster('SpiJob_1_ChannelLinkPtr_Physical')
+	.sect	'.zrodata.Spi_PBcfg.SpiJob_1_ChannelLinkPtr_Physical'
+	.align	4
+SpiJob_1_ChannelLinkPtr_Physical:	.type	object
+	.size	SpiJob_1_ChannelLinkPtr_Physical,2
+	.byte	1,255
+	.sdecl	'.zrodata.Spi_PBcfg.SpiJob_2_ChannelLinkPtr_Physical',data,rom,cluster('SpiJob_2_ChannelLinkPtr_Physical')
+	.sect	'.zrodata.Spi_PBcfg.SpiJob_2_ChannelLinkPtr_Physical'
+	.align	4
+SpiJob_2_ChannelLinkPtr_Physical:	.type	object
+	.size	SpiJob_2_ChannelLinkPtr_Physical,2
+	.byte	2,255
+	.sdecl	'.rodata.Spi_kSequenceConfig_Core0.Config.Cpu0.32bit',data,rom,cluster('Spi_kSequenceConfig_Core0')
+	.sect	'.rodata.Spi_kSequenceConfig_Core0.Config.Cpu0.32bit'
+	.align	4
+Spi_kSequenceConfig_Core0:	.type	object
+	.size	Spi_kSequenceConfig_Core0,36
+	.space	4
+	.word	SpiSequence_qspi0_MCU2_JobLinkPtr_Physical
+	.half	1
+	.space	2
+	.byte	1
+	.space	3
+	.word	SpiSequence_QSPI2_35584_JobLinkPtr_Physical
+	.half	1
+	.byte	2
+	.space	1
+	.byte	2
+	.space	3
+	.word	SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical
+	.half	1
+	.byte	4
+	.space	1
+	.sdecl	'.rodata.Spi_kJobConfig_Core0.Config.Cpu0.32bit',data,rom,cluster('Spi_kJobConfig_Core0')
+	.sect	'.rodata.Spi_kJobConfig_Core0.Config.Cpu0.32bit'
+	.align	4
+Spi_kJobConfig_Core0:	.type	object
+	.size	Spi_kJobConfig_Core0,72
+	.space	2
+	.word	3212289,798914
+	.space	2
+	.word	SpiJob_0_ChannelLinkPtr_Physical
+	.half	65535
+	.space	2
+	.byte	32,2
+	.space	2
+	.half	1
+	.word	3212289,798914
+	.space	2
+	.word	SpiJob_1_ChannelLinkPtr_Physical
+	.half	65535
+	.space	2
+	.byte	2,2
+	.space	2
+	.half	2
+	.word	3212289,798914
+	.space	2
+	.word	SpiJob_2_ChannelLinkPtr_Physical
+	.half	65535
+	.space	2
+	.byte	52,2
+	.space	2
+	.sdecl	'.rodata.Spi_kChannelConfig_Core0.Config.Cpu0.32bit',data,rom,cluster('Spi_kChannelConfig_Core0')
+	.sect	'.rodata.Spi_kChannelConfig_Core0.Config.Cpu0.32bit'
+	.align	4
+Spi_kChannelConfig_Core0:	.type	object
+	.size	Spi_kChannelConfig_Core0,36
+	.word	65793
+	.half	32
+	.space	1
+	.byte	152
+	.space	4
+	.word	43690
+	.half	16
+	.space	1
+	.byte	144,1
+	.space	3
+	.word	65793
+	.half	32
+	.space	1
+	.byte	152,2
+	.space	3
+	.sdecl	'.rodata.Spi_kQspiHwConfigQSPI0.Config.Cpu0.32bit',data,rom,cluster('Spi_kQspiHwConfigQSPI0')
+	.sect	'.rodata.Spi_kQspiHwConfigQSPI0.Config.Cpu0.32bit'
+	.align	4
+Spi_kQspiHwConfigQSPI0:	.type	object
+	.size	Spi_kQspiHwConfigQSPI0,16
+	.word	262144
+	.space	2
+	.byte	8
+	.space	1
+	.byte	1
+	.space	7
+	.sdecl	'.rodata.Spi_kQspiHwConfigQSPI2.Config.Cpu0.32bit',data,rom,cluster('Spi_kQspiHwConfigQSPI2')
+	.sect	'.rodata.Spi_kQspiHwConfigQSPI2.Config.Cpu0.32bit'
+	.align	4
+Spi_kQspiHwConfigQSPI2:	.type	object
+	.size	Spi_kQspiHwConfigQSPI2,16
+	.word	65536
+	.space	2
+	.byte	8
+	.space	1
+	.byte	1
+	.space	7
+	.sdecl	'.rodata.Spi_kQspiHwConfigQSPI4.Config.Cpu0.32bit',data,rom,cluster('Spi_kQspiHwConfigQSPI4')
+	.sect	'.rodata.Spi_kQspiHwConfigQSPI4.Config.Cpu0.32bit'
+	.align	4
+Spi_kQspiHwConfigQSPI4:	.type	object
+	.size	Spi_kQspiHwConfigQSPI4,16
+	.word	524288
+	.space	2
+	.byte	8,1,1
+	.space	7
+	.sdecl	'.rodata.Spi_ChannelOffsets_Core0.Config.Cpu0.32bit',data,rom,cluster('Spi_ChannelOffsets_Core0')
+	.sect	'.rodata.Spi_ChannelOffsets_Core0.Config.Cpu0.32bit'
+	.align	4
+Spi_ChannelOffsets_Core0:	.type	object
+	.size	Spi_ChannelOffsets_Core0,16
+	.space	12
+	.half	65535,65535
+	.sdecl	'.rodata.Spi_Config_Core0.Config.Cpu0.32bit',data,rom,cluster('Spi_Config_Core0')
+	.sect	'.rodata.Spi_Config_Core0.Config.Cpu0.32bit'
+	.global	Spi_Config_Core0
+	.align	4
+Spi_Config_Core0:	.type	object
+	.size	Spi_Config_Core0,48
+	.word	Spi_kSequenceConfig_Core0,Spi_kJobConfig_Core0,Spi_kChannelConfig_Core0,Spi_ChannelOffsets_Core0
+	.word	Spi_kQspiHwConfigQSPI0
+	.space	4
+	.word	Spi_kQspiHwConfigQSPI2
+	.space	4
+	.word	Spi_kQspiHwConfigQSPI4,4161
+	.byte	3
+	.space	1
+	.half	3
+	.byte	3
+	.space	3
+	.sdecl	'.rodata.Spi_Config.Config.Cpu0.32bit',data,rom,cluster('Spi_Config')
+	.sect	'.rodata.Spi_Config.Config.Cpu0.32bit'
+	.global	Spi_Config
+	.align	4
+Spi_Config:	.type	object
+	.size	Spi_Config,36
+	.word	Spi_Config_Core0
+	.space	8
+	.word	SequenceLookupIndex,JobLookupIndex,ChannelLookupIndex
+	.byte	3
+	.space	1
+	.half	3
+	.byte	3
+	.space	1
+	.word	65535
+	.space	2
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	2153
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	137
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	144
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	186
+	.byte	7
+	.word	186
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	202
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	207
+	.byte	9
+	.byte	'value',0
+	.word	186
+	.byte	9
+	.byte	'compare',0
+	.word	186
+	.byte	0,10,1,7
+	.word	264
+	.byte	11
+	.byte	'__codeptr',0,1,1,1
+	.word	266
+	.byte	2
+	.byte	'unsigned char',0,1,8,11
+	.byte	'uint8',0,2,105,29
+	.word	289
+	.byte	2
+	.byte	'unsigned short int',0,2,7,11
+	.byte	'uint16',0,2,109,29
+	.word	320
+	.byte	2
+	.byte	'unsigned long int',0,4,7,11
+	.byte	'uint32',0,2,113,29
+	.word	357
+	.byte	11
+	.byte	'Spi_DataBufferType',0,3,222,1,15
+	.word	289
+	.byte	11
+	.byte	'Spi_NumberOfDataType',0,3,229,1,16
+	.word	320
+	.byte	11
+	.byte	'Spi_ChannelType',0,3,235,1,15
+	.word	289
+	.byte	11
+	.byte	'Spi_JobType',0,3,241,1,16
+	.word	320
+	.byte	11
+	.byte	'Spi_SequenceType',0,3,247,1,15
+	.word	289
+	.byte	11
+	.byte	'Spi_HWUnitType',0,3,253,1,15
+	.word	289
+	.byte	11
+	.byte	'Spi_QSPIHwMapConfigType',0,3,129,2,16
+	.word	357
+	.byte	3
+	.word	320
+	.byte	7
+	.word	580
+	.byte	12,3,164,2,9,12,13
+	.byte	'SequenceId',0
+	.word	289
+	.byte	1,2,35,0,13
+	.byte	'JobLinkPtrPhysical',0
+	.word	585
+	.byte	4,2,35,4,13
+	.byte	'NoOfJobInSeq',0
+	.word	320
+	.byte	2,2,35,8,13
+	.byte	'HwModuleUsed',0
+	.word	289
+	.byte	1,2,35,10,0,11
+	.byte	'Spi_SequenceConfigType',0,3,198,2,3
+	.word	590
+	.byte	3
+	.word	289
+	.byte	7
+	.word	721
+	.byte	12,3,205,2,9,24,13
+	.byte	'JobId',0
+	.word	320
+	.byte	2,2,35,0,13
+	.byte	'BaudRateAndClockParam',0
+	.word	357
+	.byte	4,2,35,2,13
+	.byte	'IdleLeadTrailDelay',0
+	.word	357
+	.byte	4,2,35,6,13
+	.byte	'ChnlLinkPtrPhysical',0
+	.word	726
+	.byte	4,2,35,12,13
+	.byte	'CSPortPin',0
+	.word	320
+	.byte	2,2,35,16,13
+	.byte	'JobPriority',0
+	.word	289
+	.byte	1,2,35,18,13
+	.byte	'CsPolarity',0
+	.word	289
+	.byte	1,2,35,19,13
+	.byte	'HwUnit',0
+	.word	289
+	.byte	1,2,35,20,13
+	.byte	'ParitySupport',0
+	.word	289
+	.byte	1,2,35,21,13
+	.byte	'FramebasedCs',0
+	.word	289
+	.byte	1,2,35,22,0,11
+	.byte	'Spi_JobConfigType',0,3,246,2,3
+	.word	731
+	.byte	12,3,254,2,9,16,13
+	.byte	'ActiveChipSelectLevel',0
+	.word	357
+	.byte	4,2,35,0,13
+	.byte	'JobQueueLength',0
+	.word	320
+	.byte	2,2,35,4,13
+	.byte	'ClockSetting',0
+	.word	289
+	.byte	1,2,35,6,13
+	.byte	'MasterReceivePortPin',0
+	.word	289
+	.byte	1,2,35,7,13
+	.byte	'MaxSequence',0
+	.word	289
+	.byte	1,2,35,8,13
+	.byte	'ExternalDemuxEnabled',0
+	.word	289
+	.byte	1,2,35,9,13
+	.byte	'StrobeDelay',0
+	.word	357
+	.byte	4,2,35,10,0,11
+	.byte	'Spi_QspiHwConfigType',0,3,164,3,3
+	.word	989
+	.byte	12,3,172,3,9,12,13
+	.byte	'Defaultdata',0
+	.word	357
+	.byte	4,2,35,0,13
+	.byte	'NoOfDataElements',0
+	.word	320
+	.byte	2,2,35,4,13
+	.byte	'ChannelType',0
+	.word	289
+	.byte	1,2,35,6,13
+	.byte	'DataConfig',0
+	.word	289
+	.byte	1,2,35,7,13
+	.byte	'ChannelId',0
+	.word	289
+	.byte	1,2,35,8,0,11
+	.byte	'Spi_ChannelConfigType',0,3,192,3,3
+	.word	1205
+	.byte	12,3,216,3,9,4,13
+	.byte	'ChannelOffset',0
+	.word	320
+	.byte	2,2,35,0,13
+	.byte	'DataTransferLength',0
+	.word	320
+	.byte	2,2,35,2,0,11
+	.byte	'Spi_CoreChannelOffsetType',0,3,220,3,3
+	.word	1350
+	.byte	3
+	.word	590
+	.byte	7
+	.word	1443
+	.byte	3
+	.word	731
+	.byte	7
+	.word	1453
+	.byte	3
+	.word	1205
+	.byte	7
+	.word	1463
+	.byte	3
+	.word	1350
+	.byte	7
+	.word	1473
+	.byte	3
+	.word	989
+	.byte	7
+	.word	1483
+	.byte	14,20
+	.word	1488
+	.byte	15,4,0,3
+	.word	357
+	.byte	12,3,223,3,9,48,13
+	.byte	'SequenceConfigPtr',0
+	.word	1448
+	.byte	4,2,35,0,13
+	.byte	'JobConfigPtr',0
+	.word	1458
+	.byte	4,2,35,4,13
+	.byte	'ChannelConfigPtr',0
+	.word	1468
+	.byte	4,2,35,8,13
+	.byte	'ChannelOffsetInfo',0
+	.word	1478
+	.byte	4,2,35,12,13
+	.byte	'QSPIHwConfigPtr',0
+	.word	1493
+	.byte	20,2,35,16,13
+	.byte	'QSPIHwMap',0
+	.word	1502
+	.byte	4,2,35,36,13
+	.byte	'NoOfSequences',0
+	.word	289
+	.byte	1,2,35,40,13
+	.byte	'NoOfJobs',0
+	.word	320
+	.byte	2,2,35,42,13
+	.byte	'NoOfChannels',0
+	.word	289
+	.byte	1,2,35,44,0,11
+	.byte	'Spi_CoreConfigType',0,3,254,3,3
+	.word	1507
+	.byte	3
+	.word	1507
+	.byte	7
+	.word	1751
+	.byte	14,12
+	.word	1756
+	.byte	15,2,0,3
+	.word	289
+	.byte	7
+	.word	1770
+	.byte	3
+	.word	320
+	.byte	7
+	.word	1780
+	.byte	12,3,130,4,9,36,13
+	.byte	'CoreConfigPtr',0
+	.word	1761
+	.byte	12,2,35,0,13
+	.byte	'SequenceLookup',0
+	.word	1775
+	.byte	4,2,35,12,13
+	.byte	'JobLookup',0
+	.word	1785
+	.byte	4,2,35,16,13
+	.byte	'ChannelLookup',0
+	.word	1775
+	.byte	4,2,35,20,13
+	.byte	'NoOfSequences',0
+	.word	289
+	.byte	1,2,35,24,13
+	.byte	'NoOfJobs',0
+	.word	320
+	.byte	2,2,35,26,13
+	.byte	'NoOfChannels',0
+	.word	289
+	.byte	1,2,35,28,13
+	.byte	'SyncTimeout',0
+	.word	357
+	.byte	4,2,35,30,0,11
+	.byte	'Spi_ConfigType',0,3,154,4,3
+	.word	1790
+.L42:
+	.byte	3
+	.word	1790
+	.byte	14,3
+	.word	289
+	.byte	15,2,0
+.L43:
+	.byte	3
+	.word	1999
+	.byte	14,6
+	.word	320
+	.byte	15,2,0
+.L44:
+	.byte	3
+	.word	2013
+.L45:
+	.byte	3
+	.word	1999
+	.byte	14,4
+	.word	320
+	.byte	15,1,0
+.L46:
+	.byte	3
+	.word	2032
+.L47:
+	.byte	3
+	.word	2032
+.L48:
+	.byte	3
+	.word	2032
+	.byte	14,2
+	.word	289
+	.byte	15,1,0
+.L49:
+	.byte	3
+	.word	2056
+.L50:
+	.byte	3
+	.word	2056
+.L51:
+	.byte	3
+	.word	2056
+	.byte	14,36
+	.word	590
+	.byte	15,2,0
+.L52:
+	.byte	3
+	.word	2080
+	.byte	14,72
+	.word	731
+	.byte	15,2,0
+.L53:
+	.byte	3
+	.word	2094
+	.byte	14,36
+	.word	1205
+	.byte	15,2,0
+.L54:
+	.byte	3
+	.word	2108
+.L55:
+	.byte	3
+	.word	989
+.L56:
+	.byte	3
+	.word	989
+.L57:
+	.byte	3
+	.word	989
+	.byte	14,16
+	.word	1350
+	.byte	15,3,0
+.L58:
+	.byte	3
+	.word	2137
+.L59:
+	.byte	3
+	.word	1507
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,19,1
+	.byte	58,15,59,15,57,15,11,15,0,0,13,13,0,3,8,73,19,11,15,56,9,0,0,14,1,1,11,15,73,19,0,0,15,33,0,47,15,0,0
+	.byte	0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L61-.L60
+.L60:
+	.half	3
+	.word	.L63-.L62
+.L62:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc',0,0
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Spi.h',0,2,0,0,0
+.L63:
+.L61:
+	.sdecl	'.debug_info',debug,cluster('Spi_Config')
+	.sect	'.debug_info'
+.L6:
+	.word	162
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_Config',0,1,249,5,22
+	.word	.L42
+	.byte	1,5,3
+	.word	Spi_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_Config')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('SequenceLookupIndex')
+	.sect	'.debug_info'
+.L8:
+	.word	169
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SequenceLookupIndex',0,1,101,22
+	.word	.L43
+	.byte	5,3
+	.word	SequenceLookupIndex
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SequenceLookupIndex')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('JobLookupIndex')
+	.sect	'.debug_info'
+.L10:
+	.word	164
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'JobLookupIndex',0,1,112,21
+	.word	.L44
+	.byte	5,3
+	.word	JobLookupIndex
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('JobLookupIndex')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('ChannelLookupIndex')
+	.sect	'.debug_info'
+.L12:
+	.word	168
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'ChannelLookupIndex',0,1,123,20
+	.word	.L45
+	.byte	5,3
+	.word	ChannelLookupIndex
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ChannelLookupIndex')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiSequence_qspi0_MCU2_JobLinkPtr_Physical')
+	.sect	'.debug_info'
+.L14:
+	.word	193
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiSequence_qspi0_MCU2_JobLinkPtr_Physical',0,1,135,1,26
+	.word	.L46
+	.byte	5,3
+	.word	SpiSequence_qspi0_MCU2_JobLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiSequence_qspi0_MCU2_JobLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiSequence_QSPI2_35584_JobLinkPtr_Physical')
+	.sect	'.debug_info'
+.L16:
+	.word	194
+	.half	3
+	.word	.L17
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiSequence_QSPI2_35584_JobLinkPtr_Physical',0,1,142,1,26
+	.word	.L47
+	.byte	5,3
+	.word	SpiSequence_QSPI2_35584_JobLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiSequence_QSPI2_35584_JobLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical')
+	.sect	'.debug_info'
+.L18:
+	.word	195
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical',0,1,149,1,26
+	.word	.L48
+	.byte	5,3
+	.word	SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiJob_0_ChannelLinkPtr_Physical')
+	.sect	'.debug_info'
+.L20:
+	.word	183
+	.half	3
+	.word	.L21
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiJob_0_ChannelLinkPtr_Physical',0,1,157,1,30
+	.word	.L49
+	.byte	5,3
+	.word	SpiJob_0_ChannelLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiJob_0_ChannelLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L21:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiJob_1_ChannelLinkPtr_Physical')
+	.sect	'.debug_info'
+.L22:
+	.word	183
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiJob_1_ChannelLinkPtr_Physical',0,1,164,1,30
+	.word	.L50
+	.byte	5,3
+	.word	SpiJob_1_ChannelLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiJob_1_ChannelLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('SpiJob_2_ChannelLinkPtr_Physical')
+	.sect	'.debug_info'
+.L24:
+	.word	183
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'SpiJob_2_ChannelLinkPtr_Physical',0,1,171,1,30
+	.word	.L51
+	.byte	5,3
+	.word	SpiJob_2_ChannelLinkPtr_Physical
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SpiJob_2_ChannelLinkPtr_Physical')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kSequenceConfig_Core0')
+	.sect	'.debug_info'
+.L26:
+	.word	176
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kSequenceConfig_Core0',0,1,217,1,37
+	.word	.L52
+	.byte	5,3
+	.word	Spi_kSequenceConfig_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kSequenceConfig_Core0')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kJobConfig_Core0')
+	.sect	'.debug_info'
+.L28:
+	.word	171
+	.half	3
+	.word	.L29
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kJobConfig_Core0',0,1,166,2,32
+	.word	.L53
+	.byte	5,3
+	.word	Spi_kJobConfig_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kJobConfig_Core0')
+	.sect	'.debug_abbrev'
+.L29:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kChannelConfig_Core0')
+	.sect	'.debug_info'
+.L30:
+	.word	175
+	.half	3
+	.word	.L31
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kChannelConfig_Core0',0,1,160,3,36
+	.word	.L54
+	.byte	5,3
+	.word	Spi_kChannelConfig_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kChannelConfig_Core0')
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kQspiHwConfigQSPI0')
+	.sect	'.debug_info'
+.L32:
+	.word	173
+	.half	3
+	.word	.L33
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kQspiHwConfigQSPI0',0,1,231,3,35
+	.word	.L55
+	.byte	5,3
+	.word	Spi_kQspiHwConfigQSPI0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kQspiHwConfigQSPI0')
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kQspiHwConfigQSPI2')
+	.sect	'.debug_info'
+.L34:
+	.word	173
+	.half	3
+	.word	.L35
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kQspiHwConfigQSPI2',0,1,152,4,35
+	.word	.L56
+	.byte	5,3
+	.word	Spi_kQspiHwConfigQSPI2
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kQspiHwConfigQSPI2')
+	.sect	'.debug_abbrev'
+.L35:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_kQspiHwConfigQSPI4')
+	.sect	'.debug_info'
+.L36:
+	.word	173
+	.half	3
+	.word	.L37
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_kQspiHwConfigQSPI4',0,1,200,4,35
+	.word	.L57
+	.byte	5,3
+	.word	Spi_kQspiHwConfigQSPI4
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_kQspiHwConfigQSPI4')
+	.sect	'.debug_abbrev'
+.L37:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_ChannelOffsets_Core0')
+	.sect	'.debug_info'
+.L38:
+	.word	175
+	.half	3
+	.word	.L39
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_ChannelOffsets_Core0',0,1,250,4,40
+	.word	.L58
+	.byte	5,3
+	.word	Spi_ChannelOffsets_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_ChannelOffsets_Core0')
+	.sect	'.debug_abbrev'
+.L39:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Spi_Config_Core0')
+	.sect	'.debug_info'
+.L40:
+	.word	168
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Spi_PBcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Spi_Config_Core0',0,1,172,5,26
+	.word	.L59
+	.byte	1,5,3
+	.word	Spi_Config_Core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Spi_Config_Core0')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	     1  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	     2  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	     3  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	     4  ** Copyright (C) Infineon Technologies (2020)                                 **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	     5  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	     6  ** All rights reserved.                                                       **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	     7  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	     8  ** This document contains proprietary information belonging to Infineon       **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	     9  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    10  ** of its contents is not permitted without prior written authorization.      **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    11  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    12  ********************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    13  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    14  **  FILENAME  : Spi_PBCfg.c                                                   **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    15  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    16  **  VERSION   : 17.0.0                                                        **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    17  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    18  **  DATE, TIME: 2023-08-25, 15:11:47  !!!IGNORE-LINE!!!                   **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    19  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    20  **  GENERATOR : Build b191017-0938      !!!IGNORE-LINE!!!                   **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    21  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    22  **  BSW MODULE DECRIPTION : Spi.bmd                                           **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    23  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    24  **  VARIANT   : Variant PB                                                    **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    25  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    26  **  PLATFORM  : Infineon AURIX2G                                              **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    27  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    28  **  AUTHOR    : DL-AUTOSAR-Engineering                                        **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    29  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    30  **  VENDOR    : Infineon Technologies                                         **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    31  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    32  **  DESCRIPTION  : Spi configuration generated out of ECUC file               **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    33  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    34  **  SPECIFICATION(S) : Specification of Spi Driver, AUTOSAR Release 4.2.2     **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    35  **                     Specification of Spi Driver, AUTOSAR Release 4.4.0     **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    36  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    37  **  MAY BE CHANGED BY USER : no                                               **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    38  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    39  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    40  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    41  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    42  **                      Includes                                              **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    43  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    44  /* Module header file */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    45  #include "Spi.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    46  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    47  **                      Private Macro definition                              **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    48  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    49  /* MISRA2012_RULE_4_9_JUSTIFICATION: More readble as macros. Code coplexity
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    50  reduces as well. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    51  #define Spi_BaudRateAndClockParam(TQ,LB,Q,A,B,C,CPH,CPOL,PAREN)                \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    52  (                                                                  \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    53  (uint32)(                                                         \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    54  ((uint32)TQ << 16U)|((uint32)LB << 30U)|((uint32)Q)|\ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    55  ((uint32)A << 6U)|((uint32)B << 8U)|         \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    56  ((uint32)C << 10U)|((uint32)CPH << 12U)|        \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    57  ((uint32)CPOL << 13U)|((uint32)PAREN << 14U)     \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    58  )                                                         \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    59  )
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    60  /* MISRA2012_RULE_4_9_JUSTIFICATION: More readble as macros. Code coplexity
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    61  reduces as well. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    62  #define Spi_IdleLeadTrailParam(IPRE,IDLE,LPRE,LEAD,TPRE,TRAIL,PARTYP)          \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    63  (                                                                  \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    64  (uint32)(                                                         \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    65  ((uint32)IPRE << 1U)|((uint32)IDLE << 4U)|    \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    66  ((uint32)LPRE << 7U)|((uint32)LEAD << 10U)|   \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    67  ((uint32)TPRE << 13U)|((uint32)TRAIL << 16U)| \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    68  ((uint32)PARTYP << 19U)            \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    69  )                                                         \ 
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    70  )
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    71  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    72  **                      Extern Declaration                                    **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    73  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    74  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    75  **                      Global Constant Definitions                           **
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    76  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    77  /******************* GLOBAL CONFIGURATION MEMMAP SECTION *********************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    78  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    79  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    80  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    81  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    82  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    83  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    84  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    85  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    86  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    87  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    88  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    89  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_GLOBAL_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    90  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    91  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    92  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    93  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    94  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    95  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    96  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    97      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    98            
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	    99              
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   100    /*Sequence Index Lookup*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   101    static const uint8 SequenceLookupIndex[3] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   102  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   103    /* Physical index value for Sequence SpiSequence_qspi0_MCU2 Sequence ID 0 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   104    0U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   105      /* Physical index value for Sequence SpiSequence_QSPI2_35584 Sequence ID 1 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   106    1U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   107      /* Physical index value for Sequence SpiSequence_QSPI4_9183QK Sequence ID 2 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   108    2U  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   109  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   110  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   111    /*Job Index Lookup*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   112  static const uint16 JobLookupIndex[3] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   113  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   114    /* Physical index value for Job SpiJob_0 Job ID 0 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   115    0U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   116      /* Physical index value for Job SpiJob_1 Job ID 1 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   117    1U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   118      /* Physical index value for Job SpiJob_2 Job ID 2 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   119    2U  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   120  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   121  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   122    /*Channel Index Lookup*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   123  static const uint8 ChannelLookupIndex[3] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   124  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   125    /* Physical index value for channel SpiChannel_QSPI0_MCU2 channel ID 0 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   126    0U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   127      /* Physical index value for channel SpiChannel_QSPI2_TLF35584 channel ID 1 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   128    1U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   129      /* Physical index value for channel SpiChannel_QSPI4_TLE9183QK channel ID 2 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   130    2U  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   131  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   132  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   133    /* Linked list for the Job[s] assigned to the sequence[s] Physical*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   134  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   135  static const Spi_JobType SpiSequence_qspi0_MCU2_JobLinkPtr_Physical[] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   136  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   137    0U, /* Physical index value for Job SpiJob_0 Job ID 0 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   138    
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   139    SPI_JOB_DELIMITER
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   140  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   141  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   142  static const Spi_JobType SpiSequence_QSPI2_35584_JobLinkPtr_Physical[] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   143  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   144    1U, /* Physical index value for Job SpiJob_1 Job ID 1 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   145    
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   146    SPI_JOB_DELIMITER
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   147  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   148  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   149  static const Spi_JobType SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical[] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   150  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   151    2U, /* Physical index value for Job SpiJob_2 Job ID 2 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   152    
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   153    SPI_JOB_DELIMITER
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   154  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   155    /* Linked list for the channel[s] assigned to the job[s] Physical */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   156  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   157  static const Spi_ChannelType SpiJob_0_ChannelLinkPtr_Physical[] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   158  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   159    0U, /* Physical index value for Channel SpiChannel_QSPI0_MCU2 Channel ID 0 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   160    
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   161    SPI_CHANNEL_DELIMITER
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   162  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   163  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   164  static const Spi_ChannelType SpiJob_1_ChannelLinkPtr_Physical[] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   165  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   166    1U, /* Physical index value for Channel SpiChannel_QSPI2_TLF35584 Channel ID 1 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   167    
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   168    SPI_CHANNEL_DELIMITER
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   169  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   170  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   171  static const Spi_ChannelType SpiJob_2_ChannelLinkPtr_Physical[] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   172  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   173    2U, /* Physical index value for Channel SpiChannel_QSPI4_TLE9183QK Channel ID 2 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   174    
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   175    SPI_CHANNEL_DELIMITER
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   176  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   177  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   178  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   179  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   180  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   181  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   182  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   183  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   184  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   185  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   186  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   187  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   188  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_GLOBAL_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   189  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   190  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   191  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   192  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   193  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   194  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   195  /******************* GLOBAL CONFIGURATION MEMMAP SECTION *********************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   196    
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   197      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   198   /******************* CORE0 SEQUENCE CONFIGURATION MEMMAP SECTION *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   199  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   200  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   201  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   202  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   203  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   204  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   205  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   206  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   207  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   208  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   209  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   210  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   211  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   212  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   213  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   214  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   215  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   216  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   217  static const Spi_SequenceConfigType Spi_kSequenceConfig_Core0[] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   218  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   219    /* Synchronous Sequence[s] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   220    /* Sequence:SpiSequence_qspi0_MCU2 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   221    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   222      SpiConf_SpiSequence_SpiSequence_qspi0_MCU2,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   223      /* Job linked list */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   224      SpiSequence_qspi0_MCU2_JobLinkPtr_Physical,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   225      /* No. of jobs in Seq */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   226      1U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   227          /* Hw Module Used (b000000)*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   228      0x00U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   229              },
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   230      /* Synchronous Sequence[s] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   231      /* Sequence:SpiSequence_QSPI2_35584 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   232    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   233      SpiConf_SpiSequence_SpiSequence_QSPI2_35584,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   234      /* Job linked list */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   235      SpiSequence_QSPI2_35584_JobLinkPtr_Physical,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   236      /* No. of jobs in Seq */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   237      1U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   238          /* Hw Module Used (b000010)*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   239      0x02U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   240              },
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   241      /* Synchronous Sequence[s] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   242      /* Sequence:SpiSequence_QSPI4_9183QK */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   243    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   244      SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   245      /* Job linked list */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   246      SpiSequence_QSPI4_9183QK_JobLinkPtr_Physical,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   247      /* No. of jobs in Seq */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   248      1U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   249          /* Hw Module Used (b000100)*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   250      0x04U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   251              }};
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   252  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   253  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   254  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   255  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   256  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   257  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   258  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   259  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   260  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   261  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   262  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   263  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   264  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   265  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   266  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   267  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   268  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   269  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   270  /***************** CORE0 SEQUENCE CONFIGURATION MEMMAP SECTION END *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   271      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   272      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   273      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   274  /******************* CORE0 JOB CONFIGURATION MEMMAP SECTION *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   275  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   276  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   277  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   278  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   279  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   280  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   281  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   282  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   283  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   284  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   285  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   286  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   287  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   288  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   289  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   290  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   291  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   292  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   293  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   294  static const Spi_JobConfigType Spi_kJobConfig_Core0[] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   295  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   296        /* Synchronous Job[s] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   297    /* Job:SpiJob_0 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   298    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   299      SpiConf_SpiJob_SpiJob_0,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   300      Spi_BaudRateAndClockParam(  /* Baudrate = 1000000.0Hz */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   301      (0x31U), (0x00U),          /* TQ , LoopBack */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   302      (0x01U), (0x00U),          /*  Q , A        */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   303      (0x00U), (0x01U),          /*  B , C        */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   304      (0x00U), (0x00U),          /*  CPH , CPOL   */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   305      (0x00U)                    /*  PAREN        */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   306      ),
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   307    Spi_IdleLeadTrailParam(
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   308      (1U), (4U), /* IPRE,IDLE:   IdleA/B delay = 1.0E-7s */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   309      (1U), (4U), /* LPRE,LEAD:   Lead delay    = 1.0E-7s */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   310      (1U), (4U),/* TPRE, TRAIL: Trail delay   = 1.0E-7s */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   311      (1U)
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   312      ),
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   313    SpiJob_0_ChannelLinkPtr_Physical, /* Channel linked list Physical*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   314      SPI_CS_VIA_HW_OR_NONE,   /* CS_VIA_HW */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   315      (uint8)0U,               /* Job Priority : 0...3*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   316      (uint8)STD_LOW,              /* CS polarity */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   317      /* Chnl[bit:7:4],QSPI[3:0] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   318      (uint8)((SPI_QSPI_CHANNEL2 << 4U)|SPI_QSPI0_INDEX),
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   319      SPI_PARITY_UNUSED,        /* Parity support */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   320      (0U)                    /*Frame based CS is disabled*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   321    },
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   322    /* Synchronous Job[s] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   323    /* Job:SpiJob_1 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   324    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   325      SpiConf_SpiJob_SpiJob_1,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   326      Spi_BaudRateAndClockParam(  /* Baudrate = 1000000.0Hz */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   327      (0x31U), (0x00U),          /* TQ , LoopBack */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   328      (0x01U), (0x00U),          /*  Q , A        */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   329      (0x00U), (0x01U),          /*  B , C        */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   330      (0x00U), (0x00U),          /*  CPH , CPOL   */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   331      (0x00U)                    /*  PAREN        */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   332      ),
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   333    Spi_IdleLeadTrailParam(
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   334      (1U), (4U), /* IPRE,IDLE:   IdleA/B delay = 1.0E-7s */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   335      (1U), (4U), /* LPRE,LEAD:   Lead delay    = 1.0E-7s */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   336      (1U), (4U),/* TPRE, TRAIL: Trail delay   = 1.0E-7s */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   337      (1U)
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   338      ),
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   339    SpiJob_1_ChannelLinkPtr_Physical, /* Channel linked list Physical*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   340      SPI_CS_VIA_HW_OR_NONE,   /* CS_VIA_HW */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   341      (uint8)0U,               /* Job Priority : 0...3*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   342      (uint8)STD_LOW,              /* CS polarity */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   343      /* Chnl[bit:7:4],QSPI[3:0] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   344      (uint8)((SPI_QSPI_CHANNEL0 << 4U)|SPI_QSPI2_INDEX),
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   345      SPI_PARITY_UNUSED,        /* Parity support */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   346      (0U)                    /*Frame based CS is disabled*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   347    },
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   348    /* Synchronous Job[s] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   349    /* Job:SpiJob_2 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   350    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   351      SpiConf_SpiJob_SpiJob_2,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   352      Spi_BaudRateAndClockParam(  /* Baudrate = 1000000.0Hz */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   353      (0x31U), (0x00U),          /* TQ , LoopBack */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   354      (0x01U), (0x00U),          /*  Q , A        */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   355      (0x00U), (0x01U),          /*  B , C        */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   356      (0x00U), (0x00U),          /*  CPH , CPOL   */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   357      (0x00U)                    /*  PAREN        */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   358      ),
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   359    Spi_IdleLeadTrailParam(
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   360      (1U), (4U), /* IPRE,IDLE:   IdleA/B delay = 1.0E-7s */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   361      (1U), (4U), /* LPRE,LEAD:   Lead delay    = 1.0E-7s */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   362      (1U), (4U),/* TPRE, TRAIL: Trail delay   = 1.0E-7s */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   363      (1U)
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   364      ),
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   365    SpiJob_2_ChannelLinkPtr_Physical, /* Channel linked list Physical*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   366      SPI_CS_VIA_HW_OR_NONE,   /* CS_VIA_HW */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   367      (uint8)0U,               /* Job Priority : 0...3*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   368      (uint8)STD_LOW,              /* CS polarity */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   369      /* Chnl[bit:7:4],QSPI[3:0] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   370      (uint8)((SPI_QSPI_CHANNEL3 << 4U)|SPI_QSPI4_INDEX),
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   371      SPI_PARITY_UNUSED,        /* Parity support */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   372      (0U)                    /*Frame based CS is disabled*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   373    }};
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   374  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   375  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   376  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   377  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   378  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   379  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   380  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   381  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   382  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   383  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   384  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   385  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   386  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   387  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   388  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   389  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   390  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   391  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   392  /***************** CORE0 JOB CONFIGURATION MemMap SECTION END *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   393      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   394      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   395      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   396  /******************* CORE0 CHANNEL CONFIGURATION MEMMAP SECTION *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   397  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   398  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   399  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   400  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   401  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   402  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   403  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   404  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   405  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   406  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   407  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   408  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   409  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   410  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   411  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   412  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   413  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   414  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   415  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   416  static const Spi_ChannelConfigType Spi_kChannelConfig_Core0[] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   417  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   418        /* EB Chnl[s] on QSPI0 core0*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   419    /* Channel:SpiChannel_QSPI0_MCU2 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   420    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   421      0x00010101U,     /* Default data */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   422      0x0020U,         /* Number of Data Elements */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   423      SPI_EB_CHANNEL,  /* External Buffer Channel */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   424      0x98U,            /* MSB[7], DataWidth=24[6:0] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   425      SpiConf_SpiChannel_SpiChannel_QSPI0_MCU2
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   426    },
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   427    /* EB Chnl[s] on QSPI2 core0*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   428    /* Channel:SpiChannel_QSPI2_TLF35584 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   429    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   430      0x0000aaaaU,     /* Default data */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   431      0x0010U,         /* Number of Data Elements */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   432      SPI_EB_CHANNEL,  /* External Buffer Channel */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   433      0x90U,            /* MSB[7], DataWidth=16[6:0] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   434      SpiConf_SpiChannel_SpiChannel_QSPI2_TLF35584
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   435    },
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   436    /* EB Chnl[s] on QSPI4 core0*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   437    /* Channel:SpiChannel_QSPI4_TLE9183QK */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   438    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   439      0x00010101U,     /* Default data */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   440      0x0020U,         /* Number of Data Elements */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   441      SPI_EB_CHANNEL,  /* External Buffer Channel */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   442      0x98U,            /* MSB[7], DataWidth=24[6:0] */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   443      SpiConf_SpiChannel_SpiChannel_QSPI4_TLE9183QK
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   444    }};
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   445  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   446  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   447  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   448  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   449  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   450  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   451  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   452  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   453  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   454  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   455  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   456  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   457  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   458  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   459  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   460  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   461  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   462  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   463  /***************** CORE0 JOB CONFIGURATION MemMap SECTION END *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   464      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   465      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   466                
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   467  /******************* CORE0 QSPI0 CONFIGURATION MEMMAP SECTION *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   468  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   469  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   470  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   471  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   472  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   473  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   474  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   475  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   476  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   477  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   478  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   479  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   480  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   481  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   482  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   483  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   484  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   485  /* QSPI0 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   486  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   487  static const Spi_QspiHwConfigType Spi_kQspiHwConfigQSPI0 =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   488  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   489    0x00040000U,               /* Active CS Level, SSOC SFR value */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   490    0U,                        /* Queue length can be ignored for Sync */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   491    SPI_CLK_SLEEP_DISABLE,     /* Module Sleep disabled */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   492    (uint8)0U,                 /* Input class, MRIS bit field in PISEL SFR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   493    1U,                         /* Max Sequence Count on the QSPI */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   494    0U,  /* External Demultiplexer feature is disabled */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   495    0U /* SLSO0 Strobe delay */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   496  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   497  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   498  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   499  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   500  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   501  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   502  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   503  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   504  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   505  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   506  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   507  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   508  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   509  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   510  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   511  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   512  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   513  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   514  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   515  /***************** CORE0 QSPI0 CONFIGURATION MemMap SECTION END *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   516        /******************* CORE0 QSPI2 CONFIGURATION MEMMAP SECTION *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   517  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   518  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   519  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   520  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   521  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   522  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   523  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   524  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   525  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   526  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   527  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   528  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   529  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   530  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   531  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   532  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   533  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   534  /* QSPI2 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   535  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   536  static const Spi_QspiHwConfigType Spi_kQspiHwConfigQSPI2 =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   537  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   538    0x00010000U,               /* Active CS Level, SSOC SFR value */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   539    0U,                        /* Queue length can be ignored for Sync */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   540    SPI_CLK_SLEEP_DISABLE,     /* Module Sleep disabled */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   541    (uint8)0U,                 /* Input class, MRIS bit field in PISEL SFR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   542    1U,                         /* Max Sequence Count on the QSPI */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   543    0U,  /* External Demultiplexer feature is disabled */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   544    0U /* SLSO0 Strobe delay */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   545  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   546  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   547  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   548  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   549  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   550  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   551  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   552  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   553  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   554  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   555  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   556  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   557  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   558  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   559  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   560  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   561  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   562  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   563  /***************** CORE0 QSPI2 CONFIGURATION MemMap SECTION END *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   564        /******************* CORE0 QSPI4 CONFIGURATION MEMMAP SECTION *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   565  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   566  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   567  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   568  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   569  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   570  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   571  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   572  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   573  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   574  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   575  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   576  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   577  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   578  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   579  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   580  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   581  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   582  /* QSPI4 */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   583  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   584  static const Spi_QspiHwConfigType Spi_kQspiHwConfigQSPI4 =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   585  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   586    0x00080000U,               /* Active CS Level, SSOC SFR value */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   587    0U,                        /* Queue length can be ignored for Sync */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   588    SPI_CLK_SLEEP_DISABLE,     /* Module Sleep disabled */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   589    (uint8)1U,                 /* Input class, MRIS bit field in PISEL SFR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   590    1U,                         /* Max Sequence Count on the QSPI */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   591    0U,  /* External Demultiplexer feature is disabled */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   592    0U /* SLSO0 Strobe delay */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   593  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   594  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   595  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   596  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   597  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   598  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   599  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   600  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   601  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   602  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   603  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   604  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   605  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   606  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   607  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   608  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   609  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   610  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   611  /***************** CORE0 QSPI4 CONFIGURATION MemMap SECTION END *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   612                                      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   613  /********************CORE0 RX/TX BUFFERS MEMMAP SECTION***********************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   614  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   615  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   616  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   617  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   618  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   619  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   620  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   621  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   622  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   623  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   624  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   625  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   626  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   627  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   628  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   629  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   630  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   631  /* Lookup table to hold the offset in buffer and total elements to be transferred for all IB channels.
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   632  Index - Represents channel number, 1st element - Offset in buffer, 2nd element - Total elements to be transmitted */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   633  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   634  static const Spi_CoreChannelOffsetType Spi_ChannelOffsets_Core0[SPI_NUM_IB_CHANNELS_CORE0 +  SPI_NUM_EB_CHANNELS_CORE0 + 1U] =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   635  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   636    {0, 0},    /*SpiChannel_QSPI0_MCU2*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   637    {0, 0},    /*SpiChannel_QSPI2_TLF35584*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   638    {0, 0},    /*SpiChannel_QSPI4_TLE9183QK*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   639    {0xFFFF, 0xFFFF}
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   640  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   641  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   642  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   643  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   644  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   645  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   646  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   647  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   648  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   649  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   650  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   651  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   652  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   653  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   654  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   655  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   656  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   657  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   658  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   659  /********************CORE0 RX/TX BUFFERS MEMMAP SECTION***********************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   660      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   661  /******************* CORE0 Spi_Config_Core CONFIGURATION MEMMAP SECTION *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   662  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   663  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   664  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   665  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   666  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   667  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   668  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   669  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   670  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   671  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   672  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   673  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   674  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   675  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   676  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   677  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   678  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   679  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   680  /* MISRA2012_RULE_8_7_JUSTIFICATION: Spi_Config_Core0 is used outside
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   681  * of this file and therefore it is not declared as static */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   682  /* MISRA2012_RULE_8_4_JUSTIFICATION: Agreed violation */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   683  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   684  const Spi_CoreConfigType Spi_Config_Core0 =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   685  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   686    /* Sequence Configuration */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   687    Spi_kSequenceConfig_Core0,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   688    /* Job configuration */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   689    Spi_kJobConfig_Core0,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   690    /* Channel Configuration */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   691    Spi_kChannelConfig_Core0,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   692    Spi_ChannelOffsets_Core0,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   693    /* QSPI Hw configuration */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   694    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   695      &Spi_kQspiHwConfigQSPI0,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   696      NULL_PTR,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   697      &Spi_kQspiHwConfigQSPI2,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   698      NULL_PTR,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   699      &Spi_kQspiHwConfigQSPI4,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   700    },
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   701    /* Hw Map Index */      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   702    /*
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   703    (000 QSPI not configured for core0)
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   704    (001 QSPI configured as Sync for core0)
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   705    (010 QSPI configured as Async for core0)
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   706    (011 QSPI configured for core0)
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   707    QSPI5 - 0
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   708    QSPI4 - 1
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   709    QSPI3 - 0
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   710    QSPI2 - 1
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   711    QSPI1 - 0
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   712    QSPI0 - 1*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   713    0x01041U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   714    /* No. of Sequences configured */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   715    3U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   716    /* No. of Jobs configured */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   717    3U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   718    /* No. of Channels configured */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   719    3U
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   720  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   721  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   722  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   723  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   724  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   725  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   726  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   727  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   728  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   729  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   730  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   731  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   732  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_CORE0_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   733  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   734  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   735  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   736  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   737  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   738  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   739  /***************** CORE0 Spi_Config_Core CONFIGURATION MemMap SECTION END *************/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   740            
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   741      
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   742  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   743  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   744  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   745  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   746  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   747  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   748  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   749  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   750  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   751  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   752  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   753  #define SPI_START_SEC_CONFIG_DATA_ASIL_B_GLOBAL_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   754  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   755  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   756  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   757  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   758  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   759  #include "Spi_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   760  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   761  const Spi_ConfigType Spi_Config =
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   762  {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   763    {
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   764      &Spi_Config_Core0,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   765      NULL_PTR,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   766      NULL_PTR
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   767    },
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   768    SequenceLookupIndex,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   769    JobLookupIndex,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   770    ChannelLookupIndex,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   771    /*Total number of Sequence*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   772    3U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   773    /*Total number of Jobs*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   774    3U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   775    /*Total number of Channels*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   776    3U,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   777    /*Sync Delay*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   778    65535U
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   779  };
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   780  
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   781  /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   782  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   783  /* MISRA2012_RULE_5_2_JUSTIFICATION: Identifiers declared in the same scope
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   784  shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   785  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   786  /* MISRA2012_RULE_5_4_JUSTIFICATION: Macro identifiers shall be distinct
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   787  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   788  /* MISRA2012_RULE_5_5_JUSTIFICATION: Identifiers shall be distinct from macro
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   789  names
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   790  * because of AS naming convention*/
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   791  #define SPI_STOP_SEC_CONFIG_DATA_ASIL_B_GLOBAL_32
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   792  /* MISRA2012_RULE_4_10_JUSTIFICATION: Spi_Memmap.h is repeatedly included
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   793  * without include guard. This is as per AUTOSAR */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   794  /* MISRA2012_RULE_20_1_JUSTIFICATION: Declaration before #include,
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   795  * this is due to inclusion of memmap.h to specify the location to which
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   796  * the variable has to be placed. */
+; ..\src\BaseSw\EB_Cfg\src\Spi_PBcfg.c	   797  #include "Spi_MemMap.h"/* End Of File */
+
+	; Module end

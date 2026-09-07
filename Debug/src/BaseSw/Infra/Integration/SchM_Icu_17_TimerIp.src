@@ -1,0 +1,1439 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\BaseSw\\Infra\\Integration\\.SchM_Icu_17_TimerIp.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.src ..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_ResetEdgeCount',code,cluster('SchM_Enter_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_ResetEdgeCount'
+	.align	2
+	
+	.global	SchM_Enter_Icu_17_TimerIp_ResetEdgeCount
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	     1  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	     2  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	     3  ** Copyright (C) Infineon Technologies (2023)                                 **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	     4  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	     5  ** All rights reserved.                                                       **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	     6  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	     7  ** This document contains proprietary information belonging to Infineon       **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	     8  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	     9  ** of its contents is not permitted without prior written authorization.      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    10  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    11  ********************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    12  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    13  **  FILENAME     : SchM_Icu_17_TimerIp.c                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    14  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    15  **  VERSION      : 7.0.0                                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    16  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    17  **  DATE         : 2023-12-06                                                 **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    18  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    19  **  VARIANT      : Variant PB                                                 **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    20  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    21  **  PLATFORM     : Infineon AURIX2G                                           **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    22  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    23  **  AUTHOR       : DL-AUTOSAR-Engineering                                     **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    24  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    25  **  VENDOR       : Infineon Technologies                                      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    26  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    27  **  TRACEABILITY : [cover parentID= {1300DA60-D908-45a6-A899-6339BE0101C5} ]  **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    28  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    29  **  DESCRIPTION  : SchM file for Icu driver                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    30  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    31  **  [/cover]                                                                  **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    32  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    33  **  SPECIFICATION(S) : Specification of RTE, AUTOSAR Release 4.2.2            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    34  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    35  **  MAY BE CHANGED BY USER : yes                                              **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    36  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    37  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    38  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    39  **                      Includes                                              **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    40  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    41  #include "IFX_Os.h"
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    42  #include "SchM_Icu_17_TimerIp.h"
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    43  #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    44  #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    45  #include "Test_Latency.h"
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    46  #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    47  #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    48  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    49  **                      Global Macro Definitions                              **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    50  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    51  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    52  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    53  **                      Global Type Definitions                               **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    54  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    55  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    56  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    57  **                      Global Constant Declarations                          **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    58  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    59  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    60  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    61  **                      Global Function Definitions                           **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    62  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    63  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    64  ** Traceability: [cover parentID={DE5ADE20-82DC-43ac-9E00-F2D266B5F1D0}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    65  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    66  ** Syntax           : void SchM_Enter_Icu_17_TimerIp_ResetEdgeCount(void)     **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    67  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    68  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    69  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    70  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    71  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    72  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    73  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    74  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    75  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    76  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    77  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    78  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    79  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    80  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    81  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    82  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    83  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    84  void SchM_Enter_Icu_17_TimerIp_ResetEdgeCount(void)
+; Function SchM_Enter_Icu_17_TimerIp_ResetEdgeCount
+.L3:
+SchM_Enter_Icu_17_TimerIp_ResetEdgeCount:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    85  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    86    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L90:
+	
+__SchM_Enter_Icu_17_TimerIp_ResetEdgeCount_function_end:
+	.size	SchM_Enter_Icu_17_TimerIp_ResetEdgeCount,__SchM_Enter_Icu_17_TimerIp_ResetEdgeCount_function_end-SchM_Enter_Icu_17_TimerIp_ResetEdgeCount
+.L34:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_ResetEdgeCount',code,cluster('SchM_Exit_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_ResetEdgeCount'
+	.align	2
+	
+	.global	SchM_Exit_Icu_17_TimerIp_ResetEdgeCount
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    87    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    88    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    89    Measure_Start_Value(0);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    90    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    91    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    92  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    93  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    94  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    95  ** Traceability: [cover parentID={DE5ADE20-82DC-43ac-9E00-F2D266B5F1D0}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    96  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    97  ** Syntax           : void SchM_Exit_Icu_17_TimerIp_ResetEdgeCount(void)      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    98  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	    99  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   100  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   101  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   102  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   103  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   104  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   105  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   106  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   107  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   108  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   109  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   110  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   111  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   112  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   113  ** Description      : Exits Module exclusive area                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   114  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   115  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   116  void SchM_Exit_Icu_17_TimerIp_ResetEdgeCount(void)
+; Function SchM_Exit_Icu_17_TimerIp_ResetEdgeCount
+.L5:
+SchM_Exit_Icu_17_TimerIp_ResetEdgeCount:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   117  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   118    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   119    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   120    Measure_End_Value(0);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   121    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   122    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   123    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L91:
+	
+__SchM_Exit_Icu_17_TimerIp_ResetEdgeCount_function_end:
+	.size	SchM_Exit_Icu_17_TimerIp_ResetEdgeCount,__SchM_Exit_Icu_17_TimerIp_ResetEdgeCount_function_end-SchM_Exit_Icu_17_TimerIp_ResetEdgeCount
+.L39:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_SetActivationCondition',code,cluster('SchM_Enter_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_SetActivationCondition'
+	.align	2
+	
+	.global	SchM_Enter_Icu_17_TimerIp_SetActivationCondition
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   124  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   125  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   126  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   127  ** Traceability: [cover parentID={FBE391B2-0DA7-4152-BC44-943FC4B4B56F}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   128  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   129  ** Syntax        : void SchM_Enter_Icu_17_TimerIp_SetActivationCondition(void)**
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   130  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   131  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   132  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   133  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   134  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   135  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   136  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   137  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   138  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   139  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   140  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   141  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   142  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   143  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   144  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   145  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   146  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   147  void SchM_Enter_Icu_17_TimerIp_SetActivationCondition(void)
+; Function SchM_Enter_Icu_17_TimerIp_SetActivationCondition
+.L7:
+SchM_Enter_Icu_17_TimerIp_SetActivationCondition:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   148  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   149    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L92:
+	
+__SchM_Enter_Icu_17_TimerIp_SetActivationCondition_function_end:
+	.size	SchM_Enter_Icu_17_TimerIp_SetActivationCondition,__SchM_Enter_Icu_17_TimerIp_SetActivationCondition_function_end-SchM_Enter_Icu_17_TimerIp_SetActivationCondition
+.L44:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_SetActivationCondition',code,cluster('SchM_Exit_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_SetActivationCondition'
+	.align	2
+	
+	.global	SchM_Exit_Icu_17_TimerIp_SetActivationCondition
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   150    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   151    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   152    Measure_Start_Value(1);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   153    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   154    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   155  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   156  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   157  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   158  ** Traceability: [cover parentID={FBE391B2-0DA7-4152-BC44-943FC4B4B56F}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   159  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   160  ** Syntax         : void SchM_Exit_Icu_17_TimerIp_SetActivationCondition(void)**
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   161  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   162  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   163  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   164  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   165  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   166  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   167  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   168  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   169  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   170  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   171  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   172  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   173  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   174  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   175  ** Description      : Exits Module exclusive area                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   176  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   177  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   178  void SchM_Exit_Icu_17_TimerIp_SetActivationCondition(void)
+; Function SchM_Exit_Icu_17_TimerIp_SetActivationCondition
+.L9:
+SchM_Exit_Icu_17_TimerIp_SetActivationCondition:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   179  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   180    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   181    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   182    Measure_End_Value(1);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   183    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   184    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   185    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L93:
+	
+__SchM_Exit_Icu_17_TimerIp_SetActivationCondition_function_end:
+	.size	SchM_Exit_Icu_17_TimerIp_SetActivationCondition,__SchM_Exit_Icu_17_TimerIp_SetActivationCondition_function_end-SchM_Exit_Icu_17_TimerIp_SetActivationCondition
+.L49:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount',code,cluster('SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount'
+	.align	2
+	
+	.global	SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   186  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   187  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   188  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   189  ** Traceability: [cover parentID={253EA602-550A-4df4-8993-AE8373F79989}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   190  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   191  ** Syntax           : void SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount(void) **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   192  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   193  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   194  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   195  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   196  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   197  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   198  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   199  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   200  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   201  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   202  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   203  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   204  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   205  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   206  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   207  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   208  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   209  void SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount(void)
+; Function SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount
+.L11:
+SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   210  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   211    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L94:
+	
+__SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount_function_end:
+	.size	SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount,__SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount_function_end-SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount
+.L54:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount',code,cluster('SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount'
+	.align	2
+	
+	.global	SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   212    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   213    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   214    Measure_Start_Value(2);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   215    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   216    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   217  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   218  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   219  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   220  ** Traceability: [cover parentID={253EA602-550A-4df4-8993-AE8373F79989}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   221  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   222  ** Syntax           : void SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount(void)  **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   223  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   224  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   225  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   226  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   227  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   228  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   229  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   230  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   231  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   232  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   233  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   234  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   235  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   236  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   237  ** Description      : Exits Module exclusive area                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   238  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   239  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   240  void SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount(void)
+; Function SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount
+.L13:
+SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   241  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   242    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   243    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   244    Measure_End_Value(2);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   245    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   246    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   247    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L95:
+	
+__SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount_function_end:
+	.size	SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount,__SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount_function_end-SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount
+.L59:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle',code,cluster('SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle'
+	.align	2
+	
+	.global	SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   248  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   249  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   250  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   251  ** Traceability: [cover parentID={945653E4-2B39-42d1-A365-BF27A9A5AA12}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   252  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   253  ** Syntax           : void SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle(void)    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   254  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   255  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   256  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   257  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   258  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   259  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   260  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   261  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   262  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   263  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   264  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   265  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   266  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   267  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   268  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   269  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   270  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   271  void SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle(void)
+; Function SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle
+.L15:
+SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   272  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   273    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L96:
+	
+__SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle_function_end:
+	.size	SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle,__SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle_function_end-SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle
+.L64:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle',code,cluster('SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle'
+	.align	2
+	
+	.global	SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   274    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   275    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   276    Measure_Start_Value(3);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   277    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   278    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   279  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   280  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   281  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   282  ** Traceability: [cover parentID={945653E4-2B39-42d1-A365-BF27A9A5AA12}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   283  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   284  ** Syntax           : void SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle(void)     **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   285  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   286  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   287  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   288  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   289  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   290  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   291  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   292  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   293  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   294  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   295  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   296  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   297  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   298  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   299  ** Description      : Exits Module exclusive area                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   300  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   301  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   302  void SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle(void)
+; Function SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle
+.L17:
+SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   303  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   304    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   305    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   306    Measure_End_Value(3);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   307    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   308    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   309    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L97:
+	
+__SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle_function_end:
+	.size	SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle,__SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle_function_end-SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle
+.L69:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle',code,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle'
+	.align	2
+	
+	.global	SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   310  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   311  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   312  ** Traceability: [cover parentID={C2006665-C426-4783-92FE-F88B2C21D8D2}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   313  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   314  ** Syntax           : void SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle(void)    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   315  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   316  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   317  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   318  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   319  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   320  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   321  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   322  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   323  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   324  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   325  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   326  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   327  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   328  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   329  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   330  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   331  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   332  void SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle(void)
+; Function SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle
+.L19:
+SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   333  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   334    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L98:
+	
+__SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle_function_end:
+	.size	SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle,__SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle_function_end-SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle
+.L74:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle',code,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle'
+	.align	2
+	
+	.global	SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   335    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   336    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   337    Measure_Start_Value(4);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   338    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   339    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   340  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   341  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   342  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   343  ** Traceability: [cover parentID={C2006665-C426-4783-92FE-F88B2C21D8D2}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   344  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   345  ** Syntax           : void SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle(void)     **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   346  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   347  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   348  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   349  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   350  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   351  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   352  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   353  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   354  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   355  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   356  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   357  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   358  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   359  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   360  ** Description      : Exits Module exclusive area                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   361  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   362  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   363  void SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle(void)
+; Function SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle
+.L21:
+SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   364  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   365    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   366    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   367    Measure_End_Value(4);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   368    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   369    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   370    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L99:
+	
+__SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle_function_end:
+	.size	SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle,__SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle_function_end-SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle
+.L79:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed',code,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed'
+	.align	2
+	
+	.global	SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   371  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   372  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   373  ** Traceability: [cover parentID={791A57BD-D8F3-444d-B84C-CB7A27F1D10F}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   374  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   375  ** Syntax           : void SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed(void)  **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   376  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   377  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   378  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   379  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   380  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   381  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   382  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   383  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   384  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   385  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   386  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   387  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   388  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   389  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   390  ** Description      : Enters Module exclusive area                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   391  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   392  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   393  void SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed(void)
+; Function SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed
+.L23:
+SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   394  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   395    SuspendAllInterrupts();
+	j	SuspendAllInterrupts
+.L100:
+	
+__SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed_function_end:
+	.size	SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed,__SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed_function_end-SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed
+.L84:
+	; End of function
+	
+	.sdecl	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed',code,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.text.SchM_Icu_17_TimerIp.SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed'
+	.align	2
+	
+	.global	SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   396    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   397    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   398    Measure_Start_Value(5);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   399    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   400    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   401  }
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   402  
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   403  /*******************************************************************************
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   404  ** Traceability: [cover parentID={791A57BD-D8F3-444d-B84C-CB7A27F1D10F}]      **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   405  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   406  ** Syntax           : void SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed(void)   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   407  ** [/cover]                                                                   **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   408  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   409  ** Service ID       : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   410  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   411  ** Sync/Async       : Synchronous                                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   412  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   413  ** Reentrancy       : Non - Reentrant                                         **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   414  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   415  ** Parameters(in)   : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   416  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   417  ** Parameters (out) : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   418  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   419  ** Return value     : none                                                    **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   420  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   421  ** Description      : Exits Module exclusive area                             **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   422  **                                                                            **
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   423  *******************************************************************************/
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   424  void SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed(void)
+; Function SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed
+.L25:
+SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed:	.type	func
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   425  {
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   426    #ifdef LATENCY_CALC_ICU
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   427    #if(LATENCY_CALC_ICU==1U)
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   428    Measure_End_Value(5);
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   429    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   430    #endif
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   431    ResumeAllInterrupts();
+	j	ResumeAllInterrupts
+.L101:
+	
+__SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed_function_end:
+	.size	SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed,__SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed_function_end-SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed
+.L89:
+	; End of function
+	
+	.calls	'SchM_Enter_Icu_17_TimerIp_ResetEdgeCount','SuspendAllInterrupts'
+	.calls	'SchM_Exit_Icu_17_TimerIp_ResetEdgeCount','ResumeAllInterrupts'
+	.calls	'SchM_Enter_Icu_17_TimerIp_SetActivationCondition','SuspendAllInterrupts'
+	.calls	'SchM_Exit_Icu_17_TimerIp_SetActivationCondition','ResumeAllInterrupts'
+	.calls	'SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount','SuspendAllInterrupts'
+	.calls	'SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount','ResumeAllInterrupts'
+	.calls	'SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle','SuspendAllInterrupts'
+	.calls	'SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle','ResumeAllInterrupts'
+	.calls	'SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle','SuspendAllInterrupts'
+	.calls	'SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle','ResumeAllInterrupts'
+	.calls	'SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed','SuspendAllInterrupts'
+	.calls	'SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed','ResumeAllInterrupts'
+	.calls	'SchM_Enter_Icu_17_TimerIp_ResetEdgeCount','',0
+	.calls	'SchM_Exit_Icu_17_TimerIp_ResetEdgeCount','',0
+	.calls	'SchM_Enter_Icu_17_TimerIp_SetActivationCondition','',0
+	.calls	'SchM_Exit_Icu_17_TimerIp_SetActivationCondition','',0
+	.calls	'SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount','',0
+	.calls	'SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount','',0
+	.calls	'SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle','',0
+	.calls	'SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle','',0
+	.calls	'SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle','',0
+	.calls	'SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle','',0
+	.calls	'SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed','',0
+	.extern	SuspendAllInterrupts
+	.extern	ResumeAllInterrupts
+	.calls	'SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L27:
+	.word	428
+	.half	3
+	.word	.L28
+	.byte	4
+.L26:
+	.byte	1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L29
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	154
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	161
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	203
+	.byte	7
+	.word	203
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	219
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	224
+	.byte	9
+	.byte	'value',0
+	.word	203
+	.byte	9
+	.byte	'compare',0
+	.word	203
+	.byte	0,10
+	.byte	'SuspendAllInterrupts',0,1,49,6,1,1,1,1,10
+	.byte	'ResumeAllInterrupts',0,1,50,6,1,1,1,1,11,1,7
+	.word	338
+	.byte	12
+	.byte	'__codeptr',0,2,1,1
+	.word	340
+	.byte	2
+	.byte	'unsigned char',0,1,8,12
+	.byte	'uint8',0,3,105,29
+	.word	363
+	.byte	2
+	.byte	'unsigned short int',0,2,7,12
+	.byte	'uint16',0,3,109,29
+	.word	394
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,11,21,0
+	.byte	54,15,0,0,12,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L29:
+	.word	.L103-.L102
+.L102:
+	.half	3
+	.word	.L105-.L104
+.L104:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\IFX_Os.h',0,0,0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0,0
+.L105:
+.L103:
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_info'
+.L30:
+	.word	230
+	.half	3
+	.word	.L31
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L33,.L32
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Enter_Icu_17_TimerIp_ResetEdgeCount',0,1,84,6,1,1,1
+	.word	.L3,.L90,.L2
+	.byte	4
+	.word	.L3,.L90
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_line'
+.L32:
+	.word	.L107-.L106
+.L106:
+	.half	3
+	.word	.L109-.L108
+.L108:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L109:
+	.byte	5,23,7,0,5,2
+	.word	.L3
+	.byte	3,213,0,1,5,1,7,9
+	.half	.L34-.L3
+	.byte	3,6,0,1,1
+.L107:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_ranges'
+.L33:
+	.word	-1,.L3,0,.L34-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_info'
+.L35:
+	.word	229
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L38,.L37
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Exit_Icu_17_TimerIp_ResetEdgeCount',0,1,116,6,1,1,1
+	.word	.L5,.L91,.L4
+	.byte	4
+	.word	.L5,.L91
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_line'
+.L37:
+	.word	.L111-.L110
+.L110:
+	.half	3
+	.word	.L113-.L112
+.L112:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L113:
+	.byte	5,22,7,0,5,2
+	.word	.L5
+	.byte	3,250,0,1,5,1,7,9
+	.half	.L39-.L5
+	.byte	3,1,0,1,1
+.L111:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_ranges'
+.L38:
+	.word	-1,.L5,0,.L39-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_info'
+.L40:
+	.word	239
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L43,.L42
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Enter_Icu_17_TimerIp_SetActivationCondition',0,1,147,1,6,1,1,1
+	.word	.L7,.L92,.L6
+	.byte	4
+	.word	.L7,.L92
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_line'
+.L42:
+	.word	.L115-.L114
+.L114:
+	.half	3
+	.word	.L117-.L116
+.L116:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L117:
+	.byte	5,23,7,0,5,2
+	.word	.L7
+	.byte	3,148,1,1,5,1,7,9
+	.half	.L44-.L7
+	.byte	3,6,0,1,1
+.L115:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_ranges'
+.L43:
+	.word	-1,.L7,0,.L44-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_info'
+.L45:
+	.word	238
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L48,.L47
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Exit_Icu_17_TimerIp_SetActivationCondition',0,1,178,1,6,1,1,1
+	.word	.L9,.L93,.L8
+	.byte	4
+	.word	.L9,.L93
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_line'
+.L47:
+	.word	.L119-.L118
+.L118:
+	.half	3
+	.word	.L121-.L120
+.L120:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L121:
+	.byte	5,22,7,0,5,2
+	.word	.L9
+	.byte	3,184,1,1,5,1,7,9
+	.half	.L49-.L9
+	.byte	3,1,0,1,1
+.L119:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_ranges'
+.L48:
+	.word	-1,.L9,0,.L49-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_info'
+.L50:
+	.word	235
+	.half	3
+	.word	.L51
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L53,.L52
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount',0,1,209,1,6,1,1,1
+	.word	.L11,.L94,.L10
+	.byte	4
+	.word	.L11,.L94
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_abbrev'
+.L51:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_line'
+.L52:
+	.word	.L123-.L122
+.L122:
+	.half	3
+	.word	.L125-.L124
+.L124:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L125:
+	.byte	5,23,7,0,5,2
+	.word	.L11
+	.byte	3,210,1,1,5,1,7,9
+	.half	.L54-.L11
+	.byte	3,6,0,1,1
+.L123:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_ranges'
+.L53:
+	.word	-1,.L11,0,.L54-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_info'
+.L55:
+	.word	234
+	.half	3
+	.word	.L56
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L58,.L57
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount',0,1,240,1,6,1,1,1
+	.word	.L13,.L95,.L12
+	.byte	4
+	.word	.L13,.L95
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_line'
+.L57:
+	.word	.L127-.L126
+.L126:
+	.half	3
+	.word	.L129-.L128
+.L128:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L129:
+	.byte	5,22,7,0,5,2
+	.word	.L13
+	.byte	3,246,1,1,5,1,7,9
+	.half	.L59-.L13
+	.byte	3,1,0,1,1
+.L127:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_ranges'
+.L58:
+	.word	-1,.L13,0,.L59-.L13,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_info'
+.L60:
+	.word	232
+	.half	3
+	.word	.L61
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L63,.L62
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle',0,1,143,2,6,1,1,1
+	.word	.L15,.L96,.L14
+	.byte	4
+	.word	.L15,.L96
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_abbrev'
+.L61:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_line'
+.L62:
+	.word	.L131-.L130
+.L130:
+	.half	3
+	.word	.L133-.L132
+.L132:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L133:
+	.byte	5,23,7,0,5,2
+	.word	.L15
+	.byte	3,144,2,1,5,1,7,9
+	.half	.L64-.L15
+	.byte	3,6,0,1,1
+.L131:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_ranges'
+.L63:
+	.word	-1,.L15,0,.L64-.L15,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_info'
+.L65:
+	.word	231
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L68,.L67
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle',0,1,174,2,6,1,1,1
+	.word	.L17,.L97,.L16
+	.byte	4
+	.word	.L17,.L97
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_abbrev'
+.L66:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_line'
+.L67:
+	.word	.L135-.L134
+.L134:
+	.half	3
+	.word	.L137-.L136
+.L136:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L137:
+	.byte	5,22,7,0,5,2
+	.word	.L17
+	.byte	3,180,2,1,5,1,7,9
+	.half	.L69-.L17
+	.byte	3,1,0,1,1
+.L135:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_ranges'
+.L68:
+	.word	-1,.L17,0,.L69-.L17,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_info'
+.L70:
+	.word	232
+	.half	3
+	.word	.L71
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L73,.L72
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle',0,1,204,2,6,1,1,1
+	.word	.L19,.L98,.L18
+	.byte	4
+	.word	.L19,.L98
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_abbrev'
+.L71:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_line'
+.L72:
+	.word	.L139-.L138
+.L138:
+	.half	3
+	.word	.L141-.L140
+.L140:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L141:
+	.byte	5,23,7,0,5,2
+	.word	.L19
+	.byte	3,205,2,1,5,1,7,9
+	.half	.L74-.L19
+	.byte	3,6,0,1,1
+.L139:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_ranges'
+.L73:
+	.word	-1,.L19,0,.L74-.L19,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_info'
+.L75:
+	.word	231
+	.half	3
+	.word	.L76
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L78,.L77
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle',0,1,235,2,6,1,1,1
+	.word	.L21,.L99,.L20
+	.byte	4
+	.word	.L21,.L99
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_abbrev'
+.L76:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_line'
+.L77:
+	.word	.L143-.L142
+.L142:
+	.half	3
+	.word	.L145-.L144
+.L144:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L145:
+	.byte	5,22,7,0,5,2
+	.word	.L21
+	.byte	3,241,2,1,5,1,7,9
+	.half	.L79-.L21
+	.byte	3,1,0,1,1
+.L143:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_ranges'
+.L78:
+	.word	-1,.L21,0,.L79-.L21,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_info'
+.L80:
+	.word	234
+	.half	3
+	.word	.L81
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L83,.L82
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed',0,1,137,3,6,1,1,1
+	.word	.L23,.L100,.L22
+	.byte	4
+	.word	.L23,.L100
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_abbrev'
+.L81:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_line'
+.L82:
+	.word	.L147-.L146
+.L146:
+	.half	3
+	.word	.L149-.L148
+.L148:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L149:
+	.byte	5,23,7,0,5,2
+	.word	.L23
+	.byte	3,138,3,1,5,1,7,9
+	.half	.L84-.L23
+	.byte	3,6,0,1,1
+.L147:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_ranges'
+.L83:
+	.word	-1,.L23,0,.L84-.L23,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_info'
+.L85:
+	.word	233
+	.half	3
+	.word	.L86
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L88,.L87
+	.byte	2
+	.word	.L26
+	.byte	3
+	.byte	'SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed',0,1,168,3,6,1,1,1
+	.word	.L25,.L101,.L24
+	.byte	4
+	.word	.L25,.L101
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_abbrev'
+.L86:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_line'
+.L87:
+	.word	.L151-.L150
+.L150:
+	.half	3
+	.word	.L153-.L152
+.L152:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Integration\\SchM_Icu_17_TimerIp.c',0,0,0,0,0
+.L153:
+	.byte	5,22,7,0,5,2
+	.word	.L25
+	.byte	3,174,3,1,5,1,7,9
+	.half	.L89-.L25
+	.byte	3,1,0,1,1
+.L151:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_ranges'
+.L88:
+	.word	-1,.L25,0,.L89-.L25,0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_loc'
+.L18:
+	.word	-1,.L19,0,.L98-.L19
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_loc'
+.L22:
+	.word	-1,.L23,0,.L100-.L23
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_loc'
+.L10:
+	.word	-1,.L11,0,.L94-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_loc'
+.L14:
+	.word	-1,.L15,0,.L96-.L15
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L90-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L92-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_loc'
+.L20:
+	.word	-1,.L21,0,.L99-.L21
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_loc'
+.L24:
+	.word	-1,.L25,0,.L101-.L25
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_loc'
+.L12:
+	.word	-1,.L13,0,.L95-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_loc'
+.L16:
+	.word	-1,.L17,0,.L97-.L17
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L91-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_loc'
+.L8:
+	.word	-1,.L9,0,.L93-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L154:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L3,.L90-.L3
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_Icu_17_TimerIp_ResetEdgeCount')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L5,.L91-.L5
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L7,.L92-.L7
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_Icu_17_TimerIp_SetActivationCondition')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L9,.L93-.L9
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L11,.L94-.L11
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmEnableEdgeCount')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L13,.L95-.L13
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L15,.L96-.L15
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_Icu_17_TimerIp_GtmGetDutyCycle')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L17,.L97-.L17
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L19,.L98-.L19
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetDutyCycle')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L21,.L99-.L21
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L23,.L100-.L23
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_Icu_17_TimerIp_CcuGetTimeElapsed')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L25,.L101-.L25
+
+; ..\src\BaseSw\Infra\Integration\SchM_Icu_17_TimerIp.c	   432  }
+
+	; Module end

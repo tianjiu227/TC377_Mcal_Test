@@ -1,0 +1,1269 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\BaseSw\\Infra\\Autosar_Srv\\.Os.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\BaseSw\\Infra\\Autosar_Srv\\Os.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\BaseSw\\Infra\\Autosar_Srv\\Os.src ..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtReg16',code,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtReg16'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WriteSafetyEndInitProtReg16
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	     1  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	     2  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	     3  ** Copyright (C) Infineon Technologies (2021)                                 **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	     4  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	     5  ** All rights reserved.                                                       **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	     6  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	     7  ** This document contains proprietary information belonging to Infineon       **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	     8  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	     9  ** of its contents is not permitted without prior written authorization.      **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    10  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    11  ********************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    12  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    13  **  FILENAME     : Os.c                                                       **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    14  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    15  **  VERSION      : 4.0.0                                                      **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    16  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    17  **  DATE         : 2021-11-08                                                 **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    18  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    19  **  VARIANT      : NA                                                         **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    20  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    21  **  PLATFORM     : Infineon AURIX2G                                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    22  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    23  **  AUTHOR       : DL-AUTOSAR-Engineering                                     **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    24  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    25  **  VENDOR       : Infineon Technologies                                      **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    26  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    27  **  DESCRIPTION : This file contains                                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    28  **                 OS functionality.                                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    29  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    30  **  SPECIFICATION(S) : NA                                                     **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    31  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    32  **  MAY BE CHANGED BY USER : Yes                                              **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    33  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    34  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    35  /*[cover parentID={DD8F98D3-2665-43fc-A5BF-05EC9E6B7E26}][/cover] */
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    36  /*[cover parentID={A9BBFB04-E13A-42f9-A6F1-FD133B63A7C4}][/cover] */
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    37  
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    38  #include "Os.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    39  
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    40  #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    41  #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    42  #include "Traps.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    43  #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    44  #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    45  #include "IFX_Os.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    46  #include "McalLib.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    47  
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    48  /*This counter in incremented when any syscall is called by driver in user mode.
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    49  in supervisory mode this will not be called and value will remain 1.*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    50  uint32 U32g_OsFuncCall_Count = 1;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    51  
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    52  extern volatile uint32 SFR_Return_Value;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    53  void TRUSTED_Mcal_WriteSafetyEndInitProtReg16\ 
+; Function TRUSTED_Mcal_WriteSafetyEndInitProtReg16
+.L4:
+TRUSTED_Mcal_WriteSafetyEndInitProtReg16:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    54  (volatile void* const RegAddress, const uint16 DataValue)
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    55  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    56    /*function to enter supervisory mode*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    57    /*functionality for WritePeripEndInitProtReg16*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    58    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    59    #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    60    SYSCALL(MCAL_CALL_TIN_WRITE_SAFETY_ENDINIT_PROTREG16);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    61    UNUSED_PARAMETER(RegAddress);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    62    UNUSED_PARAMETER(DataValue);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    63    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    64    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    65  }
+	ret
+.L72:
+	
+__TRUSTED_Mcal_WriteSafetyEndInitProtReg16_function_end:
+	.size	TRUSTED_Mcal_WriteSafetyEndInitProtReg16,__TRUSTED_Mcal_WriteSafetyEndInitProtReg16_function_end-TRUSTED_Mcal_WriteSafetyEndInitProtReg16
+.L29:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WritePeripEndInitProtReg',code,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.text.Os.TRUSTED_Mcal_WritePeripEndInitProtReg'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WritePeripEndInitProtReg
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    66  
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    67  void TRUSTED_Mcal_WritePeripEndInitProtReg
+; Function TRUSTED_Mcal_WritePeripEndInitProtReg
+.L6:
+TRUSTED_Mcal_WritePeripEndInitProtReg:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    68  ( volatile void* const RegAddress, const uint32 DataValue)
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    69  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    70    /*function to enter supervisory mode*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    71    /*functionality for WritePeripEndInitProtReg*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    72    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    73    #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    74    U32g_OsFuncCall_Count++;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    75    SYSCALL(MCAL_CALL_TIN_WRITE_PERIP_ENDINIT);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    76    UNUSED_PARAMETER(RegAddress);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    77    UNUSED_PARAMETER(DataValue);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    78    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    79    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    80  }
+	ret
+.L77:
+	
+__TRUSTED_Mcal_WritePeripEndInitProtReg_function_end:
+	.size	TRUSTED_Mcal_WritePeripEndInitProtReg,__TRUSTED_Mcal_WritePeripEndInitProtReg_function_end-TRUSTED_Mcal_WritePeripEndInitProtReg
+.L34:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtReg',code,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtReg'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WriteSafetyEndInitProtReg
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    81  void TRUSTED_Mcal_WriteSafetyEndInitProtReg
+; Function TRUSTED_Mcal_WriteSafetyEndInitProtReg
+.L8:
+TRUSTED_Mcal_WriteSafetyEndInitProtReg:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    82  ( volatile void* const RegAddress, const uint32 DataValue)
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    83  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    84    /*function to enter supervisory mode*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    85    /*functionality for WriteSafetyEndInitProtReg*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    86    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    87    #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    88    U32g_OsFuncCall_Count++;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    89    SYSCALL(MCAL_CALL_TIN_WRITE_SAFETY_ENDINIT);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    90    UNUSED_PARAMETER(RegAddress);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    91    UNUSED_PARAMETER(DataValue);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    92    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    93    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    94  }
+	ret
+.L82:
+	
+__TRUSTED_Mcal_WriteSafetyEndInitProtReg_function_end:
+	.size	TRUSTED_Mcal_WriteSafetyEndInitProtReg,__TRUSTED_Mcal_WriteSafetyEndInitProtReg_function_end-TRUSTED_Mcal_WriteSafetyEndInitProtReg
+.L39:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtRegMask',code,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.text.Os.TRUSTED_Mcal_WriteSafetyEndInitProtRegMask'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WriteSafetyEndInitProtRegMask
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    95  
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    96  void TRUSTED_Mcal_WriteSafetyEndInitProtRegMask
+; Function TRUSTED_Mcal_WriteSafetyEndInitProtRegMask
+.L10:
+TRUSTED_Mcal_WriteSafetyEndInitProtRegMask:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    97  (volatile void* const RegAdd, const uint32 Data, uint32 Mask)
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    98  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	    99    /*function to enter supervisory mode*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   100    /*functionality for WriteSafetyEndInitProtReg*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   101    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   102    #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   103    U32g_OsFuncCall_Count++;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   104    SYSCALL(MCAL_CALL_TIN_WRITE_SAFETY_ENDINIT_MASK);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   105    UNUSED_PARAMETER(RegAdd);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   106    UNUSED_PARAMETER(Data);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   107    UNUSED_PARAMETER(Mask);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   108    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   109    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   110  }
+	ret
+.L87:
+	
+__TRUSTED_Mcal_WriteSafetyEndInitProtRegMask_function_end:
+	.size	TRUSTED_Mcal_WriteSafetyEndInitProtRegMask,__TRUSTED_Mcal_WriteSafetyEndInitProtRegMask_function_end-TRUSTED_Mcal_WriteSafetyEndInitProtRegMask
+.L44:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_WriteCpuEndInitProtReg',code,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.text.Os.TRUSTED_Mcal_WriteCpuEndInitProtReg'
+	.align	2
+	
+	.global	TRUSTED_Mcal_WriteCpuEndInitProtReg
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   111  void TRUSTED_Mcal_WriteCpuEndInitProtReg
+; Function TRUSTED_Mcal_WriteCpuEndInitProtReg
+.L12:
+TRUSTED_Mcal_WriteCpuEndInitProtReg:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   112  (volatile void* const RegAdd, const uint32 Data)
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   113  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   114    /*function to enter supervisory mode*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   115    /*functionality for WriteCpuEndInitProtReg*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   116    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   117    #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   118    U32g_OsFuncCall_Count++;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   119    SYSCALL(MCAL_CALL_TIN_WRITE_CPU_ENDINIT);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   120    UNUSED_PARAMETER(RegAdd);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   121    UNUSED_PARAMETER(Data);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   122    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   123    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   124  }
+	ret
+.L94:
+	
+__TRUSTED_Mcal_WriteCpuEndInitProtReg_function_end:
+	.size	TRUSTED_Mcal_WriteCpuEndInitProtReg,__TRUSTED_Mcal_WriteCpuEndInitProtReg_function_end-TRUSTED_Mcal_WriteCpuEndInitProtReg
+.L49:
+	; End of function
+	
+	.sdecl	'.text.Os.TRUSTED_Mcal_SetBitAtomic',code,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.text.Os.TRUSTED_Mcal_SetBitAtomic'
+	.align	2
+	
+	.global	TRUSTED_Mcal_SetBitAtomic
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   125  void TRUSTED_Mcal_SetBitAtomic
+; Function TRUSTED_Mcal_SetBitAtomic
+.L14:
+TRUSTED_Mcal_SetBitAtomic:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   126  (volatile void* DataPtr, uint8 BitPos, uint8 BitLen, uint32 Data)
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   127  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   128    /*function to enter supervisory mode*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   129    /*functionality for SetBitAtomic*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   130    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   131    #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   132    U32g_OsFuncCall_Count++;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   133    SYSCALL(MCAL_CALL_TIN_SET_BIT_ATOMIC);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   134    UNUSED_PARAMETER(DataPtr);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   135    UNUSED_PARAMETER(BitPos);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   136    UNUSED_PARAMETER(BitLen);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   137    UNUSED_PARAMETER(Data);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   138    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   139    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   140  }
+	ret
+.L99:
+	
+__TRUSTED_Mcal_SetBitAtomic_function_end:
+	.size	TRUSTED_Mcal_SetBitAtomic,__TRUSTED_Mcal_SetBitAtomic_function_end-TRUSTED_Mcal_SetBitAtomic
+.L54:
+	; End of function
+	
+	.sdecl	'.text.Os.osWritePeripheral32',code,cluster('osWritePeripheral32')
+	.sect	'.text.Os.osWritePeripheral32'
+	.align	2
+	
+	.global	osWritePeripheral32
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   141  void osWritePeripheral32
+; Function osWritePeripheral32
+.L16:
+osWritePeripheral32:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   142  (uint32 Area, volatile void* Address, uint32 value)
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   143  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   144    /*function to enter supervisory mode*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   145    /*functionality for OS_WritePeripheral32*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   146    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   147    #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   148    U32g_OsFuncCall_Count++;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   149    SYSCALL(MCAL_TIN_CALL_WRITE32);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   150    UNUSED_PARAMETER(Area);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   151    UNUSED_PARAMETER(Address);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   152    UNUSED_PARAMETER(value);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   153    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   154    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   155  }
+	ret
+.L106:
+	
+__osWritePeripheral32_function_end:
+	.size	osWritePeripheral32,__osWritePeripheral32_function_end-osWritePeripheral32
+.L59:
+	; End of function
+	
+	.sdecl	'.text.Os.osReadPeripheral32',code,cluster('osReadPeripheral32')
+	.sect	'.text.Os.osReadPeripheral32'
+	.align	2
+	
+	.global	osReadPeripheral32
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   156  uint32 osReadPeripheral32
+; Function osReadPeripheral32
+.L18:
+osReadPeripheral32:	.type	func
+	sub.a	a10,#8
+.L120:
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   157  (uint32 Area, volatile void* Address)
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   158  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   159    /*function to enter supervisory mode*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   160    /*functionality for OS_ReadPeripheral32*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   161    volatile uint32 value = 0U;
+	mov	d15,#0
+	st.w	[a10],d15
+.L157:
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   162    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   163    #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   164    U32g_OsFuncCall_Count++;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   165    SYSCALL(MCAL_TIN_CALL_READ32);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   166    value = SFR_Return_Value;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   167    UNUSED_PARAMETER(Area);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   168    UNUSED_PARAMETER(Address);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   169    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   170    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   171    return value;
+	ld.w	d2,[a10]
+.L158:
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   172  
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   173  }
+	ret
+.L110:
+	
+__osReadPeripheral32_function_end:
+	.size	osReadPeripheral32,__osReadPeripheral32_function_end-osReadPeripheral32
+.L64:
+	; End of function
+	
+	.sdecl	'.text.Os.osModifyPeripheral32',code,cluster('osModifyPeripheral32')
+	.sect	'.text.Os.osModifyPeripheral32'
+	.align	2
+	
+	.global	osModifyPeripheral32
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   174  void osModifyPeripheral32
+; Function osModifyPeripheral32
+.L20:
+osModifyPeripheral32:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   175  (uint32 Area, volatile void* Address, uint32 clearmask, uint32 setmask)
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   176  {
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   177    /*function to enter supervisory mode*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   178    /*functionality for OS_ModifyPeripheral32*/
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   179    #ifdef  APP_SW
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   180    #if ((APP_SW == TEST_APP) || (APP_SW == DEMO_APP))
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   181    U32g_OsFuncCall_Count++;
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   182    SYSCALL(MCAL_TIN_CALL_MODIFY32);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   183    UNUSED_PARAMETER(Area);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   184    UNUSED_PARAMETER(Address);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   185    UNUSED_PARAMETER(clearmask);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   186    UNUSED_PARAMETER(setmask);
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   187    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   188    #endif
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   189  }
+	ret
+.L115:
+	
+__osModifyPeripheral32_function_end:
+	.size	osModifyPeripheral32,__osModifyPeripheral32_function_end-osModifyPeripheral32
+.L69:
+	; End of function
+	
+	.sdecl	'.zdata.Os.U32g_OsFuncCall_Count',data,cluster('U32g_OsFuncCall_Count')
+	.sect	'.zdata.Os.U32g_OsFuncCall_Count'
+	.global	U32g_OsFuncCall_Count
+	.align	2
+U32g_OsFuncCall_Count:	.type	object
+	.size	U32g_OsFuncCall_Count,4
+	.word	1
+	.calls	'TRUSTED_Mcal_WriteSafetyEndInitProtReg16','',0
+	.calls	'TRUSTED_Mcal_WritePeripEndInitProtReg','',0
+	.calls	'TRUSTED_Mcal_WriteSafetyEndInitProtReg','',0
+	.calls	'TRUSTED_Mcal_WriteSafetyEndInitProtRegMask','',0
+	.calls	'TRUSTED_Mcal_WriteCpuEndInitProtReg','',0
+	.calls	'TRUSTED_Mcal_SetBitAtomic','',0
+	.calls	'osWritePeripheral32','',0
+	.calls	'osReadPeripheral32','',8
+	.calls	'osModifyPeripheral32','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L22:
+	.word	461
+	.half	3
+	.word	.L23
+	.byte	4
+.L21:
+	.byte	1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L24
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	137
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	144
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	186
+	.byte	7
+	.word	186
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	202
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	207
+	.byte	9
+	.byte	'value',0
+	.word	186
+	.byte	9
+	.byte	'compare',0
+	.word	186
+	.byte	0,10
+	.byte	'void',0,6
+	.word	264
+.L100:
+	.byte	7
+	.word	270
+.L73:
+	.byte	3
+	.word	275
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L75:
+	.byte	3
+	.word	285
+.L78:
+	.byte	3
+	.word	275
+.L92:
+	.byte	2
+	.byte	'unsigned long int',0,4,7
+.L80:
+	.byte	3
+	.word	317
+.L83:
+	.byte	3
+	.word	275
+.L85:
+	.byte	3
+	.word	317
+.L88:
+	.byte	3
+	.word	275
+.L90:
+	.byte	3
+	.word	317
+.L95:
+	.byte	3
+	.word	275
+.L97:
+	.byte	3
+	.word	317
+.L102:
+	.byte	2
+	.byte	'unsigned char',0,1,8
+.L113:
+	.byte	6
+	.word	317
+	.byte	11,1,7
+	.word	395
+	.byte	12
+	.byte	'__codeptr',0,1,1,1
+	.word	397
+	.byte	12
+	.byte	'uint8',0,2,105,29
+	.word	373
+	.byte	12
+	.byte	'uint16',0,2,109,29
+	.word	285
+	.byte	12
+	.byte	'uint32',0,2,113,29
+	.word	317
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,59,0,3,8,0,0,11,21,0,54,15,0,0,12,22,0,3,8,58,15,59,15,57,15,73
+	.byte	19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L24:
+	.word	.L122-.L121
+.L121:
+	.half	3
+	.word	.L124-.L123
+.L123:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0,0
+.L124:
+.L122:
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_info'
+.L25:
+	.word	258
+	.half	3
+	.word	.L26
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L28,.L27
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WriteSafetyEndInitProtReg16',0,1,53,6,1,1,1
+	.word	.L4,.L72,.L3
+	.byte	4
+	.byte	'RegAddress',0,1,54,23
+	.word	.L73,.L74
+	.byte	4
+	.byte	'DataValue',0,1,54,48
+	.word	.L75,.L76
+	.byte	5
+	.word	.L4,.L72
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_abbrev'
+.L26:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_line'
+.L27:
+	.word	.L126-.L125
+.L125:
+	.half	3
+	.word	.L128-.L127
+.L127:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0,0
+.L128:
+	.byte	5,1,7,0,5,2
+	.word	.L4
+	.byte	3,192,0,1,7,9
+	.half	.L29-.L4
+	.byte	0,1,1
+.L126:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_ranges'
+.L28:
+	.word	-1,.L4,0,.L29-.L4,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_info'
+.L30:
+	.word	255
+	.half	3
+	.word	.L31
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L33,.L32
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WritePeripEndInitProtReg',0,1,67,6,1,1,1
+	.word	.L6,.L77,.L5
+	.byte	4
+	.byte	'RegAddress',0,1,68,24
+	.word	.L78,.L79
+	.byte	4
+	.byte	'DataValue',0,1,68,49
+	.word	.L80,.L81
+	.byte	5
+	.word	.L6,.L77
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_line'
+.L32:
+	.word	.L130-.L129
+.L129:
+	.half	3
+	.word	.L132-.L131
+.L131:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0,0
+.L132:
+	.byte	5,1,7,0,5,2
+	.word	.L6
+	.byte	3,207,0,1,7,9
+	.half	.L34-.L6
+	.byte	0,1,1
+.L130:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_ranges'
+.L33:
+	.word	-1,.L6,0,.L34-.L6,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_info'
+.L35:
+	.word	256
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L38,.L37
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WriteSafetyEndInitProtReg',0,1,81,6,1,1,1
+	.word	.L8,.L82,.L7
+	.byte	4
+	.byte	'RegAddress',0,1,82,24
+	.word	.L83,.L84
+	.byte	4
+	.byte	'DataValue',0,1,82,49
+	.word	.L85,.L86
+	.byte	5
+	.word	.L8,.L82
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_line'
+.L37:
+	.word	.L134-.L133
+.L133:
+	.half	3
+	.word	.L136-.L135
+.L135:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0,0
+.L136:
+	.byte	5,1,7,0,5,2
+	.word	.L8
+	.byte	3,221,0,1,7,9
+	.half	.L39-.L8
+	.byte	0,1,1
+.L134:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_ranges'
+.L38:
+	.word	-1,.L8,0,.L39-.L8,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_info'
+.L40:
+	.word	268
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L43,.L42
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WriteSafetyEndInitProtRegMask',0,1,96,6,1,1,1
+	.word	.L10,.L87,.L9
+	.byte	4
+	.byte	'RegAdd',0,1,97,23
+	.word	.L88,.L89
+	.byte	4
+	.byte	'Data',0,1,97,44
+	.word	.L90,.L91
+	.byte	4
+	.byte	'Mask',0,1,97,57
+	.word	.L92,.L93
+	.byte	5
+	.word	.L10,.L87
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_line'
+.L42:
+	.word	.L138-.L137
+.L137:
+	.half	3
+	.word	.L140-.L139
+.L139:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0,0
+.L140:
+	.byte	5,1,7,0,5,2
+	.word	.L10
+	.byte	3,237,0,1,7,9
+	.half	.L44-.L10
+	.byte	0,1,1
+.L138:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_ranges'
+.L43:
+	.word	-1,.L10,0,.L44-.L10,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_info'
+.L45:
+	.word	244
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L48,.L47
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_WriteCpuEndInitProtReg',0,1,111,6,1,1,1
+	.word	.L12,.L94,.L11
+	.byte	4
+	.byte	'RegAdd',0,1,112,23
+	.word	.L95,.L96
+	.byte	4
+	.byte	'Data',0,1,112,44
+	.word	.L97,.L98
+	.byte	5
+	.word	.L12,.L94
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_line'
+.L47:
+	.word	.L142-.L141
+.L141:
+	.half	3
+	.word	.L144-.L143
+.L143:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0,0
+.L144:
+	.byte	5,1,7,0,5,2
+	.word	.L12
+	.byte	3,251,0,1,7,9
+	.half	.L49-.L12
+	.byte	0,1,1
+.L142:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_ranges'
+.L48:
+	.word	-1,.L12,0,.L49-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_info'
+.L50:
+	.word	273
+	.half	3
+	.word	.L51
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L53,.L52
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'TRUSTED_Mcal_SetBitAtomic',0,1,125,6,1,1,1
+	.word	.L14,.L99,.L13
+	.byte	4
+	.byte	'DataPtr',0,1,126,17
+	.word	.L100,.L101
+	.byte	4
+	.byte	'BitPos',0,1,126,32
+	.word	.L102,.L103
+	.byte	4
+	.byte	'BitLen',0,1,126,46
+	.word	.L102,.L104
+	.byte	4
+	.byte	'Data',0,1,126,61
+	.word	.L92,.L105
+	.byte	5
+	.word	.L14,.L99
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_abbrev'
+.L51:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_line'
+.L52:
+	.word	.L146-.L145
+.L145:
+	.half	3
+	.word	.L148-.L147
+.L147:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0,0
+.L148:
+	.byte	5,1,7,0,5,2
+	.word	.L14
+	.byte	3,139,1,1,7,9
+	.half	.L54-.L14
+	.byte	0,1,1
+.L146:
+	.sdecl	'.debug_ranges',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_ranges'
+.L53:
+	.word	-1,.L14,0,.L54-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_info'
+.L55:
+	.word	251
+	.half	3
+	.word	.L56
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L58,.L57
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'osWritePeripheral32',0,1,141,1,6,1,1,1
+	.word	.L16,.L106,.L15
+	.byte	4
+	.byte	'Area',0,1,142,1,9
+	.word	.L92,.L107
+	.byte	4
+	.byte	'Address',0,1,142,1,30
+	.word	.L100,.L108
+	.byte	4
+	.byte	'value',0,1,142,1,46
+	.word	.L92,.L109
+	.byte	5
+	.word	.L16,.L106
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_line'
+.L57:
+	.word	.L150-.L149
+.L149:
+	.half	3
+	.word	.L152-.L151
+.L151:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0,0
+.L152:
+	.byte	5,1,7,0,5,2
+	.word	.L16
+	.byte	3,154,1,1,7,9
+	.half	.L59-.L16
+	.byte	0,1,1
+.L150:
+	.sdecl	'.debug_ranges',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_ranges'
+.L58:
+	.word	-1,.L16,0,.L59-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_info'
+.L60:
+	.word	255
+	.half	3
+	.word	.L61
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L63,.L62
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'osReadPeripheral32',0,1,156,1,8
+	.word	.L92
+	.byte	1,1,1
+	.word	.L18,.L110,.L17
+	.byte	4
+	.byte	'Area',0,1,157,1,9
+	.word	.L92,.L111
+	.byte	4
+	.byte	'Address',0,1,157,1,30
+	.word	.L100,.L112
+	.byte	5
+	.word	.L18,.L110
+	.byte	6
+	.byte	'value',0,1,161,1,19
+	.word	.L113,.L114
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_abbrev'
+.L61:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_line'
+.L62:
+	.word	.L154-.L153
+.L153:
+	.half	3
+	.word	.L156-.L155
+.L155:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0,0
+.L156:
+	.byte	5,8,7,0,5,2
+	.word	.L18
+	.byte	3,155,1,1,5,27,9
+	.half	.L120-.L18
+	.byte	3,5,1,5,25,1,5,10,9
+	.half	.L157-.L120
+	.byte	3,10,1,5,1,9
+	.half	.L158-.L157
+	.byte	3,2,1,7,9
+	.half	.L64-.L158
+	.byte	0,1,1
+.L154:
+	.sdecl	'.debug_ranges',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_ranges'
+.L63:
+	.word	-1,.L18,0,.L64-.L18,0,0
+	.sdecl	'.debug_info',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_info'
+.L65:
+	.word	277
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L68,.L67
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'osModifyPeripheral32',0,1,174,1,6,1,1,1
+	.word	.L20,.L115,.L19
+	.byte	4
+	.byte	'Area',0,1,175,1,9
+	.word	.L92,.L116
+	.byte	4
+	.byte	'Address',0,1,175,1,30
+	.word	.L100,.L117
+	.byte	4
+	.byte	'clearmask',0,1,175,1,46
+	.word	.L92,.L118
+	.byte	4
+	.byte	'setmask',0,1,175,1,64
+	.word	.L92,.L119
+	.byte	5
+	.word	.L20,.L115
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_abbrev'
+.L66:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_line'
+.L67:
+	.word	.L160-.L159
+.L159:
+	.half	3
+	.word	.L162-.L161
+.L161:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0,0,0,0,0
+.L162:
+	.byte	5,1,7,0,5,2
+	.word	.L20
+	.byte	3,188,1,1,7,9
+	.half	.L69-.L20
+	.byte	0,1,1
+.L160:
+	.sdecl	'.debug_ranges',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_ranges'
+.L68:
+	.word	-1,.L20,0,.L69-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('U32g_OsFuncCall_Count')
+	.sect	'.debug_info'
+.L70:
+	.word	172
+	.half	3
+	.word	.L71
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\Os.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L21
+	.byte	3
+	.byte	'U32g_OsFuncCall_Count',0,1,50,8
+	.word	.L92
+	.byte	1,5,3
+	.word	U32g_OsFuncCall_Count
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('U32g_OsFuncCall_Count')
+	.sect	'.debug_abbrev'
+.L71:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_loc'
+.L104:
+	.word	-1,.L14,0,.L99-.L14
+	.half	1
+	.byte	85
+	.word	0,0
+.L103:
+	.word	-1,.L14,0,.L99-.L14
+	.half	1
+	.byte	84
+	.word	0,0
+.L105:
+	.word	-1,.L14,0,.L99-.L14
+	.half	1
+	.byte	86
+	.word	0,0
+.L101:
+	.word	-1,.L14,0,.L99-.L14
+	.half	1
+	.byte	100
+	.word	0,0
+.L13:
+	.word	-1,.L14,0,.L99-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_loc'
+.L98:
+	.word	-1,.L12,0,.L94-.L12
+	.half	1
+	.byte	84
+	.word	0,0
+.L96:
+	.word	-1,.L12,0,.L94-.L12
+	.half	1
+	.byte	100
+	.word	0,0
+.L11:
+	.word	-1,.L12,0,.L94-.L12
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_loc'
+.L81:
+	.word	-1,.L6,0,.L77-.L6
+	.half	1
+	.byte	84
+	.word	0,0
+.L79:
+	.word	-1,.L6,0,.L77-.L6
+	.half	1
+	.byte	100
+	.word	0,0
+.L5:
+	.word	-1,.L6,0,.L77-.L6
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_loc'
+.L86:
+	.word	-1,.L8,0,.L82-.L8
+	.half	1
+	.byte	84
+	.word	0,0
+.L84:
+	.word	-1,.L8,0,.L82-.L8
+	.half	1
+	.byte	100
+	.word	0,0
+.L7:
+	.word	-1,.L8,0,.L82-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_loc'
+.L76:
+	.word	-1,.L4,0,.L72-.L4
+	.half	1
+	.byte	84
+	.word	0,0
+.L74:
+	.word	-1,.L4,0,.L72-.L4
+	.half	1
+	.byte	100
+	.word	0,0
+.L3:
+	.word	-1,.L4,0,.L72-.L4
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_loc'
+.L91:
+	.word	-1,.L10,0,.L87-.L10
+	.half	1
+	.byte	84
+	.word	0,0
+.L93:
+	.word	-1,.L10,0,.L87-.L10
+	.half	1
+	.byte	85
+	.word	0,0
+.L89:
+	.word	-1,.L10,0,.L87-.L10
+	.half	1
+	.byte	100
+	.word	0,0
+.L9:
+	.word	-1,.L10,0,.L87-.L10
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_loc'
+.L117:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	100
+	.word	0,0
+.L116:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	84
+	.word	0,0
+.L118:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	85
+	.word	0,0
+.L19:
+	.word	-1,.L20,0,.L115-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L119:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	86
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_loc'
+.L112:
+	.word	-1,.L18,0,.L110-.L18
+	.half	1
+	.byte	100
+	.word	0,0
+.L111:
+	.word	-1,.L18,0,.L110-.L18
+	.half	1
+	.byte	84
+	.word	0,0
+.L17:
+	.word	-1,.L18,0,.L120-.L18
+	.half	2
+	.byte	138,0
+	.word	.L120-.L18,.L110-.L18
+	.half	2
+	.byte	138,8
+	.word	.L110-.L18,.L110-.L18
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L114:
+	.word	-1,.L18,0,.L110-.L18
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_loc'
+.L108:
+	.word	-1,.L16,0,.L106-.L16
+	.half	1
+	.byte	100
+	.word	0,0
+.L107:
+	.word	-1,.L16,0,.L106-.L16
+	.half	1
+	.byte	84
+	.word	0,0
+.L15:
+	.word	-1,.L16,0,.L106-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L109:
+	.word	-1,.L16,0,.L106-.L16
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L163:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg16')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L163,.L4,.L72-.L4
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WritePeripEndInitProtReg')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L163,.L6,.L77-.L6
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtReg')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L163,.L8,.L82-.L8
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WriteSafetyEndInitProtRegMask')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L163,.L10,.L87-.L10
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_WriteCpuEndInitProtReg')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L163,.L12,.L94-.L12
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('TRUSTED_Mcal_SetBitAtomic')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L163,.L14,.L99-.L14
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('osWritePeripheral32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L163,.L16,.L106-.L16
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('osReadPeripheral32')
+	.sect	'.debug_frame'
+	.word	48
+	.word	.L163,.L18,.L110-.L18
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23,4
+	.word	(.L120-.L18)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L110-.L120)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('osModifyPeripheral32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L163,.L20,.L115-.L20
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\src\BaseSw\Infra\Autosar_Srv\Os.c	   190  
+
+	; Module end

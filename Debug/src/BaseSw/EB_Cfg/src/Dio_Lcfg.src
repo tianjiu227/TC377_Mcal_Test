@@ -1,0 +1,403 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\BaseSw\\EB_Cfg\\src\\.Dio_Lcfg.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\BaseSw\\EB_Cfg\\src\\Dio_Lcfg.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\BaseSw\\EB_Cfg\\src\\Dio_Lcfg.src ..\\src\\BaseSw\\EB_Cfg\\src\\Dio_Lcfg.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\BaseSw\\EB_Cfg\\src\\Dio_Lcfg.c'
+
+	
+$TC162
+	
+	.sdecl	'.rodata.Dio_kPortChannelConfig.Config.Cpu0.Unspecified',data,rom,cluster('Dio_kPortChannelConfig')
+	.sect	'.rodata.Dio_kPortChannelConfig.Config.Cpu0.Unspecified'
+	.align	4
+Dio_kPortChannelConfig:	.type	object
+	.size	Dio_kPortChannelConfig,68
+	.byte	1
+	.space	1
+	.half	1
+	.space	4
+	.byte	1
+	.space	1
+	.half	12
+	.space	16
+	.byte	1
+	.space	1
+	.half	2
+	.byte	1
+	.space	1
+	.half	128
+	.space	12
+	.byte	1
+	.space	1
+	.half	2
+	.space	4
+	.byte	1
+	.space	1
+	.half	8064
+	.space	8
+	.sdecl	'.rodata.Dio_Config.Config.Cpu0.Unspecified',data,rom,cluster('Dio_Config')
+	.sect	'.rodata.Dio_Config.Config.Cpu0.Unspecified'
+	.global	Dio_Config
+	.align	4
+Dio_Config:	.type	object
+	.size	Dio_Config,12
+	.word	Dio_kPortChannelConfig
+	.space	8
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	778
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Dio_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	136
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	143
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	185
+	.byte	7
+	.word	185
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	201
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	206
+	.byte	9
+	.byte	'value',0
+	.word	185
+	.byte	9
+	.byte	'compare',0
+	.word	185
+	.byte	0,10,1,7
+	.word	263
+	.byte	11
+	.byte	'__codeptr',0,1,1,1
+	.word	265
+	.byte	2
+	.byte	'unsigned char',0,1,8,11
+	.byte	'uint8',0,2,105,29
+	.word	288
+	.byte	2
+	.byte	'unsigned short int',0,2,7,11
+	.byte	'uint16',0,2,109,29
+	.word	319
+	.byte	2
+	.byte	'unsigned long int',0,4,7,11
+	.byte	'uint32',0,2,113,29
+	.word	356
+	.byte	12,3,167,1,9,4,13
+	.byte	'Dio_PortIdConfig',0
+	.word	288
+	.byte	1,2,35,0,13
+	.byte	'Dio_ChannelConfig',0
+	.word	319
+	.byte	2,2,35,2,0,3
+	.word	392
+	.byte	7
+	.word	452
+	.byte	12,3,152,1,9,4,13
+	.byte	'mask',0
+	.word	319
+	.byte	2,2,35,0,13
+	.byte	'offset',0
+	.word	288
+	.byte	1,2,35,2,13
+	.byte	'port',0
+	.word	288
+	.byte	1,2,35,3,0,3
+	.word	462
+	.byte	7
+	.word	513
+	.byte	14
+	.byte	'Dio_ConfigType',0,3,180,1,16,12,13
+	.byte	'Dio_PortChannelIdConfigPtr',0
+	.word	457
+	.byte	4,2,35,0,13
+	.byte	'Dio_ChannelGroupConfigPtr',0
+	.word	518
+	.byte	4,2,35,4,13
+	.byte	'Dio_ChannelGroupConfigSize',0
+	.word	356
+	.byte	4,2,35,8,0
+.L10:
+	.byte	3
+	.word	523
+	.byte	11
+	.byte	'Dio_PortType',0,3,142,1,15
+	.word	288
+	.byte	11
+	.byte	'Dio_PortLevelType',0,3,147,1,16
+	.word	319
+	.byte	11
+	.byte	'Dio_ChannelGroupType',0,3,162,1,3
+	.word	462
+	.byte	11
+	.byte	'Dio_PortChannelIdType',0,3,175,1,3
+	.word	392
+	.byte	15,68
+	.word	392
+	.byte	16,16,0
+.L11:
+	.byte	3
+	.word	767
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,19,1
+	.byte	58,15,59,15,57,15,11,15,0,0,13,13,0,3,8,73,19,11,15,56,9,0,0,14,19,1,3,8,58,15,59,15,57,15,11,15,0,0,15
+	.byte	1,1,11,15,73,19,0,0,16,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L13-.L12
+.L12:
+	.half	3
+	.word	.L15-.L14
+.L14:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc',0,0
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Dio_Lcfg.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Dio.h',0,2,0,0,0
+.L15:
+.L13:
+	.sdecl	'.debug_info',debug,cluster('Dio_Config')
+	.sect	'.debug_info'
+.L6:
+	.word	161
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Dio_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Dio_Config',0,1,159,1,26
+	.word	.L10
+	.byte	1,5,3
+	.word	Dio_Config
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_Config')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Dio_kPortChannelConfig')
+	.sect	'.debug_info'
+.L8:
+	.word	171
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\EB_Cfg\\src\\Dio_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'Dio_kPortChannelConfig',0,1,71,38
+	.word	.L11
+	.byte	5,3
+	.word	Dio_kPortChannelConfig
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_kPortChannelConfig')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	     1  
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	     2  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	     3  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	     4  ** Copyright (C) Infineon Technologies (2020)                                 **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	     5  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	     6  ** All rights reserved.                                                       **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	     7  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	     8  ** This document contains proprietary information belonging to Infineon       **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	     9  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    10  ** of its contents is not permitted without prior written authorization.      **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    11  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    12  ********************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    13  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    14  **  FILENAME  : Dio_Lcfg.c                                                    **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    15  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    16  **  VERSION   : 7.0.0                                                         **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    17  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    18  **  DATE, TIME: 2023-09-04, 14:15:24       !!!IGNORE-LINE!!!                  **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    19  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    20  **  GENERATOR : Build b191017-0938           !!!IGNORE-LINE!!!                **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    21  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    22  **  BSW MODULE DECRIPTION : Dio.bmd                                           **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    23  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    24  **  VARIANT   : Variant LT                                                    **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    25  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    26  **  PLATFORM  : Infineon AURIX2G                                              **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    27  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    28  **  AUTHOR    : DL-AUTOSAR-Engineering                                        **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    29  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    30  **  VENDOR    : Infineon Technologies                                         **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    31  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    32  **  DESCRIPTION  : Dio configuration generated out of ECUC file               **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    33  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    34  **  SPECIFICATION(S) : Specification of Dio Driver, AUTOSAR Release 4.2.2     **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    35  **                    and AUTOSAR Release 4.4.0                               **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    36  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    37  ** MAY BE CHANGED BY USER : no                                                **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    38  **                                                                            **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    39  *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    40  
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    41  
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    42      
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    43    /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    44    **                             Includes                                       **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    45    *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    46  
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    47    /* Include Port Module File */
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    48    #include "Dio.h"
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    49  
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    50    /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    51    **                      Private Macro Definitions                             **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    52    *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    53  
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    54    /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    55    **                      Global Constant Definitions                           **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    56    *******************************************************************************/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    57    
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    58    /* Memory mapping of the DIO configuration */
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    59    #define DIO_START_SEC_CONFIG_DATA_ASIL_B_GLOBAL_UNSPECIFIED
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    60    /* MISRA2012_RULE_4_10_JUSTIFICATION: To be compliant with autosar guidelines 
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    61    Dio_Memmap.h header is included without safegaurd.*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    62    #include "Dio_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    63    /*
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    64        Configuration of DIO Channel groups 
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    65    */
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    66            
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    67      
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    68  /* No Groups are configured */
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    69  
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    70      
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    71    static const Dio_PortChannelIdType Dio_kPortChannelConfig[] =
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    72    { 
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    73      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    74      /* Port0*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    75        DIO_PORT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    76        (0x0001U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    77      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    78      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    79      /* Port1*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    80        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    81        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    82      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    83      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    84      /* Port2*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    85        DIO_PORT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    86        (0x000cU)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    87      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    88      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    89      /* Port10*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    90        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    91        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    92      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    93      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    94      /* Port11*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    95        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    96        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    97      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    98      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	    99      /* Port12*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   100        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   101        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   102      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   103      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   104      /* Port13*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   105        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   106        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   107      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   108      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   109      /* Port14*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   110        DIO_PORT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   111        (0x0002U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   112      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   113      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   114      /* Port15*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   115        DIO_PORT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   116        (0x0080U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   117      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   118      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   119      /* Port20*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   120        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   121        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   122      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   123      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   124      /* Port21*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   125        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   126        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   127      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   128      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   129      /* Port22*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   130        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   131        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   132      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   133      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   134      /* Port23*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   135        DIO_PORT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   136        (0x0002U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   137      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   138      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   139      /* Port32*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   140        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   141        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   142      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   143      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   144      /* Port33*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   145        DIO_PORT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   146        (0x1f80U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   147      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   148      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   149      /* Port34*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   150        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   151        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   152      },
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   153      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   154      /* Port40*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   155        DIO_PORT_NOT_CONFIGURED,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   156        (0x0000U)
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   157      }
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   158    };
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   159      const Dio_ConfigType Dio_Config =
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   160      {
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   161                  
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   162        /* Dio Port and Channelconfiguration */
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   163              &Dio_kPortChannelConfig[0],
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   164        /* Dio Channelgroup configuration */
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   165        
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   166        NULL_PTR,
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   167        /* Configured number of Dio Channelgroups for configuration */
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   168        DIO_CHANNELGROUPCOUNT
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   169      };
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   170    #define DIO_STOP_SEC_CONFIG_DATA_ASIL_B_GLOBAL_UNSPECIFIED
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   171      /* MISRA2012_RULE_4_10_JUSTIFICATION: To be compliant with autosar guidelines 
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   172      Dio_Memmap.h header is included without safegaurd.*/
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   173      /* MISRA2012_RULE_20_1_JUSTIFICATION: Dio_Memmap.h header included as per Autosar 
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   174      guidelines. */
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   175    #include "Dio_MemMap.h"
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   176  
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   177  /*******************************************************************************
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   178  **                      Private Constant Definitions                          **
+; ..\src\BaseSw\EB_Cfg\src\Dio_Lcfg.c	   179  *******************************************************************************/
+
+	; Module end

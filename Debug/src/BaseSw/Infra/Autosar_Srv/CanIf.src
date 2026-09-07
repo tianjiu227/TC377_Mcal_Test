@@ -1,0 +1,311 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=src\\BaseSw\\Infra\\Autosar_Srv\\.CanIf.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=11 -ID:\\desktop\\TricoreTasking_TC377 -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\.metadata -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.cdt.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.history -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.root\\.indexes -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.debug.core -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.e4.workbench -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.ide -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.intro -ID:\\desktop\\TricoreTasking_TC377\\.metadata\\.plugins\\org.eclipse.ui.workbench -ID:\\desktop\\TricoreTasking_TC377\\.vscode -ID:\\desktop\\TricoreTasking_TC377\\Debug -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\Debug\\src\\BaseSw\\UserIf -ID:\\desktop\\TricoreTasking_TC377\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Cfg_Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Adc_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Can_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gpt12_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Gtm_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Demo_Irq\\Spi_Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\AppSw\\Tricore\\Main -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\EB_Cfg\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Autosar_Srv\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Integration -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Irq\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra\\Ssw\\TC37A\\Tricore -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Sfr\\TC37xA\\_Reg -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Adc\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Can_17_McmCan\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Dio\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\inc\\AS440 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\McalLib\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Mcu\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Port\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6 -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Pwm_17_GtmCcu6\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\inc -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\MCAL\\Spi\\ssc\\src -ID:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\UserIf -g2 --make-target=src\\BaseSw\\Infra\\Autosar_Srv\\CanIf.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o src\\BaseSw\\Infra\\Autosar_Srv\\CanIf.src ..\\src\\BaseSw\\Infra\\Autosar_Srv\\CanIf.c"
+	.compiler_name		"ctc"
+	;source	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\CanIf.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.CanIf.CanIf_SetWakeupEvent',code,cluster('CanIf_SetWakeupEvent')
+	.sect	'.text.CanIf.CanIf_SetWakeupEvent'
+	.align	2
+	
+	.global	CanIf_SetWakeupEvent
+
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	     1  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	     2  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	     3  ** Copyright (C) Infineon Technologies (2016)                                 **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	     4  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	     5  ** All rights reserved.                                                       **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	     6  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	     7  ** This document contains proprietary information belonging to Infineon       **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	     8  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	     9  ** of its contents is not permitted without prior written authorization.      **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    10  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    11  ********************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    12  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    13  **  FILENAME   : CanIf.c                                                      **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    14  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    15  **  VERSION    : 2.0.0                                                        **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    16  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    17  **  DATE       : 2020-06-26                                                   **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    18  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    19  **  VARIANT    : NA                                                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    20  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    21  **  PLATFORM   : Infineon AURIX2G                                             **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    22  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    23  **  AUTHOR      : DL-AUTOSAR-Engineering                                      **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    24  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    25  **  VENDOR      : Infineon Technologies                                       **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    26  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    27  **  DESCRIPTION : This file contains CAN Interface (CanIf) function           **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    28  **                definitions                                                 **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    29  **                Note : This file is for Evaluation Purpose Only             **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    30  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    31  **  MAY BE CHANGED BY USER [yes/no]: Yes                                      **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    32  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    33  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    34  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    35  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    36  **                      Includes                                              **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    37  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    38  /* Inclusion of CanIf module header file  */
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    39  #include "CanIf.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    40  #include "CanIf_Cbk.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    41  #include "McalLib.h"
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    42  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    43  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    44  **                      Imported Compiler Switch Check                        **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    45  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    46  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    47  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    48  **                      Private Macro Definitions                             **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    49  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    50  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    51  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    52  **                      Private Type Definitions                              **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    53  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    54  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    55  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    56  **                      Private Function Declarations                         **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    57  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    58  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    59  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    60  **                      Global Constant Definitions                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    61  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    62  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    63  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    64  **                      Global Variable Definitions                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    65  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    66  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    67  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    68  **                      Private Constant Definitions                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    69  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    70  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    71  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    72  **                      Private Variable Definitions                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    73  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    74  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    75  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    76  **                      Global Function Definitions                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    77  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    78  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    79  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    80  ** Syntax : void CanIf_SetWakeupEvent(uint8 CanNetwork,                       **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    81  **                                    CanIf_WakeupSourceType WakeupSource )   **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    82  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    83  ** Service ID: none                                                           **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    84  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    85  ** Sync/Async:  none                                                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    86  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    87  ** Reentrancy:  none                                                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    88  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    89  ** Parameters (in): none                                                      **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    90  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    91  ** Parameters (out):  none                                                    **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    92  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    93  ** Return value:  none                                                        **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    94  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    95  ** Description : This function is called in CanTrcv_MainFunction or           **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    96  **               CanTrcv_CB_WakeupByBus function.                             **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    97  **                                                                            **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    98  *******************************************************************************/
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	    99  void CanIf_SetWakeupEvent(uint8 CanNetwork,
+; Function CanIf_SetWakeupEvent
+.L3:
+CanIf_SetWakeupEvent:	.type	func
+
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	   100                            CanIf_WakeupSourceType WakeupSource )
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	   101  {
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	   102  }
+	ret
+.L13:
+	
+__CanIf_SetWakeupEvent_function_end:
+	.size	CanIf_SetWakeupEvent,__CanIf_SetWakeupEvent_function_end-CanIf_SetWakeupEvent
+.L12:
+	; End of function
+	
+	.calls	'CanIf_SetWakeupEvent','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L5:
+	.word	508
+	.half	3
+	.word	.L6
+	.byte	4
+.L4:
+	.byte	1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\CanIf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L7
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	140
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	147
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	189
+	.byte	7
+	.word	189
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	205
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	210
+	.byte	9
+	.byte	'value',0
+	.word	189
+	.byte	9
+	.byte	'compare',0
+	.word	189
+	.byte	0
+.L14:
+	.byte	2
+	.byte	'unsigned char',0,1,8,10,1,7
+	.word	284
+	.byte	11
+	.byte	'__codeptr',0,1,1,1
+	.word	286
+	.byte	11
+	.byte	'uint8',0,2,105,29
+	.word	267
+	.byte	2
+	.byte	'unsigned short int',0,2,7,11
+	.byte	'uint16',0,2,109,29
+	.word	323
+	.byte	2
+	.byte	'unsigned long int',0,4,7,11
+	.byte	'uint32',0,2,113,29
+	.word	360
+	.byte	11
+	.byte	'PduIdType',0,3,54,22
+	.word	267
+	.byte	11
+	.byte	'PduLengthType',0,3,57,22
+	.word	323
+	.byte	11
+	.byte	'Can_IdType',0,4,53,16
+	.word	360
+	.byte	11
+	.byte	'Can_HwHandleType',0,4,58,16
+	.word	323
+	.byte	11
+	.byte	'CanIf_WakeupSourceType',0,5,56,15
+	.word	267
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L6:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L7:
+	.word	.L18-.L17
+.L17:
+	.half	3
+	.word	.L20-.L19
+.L19:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\src\\BaseSw\\Infra_Prod\\Platform',0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\CanIf.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\ComStack_Cfg.h',0,0,0,0
+	.byte	'Can_GeneralTypes.h',0,1,0,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\CanIf_Types.h',0,0,0,0,0
+.L20:
+.L18:
+	.sdecl	'.debug_info',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_info'
+.L8:
+	.word	244
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\CanIf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\desktop\\TricoreTasking_TC377\\Debug\\',0,12,1
+	.word	.L11,.L10
+	.byte	2
+	.word	.L4
+	.byte	3
+	.byte	'CanIf_SetWakeupEvent',0,1,99,6,1,1,1
+	.word	.L3,.L13,.L2
+	.byte	4
+	.byte	'CanNetwork',0,1,99,33
+	.word	.L14,.L15
+	.byte	4
+	.byte	'WakeupSource',0,1,100,50
+	.word	.L14,.L16
+	.byte	5
+	.word	.L3,.L13
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_line'
+.L10:
+	.word	.L22-.L21
+.L21:
+	.half	3
+	.word	.L24-.L23
+.L23:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\src\\BaseSw\\Infra\\Autosar_Srv\\CanIf.c',0,0,0,0,0
+.L24:
+	.byte	5,1,7,0,5,2
+	.word	.L3
+	.byte	3,229,0,1,7,9
+	.half	.L12-.L3
+	.byte	0,1,1
+.L22:
+	.sdecl	'.debug_ranges',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_ranges'
+.L11:
+	.word	-1,.L3,0,.L12-.L3,0,0
+	.sdecl	'.debug_loc',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L13-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L15:
+	.word	-1,.L3,0,.L13-.L3
+	.half	1
+	.byte	84
+	.word	0,0
+.L16:
+	.word	-1,.L3,0,.L13-.L3
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L25:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L25,.L3,.L13-.L3
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	   103  
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	   104  /*******************************************************************************
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	   105  **                      Private Function Definitions                          **
+; ..\src\BaseSw\Infra\Autosar_Srv\CanIf.c	   106  *******************************************************************************/
+
+	; Module end
