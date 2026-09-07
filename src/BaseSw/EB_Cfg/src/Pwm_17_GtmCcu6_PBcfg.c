@@ -14,7 +14,7 @@
 **                                                                            **
 **  VERSION   : 23.0.0                                                        **
 **                                                                            **
-**  DATE, TIME: 2023-09-04, 14:15:19              !!!IGNORE-LINE!!!       **
+**  DATE, TIME: 2023-09-07, 18:29:22              !!!IGNORE-LINE!!!       **
 **                                                                            **
 **  GENERATOR : Build b191017-0938                !!!IGNORE-LINE!!!         **
 **                                                                            **
@@ -204,7 +204,7 @@ static const Mcu_17_Gtm_TomAtomChConfigType Pwm_kChannelConfigGtm_Core0[13] =
     MCU_GTM_TIMER_ATOM, /* Timer Type (TOM/ATOM)*/
     /* Bit[15:8] - Module number Bit[7:0] - Channel number*/
     0x2U,
-    0x80100802U, /* Channel Control Register*/
+    0x80100002U, /* Channel Control Register*/
     0x0U, /* CN0 in ticks */
     0xffffffU, /* CM0 in ticks */
     0x0U, /* CM1 in ticks */
@@ -228,7 +228,7 @@ static const Mcu_17_Gtm_TomAtomChConfigType Pwm_kChannelConfigGtm_Core0[13] =
     MCU_GTM_TIMER_ATOM, /* Timer Type (TOM/ATOM)*/
     /* Bit[15:8] - Module number Bit[7:0] - Channel number*/
     0x4U,
-    0x80100802U, /* Channel Control Register*/
+    0x80100002U, /* Channel Control Register*/
     0x0U, /* CN0 in ticks */
     0xffffffU, /* CM0 in ticks */
     0x0U, /* CM1 in ticks */
@@ -252,7 +252,7 @@ static const Mcu_17_Gtm_TomAtomChConfigType Pwm_kChannelConfigGtm_Core0[13] =
     MCU_GTM_TIMER_ATOM, /* Timer Type (TOM/ATOM)*/
     /* Bit[15:8] - Module number Bit[7:0] - Channel number*/
     0x6U,
-    0x80100802U, /* Channel Control Register*/
+    0x80100002U, /* Channel Control Register*/
     0x0U, /* CN0 in ticks */
     0xffffffU, /* CM0 in ticks */
     0x0U, /* CM1 in ticks */
@@ -400,7 +400,7 @@ static const Pwm_17_GtmCcu6_ChannelConfigType Pwm_kChannelConfigurationCore0[] =
       PWM_17_GTMCCU6_FIXED_PERIOD_SHIFTED,/* Channel Class */
       PWM_17_GTMCCU6_COHERENT,/* Coherency */
       PWM_17_GTMCCU6_LOW, /* channel Idle state */
-      PWM_17_GTMCCU6_HIGH  /* channel polarity */
+      PWM_17_GTMCCU6_LOW  /* channel polarity */
     ),
     (Pwm_17_GtmCcu6_PeriodType)0x1388, /* Default Period */
     (uint32)0x0, /* Default Duty Cycle */
@@ -450,7 +450,7 @@ static const Pwm_17_GtmCcu6_ChannelConfigType Pwm_kChannelConfigurationCore0[] =
       PWM_17_GTMCCU6_FIXED_PERIOD_SHIFTED,/* Channel Class */
       PWM_17_GTMCCU6_COHERENT,/* Coherency */
       PWM_17_GTMCCU6_LOW, /* channel Idle state */
-      PWM_17_GTMCCU6_HIGH  /* channel polarity */
+      PWM_17_GTMCCU6_LOW  /* channel polarity */
     ),
     (Pwm_17_GtmCcu6_PeriodType)0x1388, /* Default Period */
     (uint32)0x0, /* Default Duty Cycle */
@@ -502,7 +502,7 @@ static const Pwm_17_GtmCcu6_ChannelConfigType Pwm_kChannelConfigurationCore0[] =
       PWM_17_GTMCCU6_FIXED_PERIOD_SHIFTED,/* Channel Class */
       PWM_17_GTMCCU6_COHERENT,/* Coherency */
       PWM_17_GTMCCU6_LOW, /* channel Idle state */
-      PWM_17_GTMCCU6_HIGH  /* channel polarity */
+      PWM_17_GTMCCU6_LOW  /* channel polarity */
     ),
     (Pwm_17_GtmCcu6_PeriodType)0x1388, /* Default Period */
     (uint32)0x0, /* Default Duty Cycle */

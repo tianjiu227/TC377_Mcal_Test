@@ -1,11 +1,78 @@
 
 **** Build of configuration Debug for project TricoreTasking_TC377_BaseFrameWork ****
 
-"D:\\Tasking\\ctc\\bin\\amk" -j12 all 
+"D:\\Tasking\\ctc\\bin\\amk" -j12 all -a 
+Compiling Ifx_Cfg_Ssw.c
+Compiling Ifx_Cfg_SswBmhd.c
+Compiling Adc_Irq.c
+Compiling Can_17_McmCan_Irq.c
+Compiling Gpt12_Irq.c
+Compiling Gtm_Irq.c
+Compiling Spi_Irq.c
+Compiling Cpu0_Main.c
+Compiling Cpu1_Main.c
+Compiling Cpu2_Main.c
+Compiling Adc_PBcfg.c
+Compiling Can_17_McmCan_PBcfg.c
+Compiling Dio_Lcfg.c
+Compiling Mcu_17_TimerIp_Cfg.c
+Compiling Mcu_PBcfg.c
+Compiling Port_PBcfg.c
+Compiling Pwm_17_GtmCcu6_PBcfg.c
+Compiling Spi_PBcfg.c
+Compiling CanIf.c
+Compiling CanIf_Cbk.c
+Compiling Dem.c
+Compiling Det.c
+Compiling EcuM.c
+Compiling Mcal_SafetyError.c
+Compiling Mcal_Wrapper.c
+Compiling Os.c
+Compiling FlsLdr_ExclArea.c
+Compiling IFX_Os.c
+Compiling SchM_Adc.c
+Compiling SchM_Can_17_McmCan.c
+Compiling SchM_CanTrcv_17_W9255.c
+Compiling SchM_Crc.c
+ctc W557: ["..\src\AppSw\Tricore\Main\Cpu0_Main.c" 275/13] possible infinite loop
+0 errors, 1 warnings
+Compiling SchM_Gpt.c
+Compiling SchM_Icu_17_TimerIp.c
+Compiling SchM_McalLib.c
+Compiling SchM_Mcu.c
+Compiling SchM_Ocu.c
+Compiling SchM_Pwm_17_GtmCcu6.c
+Compiling SchM_Spi.c
+Compiling SchM_Wdg_17_Scu.c
+Compiling Irq.c
+Compiling Ifx_Ssw_Infra.c
+Compiling Ifx_Ssw_Tc0.c
+Compiling Ifx_Ssw_Tc1.c
+Compiling Ifx_Ssw_Tc2.c
+Compiling Adc.c
+Compiling Can_17_McmCan.c
+Compiling Dio.c
+Compiling McalLib.c
+Compiling Mcu.c
+Compiling Mcu_17_TimerIp.c
+Compiling Port.c
+Compiling Pwm_17_GtmCcu6.c
+Compiling Spi.c
+Compiling Bsw_Adc.c
+Compiling Bsw_Dio.c
+Compiling Bsw_Pwm.c
+Compiling Delay.c
+Compiling User_Adc.c
+Compiling User_Can.c
 Compiling User_Pwm.c
+Compiling w25qxx.c
+ctc W508: ["..\src\BaseSw\UserIf\User_Adc.c" 1/1] empty source file
+0 errors, 1 warnings
+ctc W588: ["..\src\BaseSw\UserIf\w25qxx.c" 11/6] dead assignment to "ret" eliminated
+0 errors, 1 warnings
 Linking to TricoreTasking_TC377_BaseFrameWork.elf
 
-Time consumed: 2573 ms
+Time consumed: 14113 ms
 **** End of build ****
 
 Tool info: 

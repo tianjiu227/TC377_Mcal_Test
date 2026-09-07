@@ -1,5 +1,6 @@
 #ifndef USER_ADC_H_
 #define USER_ADC_H_
+#if 0
 
 #include "IfxSrc_reg.h"
 #include "Adc.h"
@@ -50,6 +51,6 @@ typedef struct
 }ADC_RESULT_TYPE;
 
 
-
+#endif
 
 #endif

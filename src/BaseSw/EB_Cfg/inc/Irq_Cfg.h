@@ -15,7 +15,7 @@
 **                                                                            **
 **  VERSION   : 8.0.0                                                         **
 **                                                                            **
-**  DATE, TIME: 2023-09-04, 10:20:19      !!!IGNORE-LINE!!!                   **
+**  DATE, TIME: 2023-09-07, 13:15:52      !!!IGNORE-LINE!!!                   **
 **                                                                            **
 **  GENERATOR : Build b191017-0938        !!!IGNORE-LINE!!!                   **
 **                                                                            **
@@ -1026,7 +1026,7 @@ Container : Irq ADC configuration
 #define IRQ_ADC0_SR3_CAT            (IRQ_CAT1)
 
 /*ADC0 interrupt Priority setting */
-#define IRQ_ADC0_SR0_PRIO           0x0
+#define IRQ_ADC0_SR0_PRIO           0x1a
 #define IRQ_ADC0_SR1_PRIO           0x1
 #define IRQ_ADC0_SR2_PRIO           0x2
 #define IRQ_ADC0_SR3_PRIO           0x3

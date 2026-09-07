@@ -43,7 +43,7 @@ all : "TricoreTasking_TC377_BaseFrameWork.elf"
 	@"${PRODDIR}\bin\cctc" -f ".TricoreTasking_TC377_BaseFrameWork.elf.opt"
 
 ".TricoreTasking_TC377_BaseFrameWork.elf.opt" : .refresh
-	@argfile ".TricoreTasking_TC377_BaseFrameWork.elf.opt" -o "TricoreTasking_TC377_BaseFrameWork.elf" $(OBJ_FILES) $(EXT_LIBRARIES) $(PCP_FILES)  -Ctc37x --lsl-core=vtc -t -I"D:\desktop\TricoreTasking_TC377" -Wl-o"${PROJ}.hex":IHEX:4 --hex-format=s "..\src\ld\Lcf_Tasking_Tricore_Tc.lsl" -Wl-OtxycL -Wl--map-file="${PROJ}.mapxml":XML -Wl-mcrfiklSmNOduQ -Wl--error-limit=42 -g --fp-model=3 --c++=14 -Wl--dep-file=".TricoreTasking_TC377_BaseFrameWork.elf.d" -Wl--make-target="TricoreTasking_TC377_BaseFrameWork.elf"
+	@argfile ".TricoreTasking_TC377_BaseFrameWork.elf.opt" -o "TricoreTasking_TC377_BaseFrameWork.elf" $(OBJ_FILES) $(EXT_LIBRARIES) $(PCP_FILES)  -Ctc37x --lsl-core=vtc -t -I"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test" -Wl-o"${PROJ}.hex":IHEX:4 --hex-format=s "..\src\ld\Lcf_Tasking_Tricore_Tc.lsl" -Wl-OtxycL -Wl--map-file="${PROJ}.mapxml":XML -Wl-mcrfiklSmNOduQ -Wl--error-limit=42 -g --fp-model=3 --c++=14 -Wl--dep-file=".TricoreTasking_TC377_BaseFrameWork.elf.d" -Wl--make-target="TricoreTasking_TC377_BaseFrameWork.elf"
 DEPENDENCY_FILES += ".TricoreTasking_TC377_BaseFrameWork.elf.d"
 -include $(DEPENDENCY_FILES)
 

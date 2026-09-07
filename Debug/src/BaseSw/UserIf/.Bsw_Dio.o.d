@@ -1,0 +1,26 @@
+src\BaseSw\UserIf\Bsw_Dio.o :	..\src\BaseSw\UserIf\Bsw_Dio.c
+..\src\BaseSw\UserIf\Bsw_Dio.c :
+src\BaseSw\UserIf\Bsw_Dio.o :	..\src\BaseSw\UserIf\Bsw_Dio.h
+..\src\BaseSw\UserIf\Bsw_Dio.h :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\MCAL\Dio\ssc\inc\Dio.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\MCAL\Dio\ssc\inc\Dio.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra_Prod\Platform\Std_Types.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra_Prod\Platform\Std_Types.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra_Prod\Platform\Compiler.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra_Prod\Platform\Compiler.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Compiler_Cfg.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Compiler_Cfg.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra_Prod\Platform\Platform_Types.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra_Prod\Platform\Platform_Types.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\EB_Cfg\inc\Dio_Cfg.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\EB_Cfg\inc\Dio_Cfg.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Dio_MemMap.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Dio_MemMap.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Dio_MemMap.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Dio_MemMap.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Dio_MemMap.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Dio_MemMap.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Dio_MemMap.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\Infra\Integration\Dio_MemMap.h" :
+src\BaseSw\UserIf\Bsw_Dio.o :	"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\EB_Cfg\inc\Dio_Cfg.h"
+"D:\desktop\TricoreTasking_TC377\TC377_Mcal_Test\src\BaseSw\EB_Cfg\inc\Dio_Cfg.h" :
