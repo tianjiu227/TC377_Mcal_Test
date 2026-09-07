@@ -108,6 +108,12 @@ TricoreTasking_TC377_BaseFrameWork.elf : .\src\BaseSw\MCAL\Pwm_17_GtmCcu6\ssc\sr
 .\src\BaseSw\MCAL\Pwm_17_GtmCcu6\ssc\src\Pwm_17_GtmCcu6.o :
 TricoreTasking_TC377_BaseFrameWork.elf : .\src\BaseSw\MCAL\Spi\ssc\src\Spi.o
 .\src\BaseSw\MCAL\Spi\ssc\src\Spi.o :
+TricoreTasking_TC377_BaseFrameWork.elf : .\src\BaseSw\UserIf\Bsw_Adc.o
+.\src\BaseSw\UserIf\Bsw_Adc.o :
+TricoreTasking_TC377_BaseFrameWork.elf : .\src\BaseSw\UserIf\Bsw_Dio.o
+.\src\BaseSw\UserIf\Bsw_Dio.o :
+TricoreTasking_TC377_BaseFrameWork.elf : .\src\BaseSw\UserIf\Bsw_Pwm.o
+.\src\BaseSw\UserIf\Bsw_Pwm.o :
 TricoreTasking_TC377_BaseFrameWork.elf : .\src\BaseSw\UserIf\Delay.o
 .\src\BaseSw\UserIf\Delay.o :
 TricoreTasking_TC377_BaseFrameWork.elf : .\src\BaseSw\UserIf\User_Adc.o

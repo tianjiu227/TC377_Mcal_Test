@@ -1,6 +1,7 @@
 #include "User_Pwm.h"
 
 /*************************************PWM Demo**********************************************************/
+
 uint32	Pwm_SetDutyNumber		= 2500;
 uint32	Pwm_SetPeriodNumber		= 5000;
 uint8   PwmDebugFlag			= 2;
@@ -37,3 +38,6 @@ void PWM_DemoFunction(void)
 		//PwmOutStateflag1 = Pwm_17_GtmCcu6_GetOutputState(Pwm_17_GtmCcu6Conf_PwmChannel_PwmChannel_1_ATOM2_2);
 	}
 }
+
+
+

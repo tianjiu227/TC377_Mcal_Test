@@ -41,7 +41,7 @@ void ADC_GetBySoftwareTrigger(void)
 	Adc_StartGroupConversion(AdcConf_AdcGroup_AdcGroup_AN32);
 }
 
-#endif
+
 
 uint32 PCBLayout = 0xff;
 volatile uint32 EVADCInterrupt = 0;
@@ -125,8 +125,8 @@ void IoHwAb_AdcNotification321(void)
 }
 
 
-/* 测试代码如下，第一部分完成了ADC的初始化，第二部分则在设置了AD转换结果buffer之后，使能了硬件触发，
-并在流式转后填满buffer之后，失能了硬件触发（屏蔽的打印部分打印了各个通道的其中一个结果）。
+/* 娴嬭瘯浠ｇ爜濡備笅锛岀涓�閮ㄥ垎瀹屾垚浜咥DC鐨勫垵濮嬪寲锛岀浜岄儴鍒嗗垯鍦ㄨ缃簡AD杞崲缁撴灉buffer涔嬪悗锛屼娇鑳戒簡纭欢瑙﹀彂锛�
+骞跺湪娴佸紡杞悗濉弧buffer涔嬪悗锛屽け鑳戒簡纭欢瑙﹀彂锛堝睆钄界殑鎵撳嵃閮ㄥ垎鎵撳嵃浜嗗悇涓�氶亾鐨勫叾涓竴涓粨鏋滐級銆�
 
  */
 
@@ -378,5 +378,7 @@ void ADC_GetResult(void)
 	ADC_RESULT_BUFFER.ScanChannel.ADC_V_MOS_TEMP = EVADC_G8_RES8.B.RESULT;
 	ADC_RESULT_BUFFER.ScanChannel.ADC_U_MOS_TEMP = EVADC_G8_RES9.B.RESULT; */
 }
+
+#endif
 
 #endif

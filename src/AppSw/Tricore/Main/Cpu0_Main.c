@@ -52,6 +52,8 @@
 #include "User_Pwm.h"
 #include "User_Can.h"
 #include "w25qxx.h"
+#include "Bsw_Pwm.h"
+#include "Bsw_Adc.h"
 //#include "User_Fls.h"
 //#include "User_FlsLoader.h"
 
@@ -266,17 +268,19 @@ void core0_main (void)
 	//Can_DemoFunction();
 
 	// PWM_DemoFunction();
-
+	PWM_Init();
+	ADC_All_Init();
 	
     /* Should never reach here */
     while (1)
     {
+
 		// Can_DemoFunction();
 		//  Spi_DemoFunction_HW_CS();
 		//  ADC_Init();
 		//Dio_WriteChannel(DioConf_DioChannel_DioChannel_GD_ENA1_P00_0, STD_HIGH);
-		PWM_DemoFunction();
-		//Adc_HWGroupDemo();
+		// PWM_DemoFunction();
+		// Adc_HWGroupDemo();
 	
 #if 0
 	    /* close led */

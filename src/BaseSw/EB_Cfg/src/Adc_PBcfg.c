@@ -14,7 +14,7 @@
 **                                                                            **
 **  VERSION   : 14.0.0                                                         **
 **                                                                            **
-**  DATE, TIME: 2023-09-07, 10:21:22            !!!IGNORE-LINE!!!             **
+**  DATE, TIME: 2022-09-07, 17:07:47            !!!IGNORE-LINE!!!             **
 **                                                                            **
 **  GENERATOR : Build b191017-0938              !!!IGNORE-LINE!!!             **
 **                                                                            **
@@ -43,7 +43,7 @@
 /* Inclusion of module header file */
 #include "Adc.h"
 /*Function declaration for Notification Function of AdcGroup_AN0*/
-extern void IoHwAb_AdcNotification0(void);
+extern void Adc_Sync_Callback_Motor(void);
 /*Function declaration for Notification Function of AdcGroup_AN1*/
 extern void IoHwAb_AdcNotification1(void);
 /*Function declaration for Notification Function of AdcGroup_AN2*/
@@ -726,7 +726,7 @@ static const Adc_GroupCfgType Adc_kHwUnit0Grp_Config[4]=
       Gate Level: ADC_GATE_LVL_HIGH
     */
     /* Notification Function Address */
-    IoHwAb_AdcNotification0,
+    Adc_Sync_Callback_Motor,
     /*Address for Group Definition Structure*/
     &Adc_kHwUnit0GrpAdcGroup_AN0_Config[0U],
     /*Address for the GTM trigger configuration structure*/
