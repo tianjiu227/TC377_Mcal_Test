@@ -278,7 +278,9 @@ void core0_main (void)
 		// Can_DemoFunction();
 		//  Spi_DemoFunction_HW_CS();
 		//  ADC_Init();
-		//Dio_WriteChannel(DioConf_DioChannel_DioChannel_GD_ENA1_P00_0, STD_HIGH);
+		Dio_WriteChannel(DioConf_DioChannel_DioChannel_test_P00_2, STD_HIGH);
+		Dio_WriteChannel(DioConf_DioChannel_DioChannel_test_P00_4, STD_HIGH);
+		Dio_WriteChannel(DioConf_DioChannel_DioChannel_test_P00_3, STD_HIGH);
 		// PWM_DemoFunction();
 		// Adc_HWGroupDemo();
 	

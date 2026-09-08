@@ -34,8 +34,6 @@ Compiling SchM_Adc.c
 Compiling SchM_Can_17_McmCan.c
 Compiling SchM_CanTrcv_17_W9255.c
 Compiling SchM_Crc.c
-ctc W557: ["..\src\AppSw\Tricore\Main\Cpu0_Main.c" 275/13] possible infinite loop
-0 errors, 1 warnings
 Compiling SchM_Gpt.c
 Compiling SchM_Icu_17_TimerIp.c
 Compiling SchM_McalLib.c
@@ -72,7 +70,7 @@ ctc W588: ["..\src\BaseSw\UserIf\w25qxx.c" 11/6] dead assignment to "ret" elimin
 0 errors, 1 warnings
 Linking to TricoreTasking_TC377_BaseFrameWork.elf
 
-Time consumed: 14113 ms
+Time consumed: 14410 ms
 **** End of build ****
 
 Tool info: 

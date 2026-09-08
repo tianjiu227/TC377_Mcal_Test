@@ -34,23 +34,23 @@ void PWM_Update(float* Duty)
 	DutyU = LimitDuty(*Duty);
 	DutyV = LimitDuty(*(Duty+1));
 	DutyW = LimitDuty(*(Duty+2));
-	GTM_ATOM0_CH6_SR1.U = (FreTick-(FreTick*DutyU-DeadTimeTick))/2;
-	GTM_ATOM0_CH6_SR0.U = (FreTick+(FreTick*DutyU-DeadTimeTick))/2;
+	GTM_ATOM0_CH2_SR1.U = (FreTick-(FreTick*DutyU-DeadTimeTick))/2;
+	GTM_ATOM0_CH2_SR0.U = (FreTick+(FreTick*DutyU-DeadTimeTick))/2;
 
 	GTM_ATOM0_CH1_SR1.U = (FreTick-(FreTick*DutyU+DeadTimeTick))/2;
 	GTM_ATOM0_CH1_SR0.U = (FreTick+(FreTick*DutyU+DeadTimeTick))/2;
 
-	GTM_ATOM0_CH4_SR1.U = (FreTick-(FreTick*DutyV-DeadTimeTick))/2;
-	GTM_ATOM0_CH4_SR0.U = (FreTick+(FreTick*DutyV-DeadTimeTick))/2;
+	GTM_ATOM0_CH3_SR1.U = (FreTick-(FreTick*DutyV-DeadTimeTick))/2;
+	GTM_ATOM0_CH3_SR0.U = (FreTick+(FreTick*DutyV-DeadTimeTick))/2;
 
-	GTM_ATOM0_CH5_SR1.U = (FreTick-(FreTick*DutyV+DeadTimeTick))/2;
-	GTM_ATOM0_CH5_SR0.U = (FreTick+(FreTick*DutyV+DeadTimeTick))/2;
+	GTM_ATOM0_CH4_SR1.U = (FreTick-(FreTick*DutyV+DeadTimeTick))/2;
+	GTM_ATOM0_CH4_SR0.U = (FreTick+(FreTick*DutyV+DeadTimeTick))/2;
 
-	GTM_ATOM0_CH2_SR1.U = (FreTick-(FreTick*DutyW-DeadTimeTick))/2;
-	GTM_ATOM0_CH2_SR0.U = (FreTick+(FreTick*DutyW-DeadTimeTick))/2;
+	GTM_ATOM0_CH5_SR1.U = (FreTick-(FreTick*DutyW-DeadTimeTick))/2;
+	GTM_ATOM0_CH5_SR0.U = (FreTick+(FreTick*DutyW-DeadTimeTick))/2;
 
-	GTM_ATOM0_CH3_SR1.U = (FreTick-(FreTick*DutyW+DeadTimeTick))/2;
-	GTM_ATOM0_CH3_SR0.U = (FreTick+(FreTick*DutyW+DeadTimeTick))/2;
+	GTM_ATOM0_CH6_SR1.U = (FreTick-(FreTick*DutyW+DeadTimeTick))/2;
+	GTM_ATOM0_CH6_SR0.U = (FreTick+(FreTick*DutyW+DeadTimeTick))/2;
 }
 
 void PWM_Disable(void)
