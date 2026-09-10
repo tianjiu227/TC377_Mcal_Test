@@ -14,7 +14,7 @@
 **                                                                            **
 **  VERSION   : 14.0.0                                                        **
 **                                                                            **
-**  DATE, TIME: 2022-09-08, 13:31:29          !!!IGNORE-LINE!!!               **
+**  DATE, TIME: 2023-09-09, 15:40:47          !!!IGNORE-LINE!!!               **
 **                                                                            **
 **  GENERATOR : Build b191017-0938            !!!IGNORE-LINE!!!               **
 **                                                                            **
@@ -3268,8 +3268,8 @@ static const Port_n_ConfigType Port_kConfiguration[] =
       PORT_PIN_LEVEL_LOW,/* Pin 7 */
       PORT_PIN_LEVEL_LOW,/* Pin 8 */
       PORT_PIN_LEVEL_LOW,/* Pin 9 */
-      PORT_PIN_LEVEL_LOW,/* Pin 10 */
-      PORT_PIN_LEVEL_LOW,/* Pin 11 */
+      PORT_PIN_LEVEL_HIGH,/* Pin 10 */
+      PORT_PIN_LEVEL_HIGH,/* Pin 11 */
       PORT_PIN_LEVEL_LOW,/* Pin 12 */
       PORT_PIN_LEVEL_LOW,/* Pin 13 */
       PORT_PIN_LEVEL_LOW,/* Pin 14 */
@@ -3903,9 +3903,9 @@ static const uint32 Port_DiscSet[] =
   /*        Port33       */
   Port_lDiscSet(
     PORT_PIN_ANALOG_INPUT_DISABLE,/* Pin 0 */
-    PORT_PIN_ANALOG_INPUT_DISABLE,/* Pin 1 */
+    PORT_PIN_ANALOG_INPUT_ENABLE,/* Pin 1 */
     PORT_PIN_ANALOG_INPUT_DISABLE,/* Pin 2 */
-    PORT_PIN_ANALOG_INPUT_DISABLE,/* Pin 3 */
+    PORT_PIN_ANALOG_INPUT_ENABLE,/* Pin 3 */
     PORT_PIN_ANALOG_INPUT_DISABLE,/* Pin 4 */
     PORT_PIN_ANALOG_INPUT_DISABLE,/* Pin 5 */
     PORT_PIN_ANALOG_INPUT_DISABLE,/* Pin 6 */
@@ -3949,7 +3949,7 @@ static const uint32 Port_DiscSet[] =
     PORT_PIN_ANALOG_INPUT_ENABLE,/* Pin 6 */
     PORT_PIN_ANALOG_INPUT_ENABLE,/* Pin 7 */
     PORT_PIN_ANALOG_INPUT_ENABLE,/* Pin 8 */
-    PORT_PIN_ANALOG_INPUT_DISABLE,/* Pin 9 */
+    PORT_PIN_ANALOG_INPUT_ENABLE,/* Pin 9 */
     PORT_PIN_ANALOG_INPUT_ENABLE,/* Pin 10 */
     PORT_PIN_ANALOG_INPUT_ENABLE,/* Pin 11 */
     PORT_PIN_ANALOG_INPUT_DISABLE,/* Pin 12 */
