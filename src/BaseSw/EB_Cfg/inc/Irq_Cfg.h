@@ -15,7 +15,7 @@
 **                                                                            **
 **  VERSION   : 8.0.0                                                         **
 **                                                                            **
-**  DATE, TIME: 2023-09-07, 13:15:52      !!!IGNORE-LINE!!!                   **
+**  DATE, TIME: 2023-09-11, 15:05:44      !!!IGNORE-LINE!!!                   **
 **                                                                            **
 **  GENERATOR : Build b191017-0938        !!!IGNORE-LINE!!!                   **
 **                                                                            **
@@ -2701,7 +2701,7 @@ Container : I2C interrupt Configuration
 #define IRQ_DMU_HOST_EXIST          (STD_OFF)
 #define IRQ_DMU_FSI_EXIST          (STD_OFF)
 
-#define IRQ_SCU_EXIST               (STD_OFF)
+#define IRQ_SCU_EXIST               (STD_ON)
 
 #define IRQ_GPSRGROUP_EXIST         (STD_ON)
 #define IRQ_GPSRGROUP0_EXIST        (STD_ON)

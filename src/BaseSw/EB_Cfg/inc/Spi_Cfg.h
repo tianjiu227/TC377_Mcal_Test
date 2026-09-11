@@ -15,7 +15,7 @@
 **                                                                            **
 **  VERSION   : 17.0.0                                                        **
 **                                                                            **
-**  DATE, TIME: 2023-08-26, 14:25:44  !!!IGNORE-LINE!!!                   **
+**  DATE, TIME: 2023-09-11, 15:31:17  !!!IGNORE-LINE!!!                   **
 **                                                                            **
 **  GENERATOR : Build b191017-0938       !!!IGNORE-LINE!!!                  **
 **                                                                            **
@@ -101,7 +101,7 @@ SPI Sequence Interruptible Options */
 /* Specifies if concurrent transmission of synchronous
 sequences are allowed. For Level = 1, its value is STD_OFF by default */
 
-#define SPI_SUPPORT_CONCURRENT_SYNC_TRANSMIT  (STD_OFF)
+#define SPI_SUPPORT_CONCURRENT_SYNC_TRANSMIT  (STD_ON)
 /* Maximum QSPI Hw units available */
 
 #define SPI_MAX_HW_UNIT                       (5U)

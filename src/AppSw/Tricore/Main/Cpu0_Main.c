@@ -54,6 +54,7 @@
 #include "w25qxx.h"
 #include "Bsw_Pwm.h"
 #include "Bsw_Adc.h"
+#include "CDD_TLE9183.h"
 //#include "User_Fls.h"
 //#include "User_FlsLoader.h"
 
@@ -81,6 +82,7 @@ typedef enum
 /*******************************************************************************
 **                      Private Function Declarations                         **
 *******************************************************************************/
+static void CDD_TLE9183_RunReadOnlyTest(void);
 
 /*******************************************************************************
 **                      Global Constant Definitions                           **
@@ -100,10 +102,45 @@ volatile uint8 Gpt_10msFlag = FALSE;
 uint32 GetTimeElapsed = 0;
 uint32 GetTimeRemaining = 0;
 
+/*
+ * 台架 CDD 测试结果，供 UDE Watch 读取。
+ * 上电后首个事务读取 TLE9183 NOP(0x32)，不写配置或错误寄存器，
+ * 也不使能 PWM。
+ */
+volatile Std_ReturnType CDD_TLE9183_TestResult = E_NOT_OK;
+volatile CDD_TLE9183_ErrorType CDD_TLE9183_TestError = CDD_TLE9183_ERROR_NONE;
+volatile uint8 CDD_TLE9183_TestStatus = 0U;
+volatile uint8 CDD_TLE9183_TestData = 0U;
+volatile uint8 CDD_TLE9183_TestAddress = 0U;
+
 
 /*******************************************************************************
 **                      Private Constant Definitions                          **
 *******************************************************************************/
+
+static void CDD_TLE9183_RunReadOnlyTest(void)
+{
+    uint8 data = 0U;
+    uint8 status = 0U;
+
+    /*
+     * 上电等待结束后，器件推荐先读取 NOP(0x32) 来确认 MISO 的 CRC3；
+     * CDD 内部会发送该读请求及紧随其后的 NOP，以取得延迟一帧的响应。
+     * 本函数没有调用 CDD_TLE9183_WriteRegister()，也不读取会清除标志的
+     * 错误寄存器，故不会改变配置或错误状态。
+     */
+    CDD_TLE9183_TestResult = CDD_TLE9183_ReadRegister(CDD_TLE9183_REG_NOP,
+                                                       &data,
+                                                       &status);
+    CDD_TLE9183_TestError = CDD_TLE9183_GetLastError();
+    CDD_TLE9183_TestAddress = CDD_TLE9183_REG_NOP;
+
+    if (CDD_TLE9183_TestResult == E_OK)
+    {
+        CDD_TLE9183_TestStatus = status;
+        CDD_TLE9183_TestData = data;
+    }
+}
 
 /*******************************************************************************
 **                      Private Variable Definitions                          **
@@ -256,6 +293,24 @@ void core0_main (void)
 
 	/* Initialize Port module */
 	Port_Init(&Port_Config);
+
+	/*
+	 * One-shot, read-only TLE9183 CDD communication test.
+	 *
+	 * The newly generated Port configuration owns P33.12 as a push-pull GPIO
+	 * with an initial low level.  On this board P33.12 connects to GD_nINH2 /
+	 * TLE9183 INH#.  The TLE9183 must be released before attempting an SPI
+	 * transaction; otherwise its MISO output can remain tri-stated and the MCU
+	 * pull-up on P22.1 reads 0xFFFFFF.  Keep the output stage disabled: this
+	 * only wakes the device and performs the diagnostic read below.
+	 *
+	 * The 5 ms delay covers the data-sheet wake-up time before QSPI4 begins
+	 * clocking.  This is deliberately before PWM_Init().
+	 */
+	Dio_WriteChannel(DioConf_DioChannel_DioChannel_P33_12, STD_HIGH);
+	delay_ms(5U);
+	Spi_Init(&Spi_Config);
+	CDD_TLE9183_RunReadOnlyTest();
 
 	/* open led */
 	//Dio_WriteChannel(DioConf_DioChannel_DioChannel_0, STD_HIGH);

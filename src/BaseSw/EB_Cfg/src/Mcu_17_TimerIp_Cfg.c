@@ -14,7 +14,7 @@
 **                                                                            **
 **  VERSION   : 22.0.0                                                        **
 **                                                                            **
-**  DATE, TIME: 2023-09-04, 14:15:20     !!!IGNORE-LINE!!!                    **
+**  DATE, TIME: 2023-09-11, 15:07:39     !!!IGNORE-LINE!!!                    **
 **                                                                            **
 **  GENERATOR : Build b191017-0938         !!!IGNORE-LINE!!!                  **
 **                                                                            **
@@ -92,7 +92,7 @@ Mcu_17_Gtm_AtomChUserData[MCU_17_GTM_NO_OF_ATOM_MODULES][MCU_17_GTM_NO_OF_ATOM_C
     0x00000000,
     0x00000b03,
     0x00000000,
-    0x00000c03
+    0x00000000
   },
   /* ATOM Module 2 */
   {
@@ -245,7 +245,7 @@ Mcu_17_Gtm_TimChUserData[MCU_17_GTM_NO_OF_TIM_MODULES][MCU_17_GTM_NO_OF_TIM_CHAN
     0x0000,
     0x0000,
     0x0000,
-    0x0000
+    0x0005
   },
   /* TIM Module 1 */
   {

@@ -14,7 +14,7 @@
 **                                                                            **
 **  VERSION   : 12.0.0                                                        **
 **                                                                            **
-**  DATE, TIME: 2023-09-04, 14:15:19       !!!IGNORE-LINE!!!                  **
+**  DATE, TIME: 2023-09-11, 15:05:43       !!!IGNORE-LINE!!!                  **
 **                                                                            **
 **  GENERATOR : Build b191017-0938         !!!IGNORE-LINE!!!                  **
 **                                                                            **
@@ -425,29 +425,10 @@ in generated code due to Autosar Naming constraints.*/
 in generated code due to Autosar Naming constraints.*/
 #define Pwm_17_GtmCcu6Conf_PwmChannel_PwmChannel_P2_8     ((Pwm_17_GtmCcu6_ChannelType)11)
 #endif
-/* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers going beyond 32 chars.
-in generated code due to Autosar Naming constraints.*/
-/* MISRA2012_RULE_5_2_JUSTIFICATION: External identifiers going beyond 32 chars.
-in generated code due to Autosar Naming constraints.*/
-/* MISRA2012_RULE_5_4_JUSTIFICATION: External identifiers going beyond 32 chars.
-in generated code due to Autosar Naming constraints.*/
-/* MISRA2012_RULE_5_5_JUSTIFICATION: External identifiers going beyond 32 chars.
-in generated code due to Autosar Naming constraints.*/
-#ifndef Pwm_17_GtmCcu6Conf_PwmChannel_PwmChannel_P23_4
-/* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers going beyond 32 chars.
-in generated code due to Autosar Naming constraints.*/
-/* MISRA2012_RULE_5_2_JUSTIFICATION: External identifiers going beyond 32 chars.
-in generated code due to Autosar Naming constraints.*/
-/* MISRA2012_RULE_5_4_JUSTIFICATION: External identifiers going beyond 32 chars.
-in generated code due to Autosar Naming constraints.*/
-/* MISRA2012_RULE_5_5_JUSTIFICATION: External identifiers going beyond 32 chars.
-in generated code due to Autosar Naming constraints.*/
-#define Pwm_17_GtmCcu6Conf_PwmChannel_PwmChannel_P23_4     ((Pwm_17_GtmCcu6_ChannelType)12)
-#endif
 
 /* Configuration:Max channels configured for Pwm, max channelas are same across variants.*/
 
-#define PWM_17_GTMCCU6_MAX_CHANNELS         ((Pwm_17_GtmCcu6_ChannelType)13)
+#define PWM_17_GTMCCU6_MAX_CHANNELS         ((Pwm_17_GtmCcu6_ChannelType)12)
 
 #define PWM_17_GTMCCU6_MAX_CORES            (3U)
 /* Loop for all the cores */
@@ -460,7 +441,7 @@ in generated code due to Autosar Naming constraints.*/
 in generated code due to Autosar Naming constraints.*/
 /* MISRA2012_RULE_5_5_JUSTIFICATION: External identifiers going beyond 32 chars.
 in generated code due to Autosar Naming constraints.*/
-#define PWM_17_GTMCCU6_MAX_CHANNELS_CORE0               (13U)
+#define PWM_17_GTMCCU6_MAX_CHANNELS_CORE0               (12U)
 
 /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers going beyond 32 chars.
 in generated code due to Autosar Naming constraints.*/

@@ -14,7 +14,7 @@
 **                                                                            **
 **  VERSION   : 23.0.0                                                        **
 **                                                                            **
-**  DATE, TIME: 2022-09-08, 13:38:44              !!!IGNORE-LINE!!!       **
+**  DATE, TIME: 2023-09-11, 15:05:43              !!!IGNORE-LINE!!!       **
 **                                                                            **
 **  GENERATOR : Build b191017-0938                !!!IGNORE-LINE!!!         **
 **                                                                            **
@@ -128,7 +128,7 @@ without safegaurd. It complies to Autosar guidelines. */
 before MemMap inclusion. It complies to Autosar guidelines. */
 #include "Pwm_17_GtmCcu6_MemMap.h"
   
-static const uint8 Pwm_ChannelIndexMap [13] =
+static const uint8 Pwm_ChannelIndexMap [12] =
 {
   0x0U,
   0x1U,
@@ -142,7 +142,6 @@ static const uint8 Pwm_ChannelIndexMap [13] =
   0x9U,
   0xaU,
   0xbU,
-  0xcU,
 };
 /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers going beyond 32 chars.
 in generated code due to Autosar Naming constraints.*/
@@ -174,7 +173,7 @@ without safegaurd. It complies to Autosar guidelines. */
 before MemMap inclusion It complies to Autosar guidelines. */
 #include "Pwm_17_GtmCcu6_MemMap.h"
         
-static const Mcu_17_Gtm_TomAtomChConfigType Pwm_kChannelConfigGtm_Core0[13] = 
+static const Mcu_17_Gtm_TomAtomChConfigType Pwm_kChannelConfigGtm_Core0[12] = 
 {
   {
     MCU_GTM_TIMER_ATOM, /* Timer Type (TOM/ATOM)*/
@@ -312,18 +311,6 @@ static const Mcu_17_Gtm_TomAtomChConfigType Pwm_kChannelConfigGtm_Core0[13] =
     MCU_GTM_TIMER_ATOM, /* Timer Type (TOM/ATOM)*/
     /* Bit[15:8] - Module number Bit[7:0] - Channel number*/
     0x105U,
-    0x80000002U, /* Channel Control Register*/
-    0x1388U, /* CN0 in ticks */
-    0x1388U, /* CM0 in ticks */
-    0x9c4U, /* CM1 in ticks */
-    0x1388U, /* SR0 in ticks */
-    0x9c4U, /* SR1 in ticks */
-    0x80U /* Period,Duty Interrupt and mode*/
-  },
-  {
-    MCU_GTM_TIMER_ATOM, /* Timer Type (TOM/ATOM)*/
-    /* Bit[15:8] - Module number Bit[7:0] - Channel number*/
-    0x107U,
     0x80000002U, /* Channel Control Register*/
     0x1388U, /* CN0 in ticks */
     0x1388U, /* CM0 in ticks */
@@ -640,36 +627,11 @@ static const Pwm_17_GtmCcu6_ChannelConfigType Pwm_kChannelConfigurationCore0[] =
     4294967295, /* Clock Divider value */
     255 /* Fixed channel timer channel used */
   },
-/*******************************************************************************
-*  Channel Number        : 12
-*  Channel Symbolic Name : Pwm_17_GtmCcu6Conf_PwmChannel_PwmChannel_P23_4
-*  Channel Class         : PWM_FIXED_PERIOD
-*******************************************************************************/
-  {
-    12, /* Pwm logical channel ID */
-    0, /* Timer used GTM:0/CCU6:1 */
-    Pwm_lConfigChannel(
-      0U,/* The notification flag to enable GTM interrupts to trigger DSADC */
-      0U,/* Channel reset from other channel or not*/
-      PWM_17_GTMCCU6_FIXED_PERIOD,/* Channel Class */
-      PWM_17_GTMCCU6_COHERENT,/* Coherency */
-      PWM_17_GTMCCU6_LOW, /* channel Idle state */
-      PWM_17_GTMCCU6_LOW  /* channel polarity */
-    ),
-    (Pwm_17_GtmCcu6_PeriodType)0x1388, /* Default Period */
-    (uint32)0x9c4, /* Default Duty Cycle */
-    (uint32)0x0, /* Shift Value */
-    /* MISRA2012_RULE_11_3_JUSTIFICATION: SFR access. No side effects foreseen
-    * by violating this MISRA rule. */
-    (const void*)&Pwm_kChannelConfigGtm_Core0[12],
-    4294967295, /* Clock Divider value */
-    255 /* Fixed channel timer channel used */
-  },
 };
       
 static const Pwm_17_GtmCcu6_CoreConfigType Pwm_CoreConfigCore0 =
 { 
-  (Pwm_17_GtmCcu6_ChannelType)13U,
+  (Pwm_17_GtmCcu6_ChannelType)12U,
   (const Pwm_17_GtmCcu6_ChannelConfigType*)&Pwm_kChannelConfigurationCore0[0]
 };
 /* MISRA2012_RULE_5_1_JUSTIFICATION: External identifiers going beyond 32 chars.

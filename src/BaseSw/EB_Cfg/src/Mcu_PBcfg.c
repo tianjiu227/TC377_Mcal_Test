@@ -14,7 +14,7 @@
 **                                                                            **
 **  VERSION   : 35.0.0                                                        **
 **                                                                            **
-**  DATE, TIME: 2023-09-07, 18:14:46       !!!IGNORE-LINE!!!                  **
+**  DATE, TIME: 2023-09-11, 15:05:43       !!!IGNORE-LINE!!!                  **
 **                                                                            **
 **  GENERATOR : Build b191017-0938           !!!IGNORE-LINE!!!                **
 **                                                                            **
@@ -217,7 +217,7 @@ static const Mcu_GtmClusterConfigType Mcu_kGtmClusterConfigPtr_Config[6] =
   /*GTM Cluster_0 configuration*/
   {
     /*GTM cluster TIM/TOM/ATOM enable settings*/
-    0x00000004U,
+    0x00000005U,
     /*GTM cluster config clock settings*/
     0x00000000U,
     /*GTM cluster fixed clock settings*/
@@ -445,7 +445,7 @@ static const Mcu_GtmConfigType Mcu_kGtmConfiguration_Config =
     /*Toutsel 4 value*/
     0x00000000U,
     /*Toutsel 5 value*/
-    0x00300000U,
+    0x00000000U,
     /*Toutsel 6 value*/
     0x00000000U,
     /*Toutsel 7 value*/
@@ -486,7 +486,7 @@ static const Mcu_GtmConfigType Mcu_kGtmConfiguration_Config =
     /*Toutsel 4 mask value*/
     0x00000000U,
     /*Toutsel 5 mask value*/
-    0x00f00000U,
+    0x00000000U,
     /*Toutsel 6 mask value*/
     0x00000000U,
     /*Toutsel 7 mask value*/
