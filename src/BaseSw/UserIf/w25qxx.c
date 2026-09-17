@@ -477,14 +477,12 @@ void Spi_DemoFunction_SW_CS(void)
 
 #endif
 
-uint8 gpTxData[6] = {0x90,0x00,0x00,0x00,0xFF,0xFF};
-uint8 gpRxData[6];
+
 
 uint8 dummyTx[1] = {0xAA};
 uint8 dummyRx[1];
 
-uint8 JEDECID_Tx[4] = {0x9F,0xFF,0xFF,0xFF};
-uint8 JEDECID_Rx[4];
+
 void Spi_DemoFunction_HW_CS(void)
 {
 	/*Qspi init*/
@@ -493,13 +491,5 @@ void Spi_DemoFunction_HW_CS(void)
 	Spi_SetupEB(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK, dummyTx, dummyRx, 1);
 	MySpi_SyncTransmit();
 
-	Spi_SetupEB(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK, gpTxData, gpRxData, 6);
-	MySpi_SyncTransmit();
-
-	Spi_SetupEB(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK, gpTxData, gpRxData, 6);
-	MySpi_SyncTransmit();
-
-	Spi_SetupEB(SpiConf_SpiSequence_SpiSequence_QSPI4_9183QK, JEDECID_Tx, JEDECID_Rx, 4);
-	MySpi_SyncTransmit();
 }
 

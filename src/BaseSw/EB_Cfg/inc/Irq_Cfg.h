@@ -15,7 +15,7 @@
 **                                                                            **
 **  VERSION   : 8.0.0                                                         **
 **                                                                            **
-**  DATE, TIME: 2023-09-11, 15:05:44      !!!IGNORE-LINE!!!                   **
+**  DATE, TIME: 2023-09-16, 09:55:55      !!!IGNORE-LINE!!!                   **
 **                                                                            **
 **  GENERATOR : Build b191017-0938        !!!IGNORE-LINE!!!                   **
 **                                                                            **
@@ -1746,7 +1746,7 @@ Container : Irq GTM interruptConfiguration
 #define IRQ_GTM_TOM0_SR7_CAT        (IRQ_CAT1)
 
 /* GTM TOM0 interrupt Priority Setting */
-#define IRQ_GTM_TOM0_SR0_PRIO       0x0
+#define IRQ_GTM_TOM0_SR0_PRIO       0x64
 #define IRQ_GTM_TOM0_SR1_PRIO       0x0
 #define IRQ_GTM_TOM0_SR2_PRIO       0x0
 #define IRQ_GTM_TOM0_SR3_PRIO       0x0

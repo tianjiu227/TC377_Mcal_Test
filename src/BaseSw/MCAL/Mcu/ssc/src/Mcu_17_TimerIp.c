@@ -67,7 +67,7 @@
 #endif
 
 #if (MCU_17_TIMERIP_ICU_USER == STD_ON)
-#include "Icu_17_TimerIp_Cbk.h"
+//#include "Icu_17_TimerIp_Cbk.h"
 #endif
 
 #if (MCU_17_TIMERIP_STM_USER == STD_ON)
@@ -415,7 +415,7 @@ Mcu_17_Timer_DrivFuncCallbackLst[TIMER_NO_OF_CALLBACK] =
 
   /* ICU driver callback notification */
   #if (MCU_17_TIMERIP_ICU_USER == STD_ON)
-  &Icu_17_TimerIp_Timer_Isr,
+  //&Icu_17_TimerIp_Timer_Isr,
   #else
   NULL_PTR,
   #endif

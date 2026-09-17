@@ -11,7 +11,7 @@
 #include "IfxEvadc_reg.h"
 #include "Bsw_Pwm.h"
 
-unsigned char ENABLE_PWM = 0;
+unsigned char ENABLE_PWM = 1;
 ADC_RESULT_TYPE ADC_RESULT_BUFFER;
 float DutyCycle[3] = {0.2,0.5,0.9};
 //float DutyCycle[3] = {0.5,0.5,0.5};

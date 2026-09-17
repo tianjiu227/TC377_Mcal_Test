@@ -40,25 +40,29 @@
 /* MCAL Includes */
 #include "Mcu.h"
 #include "Spi.h"
+#include "TLE9183D_HW.h"
 //#include "Gpt.h"
 #include "Irq.h"
 #include "IfxSrc_reg.h"
 #include "Port.h"
 #include "Dio.h"
 #include "Can_17_McmCan.h"
+// #include "TLE9183D_Cfg.h"
 /* User Includes */
 #include "User_Adc.h"
 #include "Delay.h"
 #include "User_Pwm.h"
 #include "User_Can.h"
-#include "w25qxx.h"
+//#include "w25qxx.h"
 #include "Bsw_Pwm.h"
 #include "Bsw_Adc.h"
-#include "CDD_TLE9183.h"
+// #include "TLE9183D.h"
 //#include "User_Fls.h"
 //#include "User_FlsLoader.h"
-
-
+#include "Cdd_Tlf35584.h"
+#include <Rte_Cdd_Tlf35584_If.h>
+#include "TLE9183QK.h"
+#include "TLE9183D_HW.h"
 
 /*******************************************************************************
 **                      Imported Compiler Switch Check                        **
@@ -82,7 +86,6 @@ typedef enum
 /*******************************************************************************
 **                      Private Function Declarations                         **
 *******************************************************************************/
-static void CDD_TLE9183_RunReadOnlyTest(void);
 
 /*******************************************************************************
 **                      Global Constant Definitions                           **
@@ -102,45 +105,10 @@ volatile uint8 Gpt_10msFlag = FALSE;
 uint32 GetTimeElapsed = 0;
 uint32 GetTimeRemaining = 0;
 
-/*
- * 台架 CDD 测试结果，供 UDE Watch 读取。
- * 上电后首个事务读取 TLE9183 NOP(0x32)，不写配置或错误寄存器，
- * 也不使能 PWM。
- */
-volatile Std_ReturnType CDD_TLE9183_TestResult = E_NOT_OK;
-volatile CDD_TLE9183_ErrorType CDD_TLE9183_TestError = CDD_TLE9183_ERROR_NONE;
-volatile uint8 CDD_TLE9183_TestStatus = 0U;
-volatile uint8 CDD_TLE9183_TestData = 0U;
-volatile uint8 CDD_TLE9183_TestAddress = 0U;
-
 
 /*******************************************************************************
 **                      Private Constant Definitions                          **
 *******************************************************************************/
-
-static void CDD_TLE9183_RunReadOnlyTest(void)
-{
-    uint8 data = 0U;
-    uint8 status = 0U;
-
-    /*
-     * 上电等待结束后，器件推荐先读取 NOP(0x32) 来确认 MISO 的 CRC3；
-     * CDD 内部会发送该读请求及紧随其后的 NOP，以取得延迟一帧的响应。
-     * 本函数没有调用 CDD_TLE9183_WriteRegister()，也不读取会清除标志的
-     * 错误寄存器，故不会改变配置或错误状态。
-     */
-    CDD_TLE9183_TestResult = CDD_TLE9183_ReadRegister(CDD_TLE9183_REG_NOP,
-                                                       &data,
-                                                       &status);
-    CDD_TLE9183_TestError = CDD_TLE9183_GetLastError();
-    CDD_TLE9183_TestAddress = CDD_TLE9183_REG_NOP;
-
-    if (CDD_TLE9183_TestResult == E_OK)
-    {
-        CDD_TLE9183_TestStatus = status;
-        CDD_TLE9183_TestData = data;
-    }
-}
 
 /*******************************************************************************
 **                      Private Variable Definitions                          **
@@ -249,6 +217,8 @@ void Bootloader_SystemInit(void)
 }
 #endif
 
+/* 全局状态 */
+extern uint8 Normal_Mode_OK;
 void core0_main (void)
 {
     ENABLE();
@@ -265,88 +235,29 @@ void core0_main (void)
 
 	DistributePllClockRetVal = Mcu_DistributePllClock();
 
-
-
-
-	 /* Initialize IRQ modules */
-	IrqGtm_Init();
-	IrqGpt_Init();
-
-	/* Enable module Interrupts using SRE Bit */
-	SRC_GTMTOM00.B.SRE = 1;
-#if 0
-	/* GPT module Initialization for 1ms tick */
-	Gpt_Init(&Gpt_Config);
-	Gpt_EnableNotification(GptConf_GptChannelConfiguration_GptChannelConfiguration_GTM);
-	Gpt_StartTimer(GptConf_GptChannelConfiguration_GptChannelConfiguration_GTM, 6250);
-
-#if 1
-	/* GPT12 Irq for additional timing */
-	SRC_GPT120T3.B.SRE = 1;
-
-	Gpt_EnableNotification(GptConf_GptChannelConfiguration_GptChannelConfiguration_GPT12);
-	Gpt_StartTimer(GptConf_GptChannelConfiguration_GptChannelConfiguration_GPT12, 50000);
-	Mcu_17_Gpt12_TimerStart(MCU_GPT12_TIMER3);
-#endif
-#endif
-
-
 	/* Initialize Port module */
 	Port_Init(&Port_Config);
-
-	/*
-	 * One-shot, read-only TLE9183 CDD communication test.
-	 *
-	 * The newly generated Port configuration owns P33.12 as a push-pull GPIO
-	 * with an initial low level.  On this board P33.12 connects to GD_nINH2 /
-	 * TLE9183 INH#.  The TLE9183 must be released before attempting an SPI
-	 * transaction; otherwise its MISO output can remain tri-stated and the MCU
-	 * pull-up on P22.1 reads 0xFFFFFF.  Keep the output stage disabled: this
-	 * only wakes the device and performs the diagnostic read below.
-	 *
-	 * The 5 ms delay covers the data-sheet wake-up time before QSPI4 begins
-	 * clocking.  This is deliberately before PWM_Init().
-	 */
-	Dio_WriteChannel(DioConf_DioChannel_DioChannel_P33_12, STD_HIGH);
-	delay_ms(5U);
 	Spi_Init(&Spi_Config);
-	CDD_TLE9183_RunReadOnlyTest();
 
-	/* open led */
-	//Dio_WriteChannel(DioConf_DioChannel_DioChannel_0, STD_HIGH);
-	
+	Rte_Cdd_Tlf35584_Init();
 
-	//DemoApp_Adc_Init();
-	/* close led */
-	//Dio_WriteChannel(DioConf_DioChannel_DioChannel_0, STD_LOW);
+    TLE9183QK_BriefTest();   /* 执行 TLE9183QK 简要测试 */
+    TLE9183D_HW_Init();      /* 初始化 SPI 底层驱动 */
+    TLE9183QK_init();        /* 初始化 TLE9183QK */
 
-	//Can_DemoFunction();
+    if (Normal_Mode_OK == 1)
+    {
+        /* 初始化成功，可以开始 PWM 输出 */
+    }
+    else
+    {
+        /* 初始化失败，检查硬件、SPI、电源等 */
+    }
 
-	// PWM_DemoFunction();
-	PWM_Init();
-	ADC_All_Init();
-	
     /* Should never reach here */
     while (1)
     {
 
-		// Can_DemoFunction();
-		//  Spi_DemoFunction_HW_CS();
-		//  ADC_Init();
-		Dio_WriteChannel(DioConf_DioChannel_DioChannel_test_P00_2, STD_HIGH);
-		Dio_WriteChannel(DioConf_DioChannel_DioChannel_test_P00_4, STD_HIGH);
-		Dio_WriteChannel(DioConf_DioChannel_DioChannel_test_P00_3, STD_HIGH);
-		// PWM_DemoFunction();
-		// Adc_HWGroupDemo();
-	
-#if 0
-	    /* close led */
-	    Dio_WriteChannel(DioConf_DioChannel_DioChannel_P33_10, STD_HIGH);
-	    delay_ms(500);
-	    /* open led */
-	    Dio_WriteChannel(DioConf_DioChannel_DioChannel_P33_10, STD_LOW);
-	    delay_ms(500);
-#endif
     }
 }
 

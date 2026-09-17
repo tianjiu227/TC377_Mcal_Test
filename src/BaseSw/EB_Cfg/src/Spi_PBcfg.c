@@ -15,7 +15,7 @@
 **                                                                            **
 **  VERSION   : 17.0.0                                                        **
 **                                                                            **
-**  DATE, TIME: 2023-08-25, 15:11:47  !!!IGNORE-LINE!!!                   **
+**  DATE, TIME: 2023-09-16, 12:54:24  !!!IGNORE-LINE!!!                   **
 **                                                                            **
 **  GENERATOR : Build b191017-0938      !!!IGNORE-LINE!!!                   **
 **                                                                            **
@@ -418,7 +418,7 @@ static const Spi_ChannelConfigType Spi_kChannelConfig_Core0[] =
       /* EB Chnl[s] on QSPI0 core0*/
   /* Channel:SpiChannel_QSPI0_MCU2 */
   {
-    0x00010101U,     /* Default data */
+    0x0000aaaaU,     /* Default data */
     0x0020U,         /* Number of Data Elements */
     SPI_EB_CHANNEL,  /* External Buffer Channel */
     0x98U,            /* MSB[7], DataWidth=24[6:0] */
@@ -427,7 +427,7 @@ static const Spi_ChannelConfigType Spi_kChannelConfig_Core0[] =
   /* EB Chnl[s] on QSPI2 core0*/
   /* Channel:SpiChannel_QSPI2_TLF35584 */
   {
-    0x0000aaaaU,     /* Default data */
+    0x00000000U,     /* Default data */
     0x0010U,         /* Number of Data Elements */
     SPI_EB_CHANNEL,  /* External Buffer Channel */
     0x90U,            /* MSB[7], DataWidth=16[6:0] */
@@ -436,7 +436,7 @@ static const Spi_ChannelConfigType Spi_kChannelConfig_Core0[] =
   /* EB Chnl[s] on QSPI4 core0*/
   /* Channel:SpiChannel_QSPI4_TLE9183QK */
   {
-    0x00010101U,     /* Default data */
+    0x0000aaaaU,     /* Default data */
     0x0020U,         /* Number of Data Elements */
     SPI_EB_CHANNEL,  /* External Buffer Channel */
     0x98U,            /* MSB[7], DataWidth=24[6:0] */

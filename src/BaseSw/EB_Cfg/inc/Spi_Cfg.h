@@ -15,7 +15,7 @@
 **                                                                            **
 **  VERSION   : 17.0.0                                                        **
 **                                                                            **
-**  DATE, TIME: 2023-09-11, 15:31:17  !!!IGNORE-LINE!!!                   **
+**  DATE, TIME: 2021-09-11, 18:02:24  !!!IGNORE-LINE!!!                   **
 **                                                                            **
 **  GENERATOR : Build b191017-0938       !!!IGNORE-LINE!!!                  **
 **                                                                            **
@@ -57,7 +57,7 @@
 #define SPI_DEV_ERROR_DETECT                  (STD_OFF)
 /* Runtime Error*/
 
-#define SPI_RUNTIME_ERROR_DETECT                  (STD_OFF)
+#define SPI_RUNTIME_ERROR_DETECT                  (STD_ON)
 
 
 /* Safety error check */
@@ -89,7 +89,7 @@
 #define SPI_CONTROL_LOOPBACK_API                     (STD_OFF)
 /* Specifies if the API Spi_GetVersionInfo() is available */
 
-#define SPI_VERSION_INFO_API                  (STD_OFF)
+#define SPI_VERSION_INFO_API                  (STD_ON)
 /* Specifies if Sequences can be interrupted during
 transmission. For Level = 0, its value is STD_OFF by default */
 
@@ -101,7 +101,7 @@ SPI Sequence Interruptible Options */
 /* Specifies if concurrent transmission of synchronous
 sequences are allowed. For Level = 1, its value is STD_OFF by default */
 
-#define SPI_SUPPORT_CONCURRENT_SYNC_TRANSMIT  (STD_ON)
+#define SPI_SUPPORT_CONCURRENT_SYNC_TRANSMIT  (STD_OFF)
 /* Maximum QSPI Hw units available */
 
 #define SPI_MAX_HW_UNIT                       (5U)
